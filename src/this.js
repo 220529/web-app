@@ -2,10 +2,10 @@ var name = "kkk";
 const obj = {
   name: "Alice",
   greet() {
-    console.log("greet11: ", this.name);
+    console.log("greet: ", this.name);
   },
   say: () => {
-    console.log("say12: ", this.name);
+    console.log("say: ", this.name);
   },
 };
 obj.greet();
