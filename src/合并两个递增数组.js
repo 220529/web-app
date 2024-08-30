@@ -2,7 +2,7 @@
 
 // 给两个递增数组，将他们拼接为一个新的递增数组，要考虑时间复杂度。
 
-const arr1 = [1, 3, 5, 7, 9, 10];
+const arr1 = [1, 3, 5, 7, 9];
 const arr2 = [2, 4, 6, 8];
 
 const concatArray = (arr1, arr2) => {
