@@ -5,7 +5,7 @@ const obj = {
     console.log("greet11: ", this.name);
   },
   say: () => {
-    console.log("say1: ", this.name);
+    console.log("say12: ", this.name);
   },
 };
 obj.greet();
