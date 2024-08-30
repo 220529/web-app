@@ -11,8 +11,8 @@ class Foo {
     console.log(this.name);
   }
 }
-const f = new Foo("kk");
-console.log("f", f);
+const f = new Foo("kk1");
+console.log("f1", f);
 f.say();
 
 function customNew(fn, ...args) {
