@@ -1,0 +1,1600 @@
+{
+  "musicConfig": {
+    "isPlaying": true,
+    "src": "",
+    "unBgSrc": "https://s21.lgstatic.com/growth/activity/20201225/1608881584119.png",
+    "name": "h5Music",
+    "bgSrc": "https://s21.lgstatic.com/growth/activity/20201225/1608881556886.png",
+    "style": { "minHeight": "30px", "minWidth": "30px" },
+    "label": "音乐",
+    "hasMusic": false,
+    "autoplay": true
+  },
+  "isRoot": true,
+  "h5Style": {},
+  "children": [
+    {
+      "showMoreBtn": true,
+      "h5Style": {
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "backgroundSize": "100% 100%",
+        "backgroundRepeat": "no-repeat",
+        "height": ""
+      },
+      "isContainer": true,
+      "label": "页面",
+      "hrefUrl": "",
+      "type": "page",
+      "script": "var registerSa = () => {\\n    lgSa.lgSaRegister({\\n        user_id: window.app_user_id\\n    });\\n};\\nregisterSa()\\n\\nif (lgSa.platTrack) {\\n    const trackData = { page_id: '1rxr' }\\n    lgSa.platTrack('h5pv', trackData);\\n}",
+      "insideStyle": {
+        "backgroundImage": "https://www.lgstatic.com/i/image2/M01/0C/8F/Cip5yGAY9lKAT-B4AAAcMJLASE0145.png",
+        "width": "750",
+        "backgroundSize": "100% 100%",
+        "backgroundRepeat": "no-repeat",
+        "height": "1325"
+      },
+      "insideH5Style": {
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "backgroundSize": "100% 100%",
+        "backgroundRepeat": "no-repeat",
+        "height": ""
+      },
+      "children": [
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image6/M01/0B/2D/CioPOWA4VHqAGM-cAAIBfGliKGY772.png",
+            "width": "737",
+            "height": "630"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "630px",
+            "overflow": "hidden",
+            "top": "10px",
+            "left": "50px",
+            "display": "inline-block",
+            "width": "300px",
+            "minWidth": "inherit",
+            "height": "265px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "WF0DOtKB",
+          "track": { "page_id": "", "address_id": "", "domains": [], "type": "" },
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image/M00/94/99/Ciqc1GAY-CiAZdqmAAaVRC3B3yo832.png",
+            "width": "733",
+            "height": "640"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "640px",
+            "overflow": "hidden",
+            "top": "",
+            "left": "14px",
+            "bottom": "0px",
+            "display": "inline-block",
+            "width": "366px",
+            "minWidth": "inherit",
+            "right": "",
+            "height": "320px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "TPX7Qefx",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image2/M01/0C/8F/Cip5yGAY-I2AS0J9AAA88gLK_Qw863.png",
+            "width": "333",
+            "height": "92"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "92px",
+            "overflow": "hidden",
+            "top": "492px",
+            "left": "95px",
+            "display": "inline-block",
+            "width": "166px",
+            "minWidth": "inherit",
+            "height": "54px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "oiK9N1pc",
+          "track": { "page_id": "1rxr", "address_id": "1rxz", "domains": [], "type": "h5click" },
+          "brother": true,
+          "events": [
+            {
+              "action": "fnVaildPage",
+              "label": "校验当前页表单",
+              "params": { "pageId": "7kjmdD6Z", "showModal": 1 }
+            },
+            {
+              "action": "fnSubmitForm",
+              "label": "提交表单",
+              "params": {
+                "method": "get",
+                "source": ["7kjmdD6Z"],
+                "type": 0,
+                "url": "https://zhuanti.lagou.com/tn/averageSalary/query",
+                "script": "_this._updateComponent({value: res. data.averageSalary*1000}, _this.nodeTree, _this.selectNode, 'AxVaGPhp');"
+              }
+            },
+            {
+              "action": "fnJumpToPage",
+              "label": "跳转到指定页面",
+              "params": { "scriptBefore": "", "clear": false, "index": "report", "scriptAfter": "" }
+            }
+          ]
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image2/M01/0C/91/CgpVE2AY-LCAT0ZoAAAUCsRvWvw122.png",
+            "width": "528",
+            "height": "87"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "87px",
+            "overflow": "hidden",
+            "top": "403px",
+            "left": "57px",
+            "display": "inline-block",
+            "width": "260px",
+            "minWidth": "inherit",
+            "height": "42px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "aPeth0FK",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image2/M01/0C/8F/Cip5yGAY-MmAcjtNAAAXiSXsQyE271.png",
+            "width": "527",
+            "height": "86"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "86px",
+            "overflow": "hidden",
+            "top": "290px",
+            "left": "57px",
+            "display": "inline-block",
+            "width": "260px",
+            "minWidth": "inherit",
+            "height": "42px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "y7OhQuoW",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image2/M01/0C/92/CgpVE2AY-NmAUiu_AAAXH66ecvE321.png",
+            "width": "527",
+            "height": "87"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "87px",
+            "overflow": "hidden",
+            "top": "346px",
+            "left": "57px",
+            "display": "inline-block",
+            "width": "260px",
+            "minWidth": "inherit",
+            "height": "42px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "Sfjte4Fr",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "isContainer": true,
+          "label": "选择器",
+          "allowTouchMove": true,
+          "hrefUrl": "",
+          "type": "picker",
+          "insideStyle": {
+            "aContainerBackgroundColor": "",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Picker",
+          "deepLeval": "二级",
+          "notMove": true,
+          "style": { "display": "none", "width": "100%", "height": "100%" },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "hdp5SvXl",
+          "config": {
+            "defaultValue": "产品",
+            "deepLeval": 1,
+            "deps": [
+              ["7kjmdD6Z", "BYLaDldY"],
+              ["RfCiFyAf", "adqTMv3w"],
+              ["RfCiFyAf", "KQLWfEMS"]
+            ],
+            "source": "fnFetchPosition"
+          },
+          "optionNums": 1
+        },
+        {
+          "showMoreBtn": true,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "isContainer": true,
+          "label": "选择器",
+          "allowTouchMove": true,
+          "hrefUrl": "",
+          "type": "picker",
+          "script": "",
+          "insideStyle": {
+            "aContainerBackgroundColor": "",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Picker",
+          "notMove": true,
+          "style": { "display": "none", "width": "100%", "height": "100%" },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "HAV0Lvt2",
+          "config": {
+            "defaultValue": "",
+            "deepLeval": 2,
+            "deps": [
+              ["7kjmdD6Z", "lwxqTDcC"],
+              ["RfCiFyAf", "UQ1pYjGA"],
+              ["RfCiFyAf", "729cj9vy"]
+            ],
+            "source": "fnFetchCitys",
+            "defaultType": 1
+          },
+          "optionNums": 1
+        },
+        {
+          "showMoreBtn": true,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "isContainer": true,
+          "label": "选择器",
+          "allowTouchMove": true,
+          "hrefUrl": "",
+          "type": "picker",
+          "insideStyle": {
+            "aContainerBackgroundColor": "",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Picker",
+          "notMove": true,
+          "style": { "display": "none", "width": "100%", "height": "100%" },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "VZXDTQv4",
+          "config": {
+            "deepLeval": 1,
+            "deps": [
+              ["7kjmdD6Z", "SZKeN9wS"],
+              ["RfCiFyAf", "eqFilSxD"],
+              ["RfCiFyAf", "jG5opp8i"]
+            ],
+            "source": "fnFetchWorkYears"
+          },
+          "optionNums": 1
+        },
+        {
+          "fieldPlaceholder": "请选择职位",
+          "showMoreBtn": true,
+          "fieldName": "positionType",
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "职位",
+          "hrefUrl": "",
+          "type": "form-item",
+          "showBorder": false,
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5FormInput",
+          "style": { "top": "294px", "left": "95px", "width": "220px", "height": "45px" },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "BYLaDldY",
+          "value": "测试",
+          "brother": true,
+          "events": []
+        },
+        {
+          "fieldPlaceholder": "请选择城市/城区",
+          "showMoreBtn": true,
+          "fieldName": "city/district",
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "城市及城区",
+          "hrefUrl": "",
+          "type": "form-item",
+          "showBorder": false,
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5FormInput",
+          "style": { "top": "350px", "left": "95px", "width": "220px", "height": "45px" },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "lwxqTDcC",
+          "value": "河北/钉钉区",
+          "brother": true,
+          "events": []
+        },
+        {
+          "fieldPlaceholder": "请选择工作经验",
+          "showMoreBtn": true,
+          "fieldName": "workYear",
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "工作经验",
+          "hrefUrl": "",
+          "type": "form-item",
+          "showBorder": false,
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5FormInput",
+          "style": { "top": "406px", "left": "95px", "width": "220px", "height": "45px" },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "SZKeN9wS",
+          "value": "从业2年",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "30px",
+            "backgroundColor": "transparent",
+            "top": "292px",
+            "left": "90px",
+            "display": "inline-block",
+            "width": "225px",
+            "minWidth": "100px",
+            "height": "41px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "zwodFypo",
+          "track": {
+            "page_id": "1rxr",
+            "address_id": "1rxw",
+            "domains": [
+              { "value": "二级职能", "key": "position" },
+              { "value": "11", "key": "aa" }
+            ],
+            "type": "h5click"
+          },
+          "brother": true,
+          "events": [
+            {
+              "action": "fnOpenNodeModal",
+              "label": "打开当前页弹框",
+              "params": { "id": "hdp5SvXl" }
+            }
+          ]
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "30px",
+            "backgroundColor": "transparent",
+            "top": "348px",
+            "left": "89px",
+            "display": "inline-block",
+            "width": "227px",
+            "minWidth": "100px",
+            "height": "40px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "05FtVSKS",
+          "track": {
+            "page_id": "1rxr",
+            "address_id": "1rxw",
+            "domains": [{ "value": "城市", "key": "city" }],
+            "type": "h5click"
+          },
+          "brother": true,
+          "events": [
+            {
+              "action": "fnOpenNodeModal",
+              "label": "打开当前页弹框",
+              "params": { "id": "HAV0Lvt2" }
+            }
+          ]
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": false,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "30px",
+            "backgroundColor": "transparent",
+            "top": "405px",
+            "left": "91px",
+            "display": "inline-block",
+            "width": "225px",
+            "minWidth": "100px",
+            "height": "39px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "UEm1J9Xf",
+          "track": {
+            "page_id": "1rxr",
+            "address_id": "1rxw",
+            "domains": [{ "value": "年", "key": "year" }],
+            "type": "h5click"
+          },
+          "brother": true,
+          "events": [
+            {
+              "action": "fnOpenNodeModal",
+              "label": "打开当前页弹框",
+              "params": { "id": "VZXDTQv4" }
+            }
+          ]
+        }
+      ],
+      "swiperConfig": {},
+      "name": "h5Page",
+      "style": {
+        "minHeight": "1325px",
+        "backgroundColor": "#55BA87",
+        "overflow": "hidden",
+        "minWidth": "inherit"
+      },
+      "hrefType": "NONE",
+      "commonStyle": {},
+      "id": "7kjmdD6Z",
+      "track": { "page_id": "", "address_id": "", "domains": [], "type": "" },
+      "brother": true
+    },
+    {
+      "saveType": "share",
+      "showMoreBtn": true,
+      "h5Style": {
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "backgroundSize": "100% 100%",
+        "backgroundRepeat": "no-repeat",
+        "height": ""
+      },
+      "isContainer": true,
+      "label": "页面",
+      "hrefUrl": "",
+      "type": "report",
+      "script": "let noImage = document.querySelector('.ng-image')\\nnoImage.style.pointerEvents = 'none'\\nlet timer = null\\nlet startTime = ''\\nlet endTime = ''\\nconst that = this\\nthis.$el.addEventListener('touchstart', function () {\\n  startTime = +new Date()\\n  timer = setTimeout(function () {\\n    document.getElementById('q15BaVj7').click()\\n  }, 700)\\n})\\n\\nthis.$el.addEventListener('touchend', function () {\\n  endTime = +new Date()\\n  clearTimeout(timer)\\n})",
+      "insideStyle": {
+        "backgroundImage": "https://www.lgstatic.com/i/image6/M00/0B/65/CioPOWA4kKWAFRXsAAQWf1n1Mdc255.png",
+        "width": "750",
+        "backgroundSize": "100% 100%",
+        "backgroundRepeat": "no-repeat",
+        "height": "1625"
+      },
+      "insideH5Style": {
+        "backgroundColor": "",
+        "backgroundImage": "",
+        "backgroundSize": "100% 100%",
+        "backgroundRepeat": "no-repeat",
+        "height": ""
+      },
+      "children": [
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "城市区域",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "160px",
+            "color": "#333333",
+            "left": "55px",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "15px",
+            "font-family": "SourceHanSansCN",
+            "line-height": "17px",
+            "right": ""
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "UQ1pYjGA",
+          "value": "河北/钉钉区",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "工作年限",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "160px",
+            "color": "#333333",
+            "left": "167px",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "15px",
+            "font-family": "SourceHanSansCN",
+            "line-height": "17px",
+            "right": ""
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "eqFilSxD",
+          "value": "从业2年",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "工作岗位",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "color": "#333333",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "15px",
+            "line-height": "17px",
+            "right": "",
+            "top": "160px",
+            "left": "247px",
+            "width": "90px",
+            "font-family": "SourceHanSansCN",
+            "height": "30px",
+            "text-align": "center"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "adqTMv3w",
+          "value": "测试",
+          "brother": true,
+          "events": []
+        },
+        {
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "shareOptions": ["friends", "wechat", "phone"],
+          "isContainer": true,
+          "label": "分享",
+          "type": "share",
+          "script": "if (lgSa.platTrack) {\\n    function setTrack(el, callback) {\\n        if (el.addEventListener) {\\n            el.addEventListener('click', callback, false);\\n        } else if (el.attachEvent) {\\n            el.attachEvent('onclick', callback);\\n        }\\n    }\\n    const list = Array.from(document.querySelectorAll('.share-content ul li'))\\n    for (let i = 0; i < list.length; i++) {\\n        const element = list[i];\\n        setTrack(element, () => {\\n            lgSa.platTrack('h5click', {\\n                page_id: '1rxs',\\n                address_id: '1ry6',\\n                type: i === 2 ? 4 : i + 1\\n            });\\n            setTimeout(() => {\\n                document.querySelectorAll('.share-content .cancel')[0].click()\\n            }, 1000)\\n        })\\n    }\\n    setTrack(document.querySelectorAll('.share-content .cancel')[0], () => {\\n        lgSa.platTrack('h5click', {\\n            page_id: '1rxs',\\n            address_id: '1ry6',\\n            type: 0\\n        });\\n    })\\n}",
+          "insideStyle": {
+            "aContainerBackgroundColor": "",
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Share",
+          "notMove": true,
+          "style": { "display": "none", "width": "100%", "height": "100%" },
+          "id": "TZSoMVlo",
+          "config": {}
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 1,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image6/M01/0B/30/Cgp9HWA4VJWACeMMAACdKFhNbuM366.png",
+            "width": "509",
+            "height": "97"
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "97px",
+            "overflow": "hidden",
+            "top": "609px",
+            "left": "70px",
+            "bottom": "",
+            "display": "inline-block",
+            "width": "228px",
+            "minWidth": "inherit",
+            "right": "",
+            "height": "45px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "oXBkWgFb",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 0,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image6/M00/00/AF/CioPOWAagMSAKg98AAAMCczqlW4539.png",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "30px",
+            "top": "609px",
+            "left": "32px",
+            "bottom": "",
+            "display": "inline-block",
+            "width": "123px",
+            "minWidth": "100px",
+            "right": "",
+            "height": "48px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "l5yr7akR",
+          "track": { "page_id": "1rxs", "address_id": "1ry4", "domains": [], "type": "h5click" },
+          "brother": true,
+          "events": [
+            {
+              "action": "fnJumpToPage",
+              "label": "跳转到指定页面",
+              "params": { "scriptBefore": "", "clear": true, "index": 0, "scriptAfter": "" }
+            }
+          ]
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 0,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "图片",
+          "hrefUrl": "",
+          "type": "image",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "https://www.lgstatic.com/i/image6/M00/00/B1/Cgp9HWAagMuAHwWaAAAKXs_jVnU001.png",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Image",
+          "style": {
+            "minHeight": "30px",
+            "top": "609px",
+            "left": "207px",
+            "bottom": "",
+            "display": "inline-block",
+            "width": "118px",
+            "minWidth": "100px",
+            "right": "",
+            "height": "47px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "q15BaVj7",
+          "track": { "page_id": "1rxs", "address_id": "1ry5", "domains": [], "type": "h5click" },
+          "brother": true,
+          "events": [
+            {
+              "action": "fnOpenNodeModal",
+              "label": "打开当前页弹框",
+              "params": { "id": "TZSoMVlo" }
+            }
+          ]
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "据拉勾统计，",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "232px",
+            "color": "#333333",
+            "left": "60px",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "13px",
+            "font-family": "SourceHanSansCN",
+            "line-height": "17px",
+            "right": ""
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "xEzkqXbu",
+          "value": "",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "地区",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "color": "#333333",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "13px",
+            "line-height": "17px",
+            "right": "",
+            "top": "232px",
+            "left": "132px",
+            "width": "85px",
+            "font-family": "SourceHanSansCN",
+            "height": "30px",
+            "text-align": "center"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "729cj9vy",
+          "value": "河北/钉钉区",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "职业",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "color": "#333333",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "13px",
+            "line-height": "17px",
+            "right": "",
+            "top": "232px",
+            "left": "283px",
+            "width": "60px",
+            "font-family": "SourceHanSansCN",
+            "height": "31px",
+            "text-align": "left"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "KQLWfEMS",
+          "value": "测试",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "同学平均薪资达到了",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "255px",
+            "color": "#333333",
+            "left": "60px",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "13px",
+            "font-family": "SourceHanSansCN",
+            "line-height": "17px",
+            "right": ""
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "YvS4HxVQ",
+          "value": "",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "10",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "284px",
+            "color": "#00BD81",
+            "left": "87px",
+            "font-weight": "bold",
+            "display": "inline-block",
+            "width": "231px",
+            "font-size": "44px",
+            "font-family": "SourceHanSansCN",
+            "line-height": "44px",
+            "height": "69px"
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "AxVaGPhp",
+          "value": "",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "从业几年",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "232px",
+            "color": "#333333",
+            "left": "220px",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "13px",
+            "font-family": "SourceHanSansCN",
+            "right": ""
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "jG5opp8i",
+          "value": "",
+          "brother": true,
+          "events": []
+        },
+        {
+          "showMoreBtn": true,
+          "isCanvas": 2,
+          "h5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "label": "的",
+          "hrefUrl": "",
+          "type": "text",
+          "script": "",
+          "insideStyle": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "width": "",
+            "height": ""
+          },
+          "insideH5Style": {
+            "backgroundColor": "",
+            "backgroundImage": "",
+            "backgroundSize": "100% 100%",
+            "backgroundRepeat": "no-repeat",
+            "height": ""
+          },
+          "children": [],
+          "animations": [
+            { "duration": 1, "interationCount": 1, "delay": 0, "infinite": false, "type": "" }
+          ],
+          "name": "h5Text",
+          "style": {
+            "top": "232px",
+            "color": "#333333",
+            "left": "267px",
+            "bottom": "",
+            "font-weight": "500",
+            "display": "inline-block",
+            "font-size": "13px",
+            "font-family": "SourceHanSansCN",
+            "right": ""
+          },
+          "hrefType": "NONE",
+          "commonStyle": {},
+          "id": "ZaIhq8KV",
+          "value": "",
+          "brother": true,
+          "events": []
+        }
+      ],
+      "swiperConfig": {},
+      "name": "h5Page",
+      "style": { "minHeight": "1625px", "overflow": "hidden", "minWidth": "inherit" },
+      "hrefType": "NONE",
+      "commonStyle": {},
+      "id": "RfCiFyAf",
+      "track": { "page_id": "1rxs", "address_id": "", "domains": [], "type": "h5pv" },
+      "brother": true
+    }
+  ],
+  "swiperConfig": { "delay": 1000, "effect": "slide", "allowSlidePrev": true },
+  "name": "container",
+  "needLogin": true,
+  "style": {},
+  "id": "root",
+  "idNum": 48,
+  "platform": "h5",
+  "mustLogin": false
+}

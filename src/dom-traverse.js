@@ -23,7 +23,7 @@ function visitNode(n) {
   }
 }
 
-function deep(node) {
+function deep1(node) {
   visitNode(node);
   const children = node.childNodes;
   if (children.length) {
@@ -45,4 +45,28 @@ function deep2(node) {
   }
 }
 
-deep2(root);
+function deep(node) {
+  const stack = [node];
+  while (stack.length) {
+    const cur = stack.pop();
+    visitNode(cur);
+    const children = cur.childNodes;
+    if (children.length) {
+      stack.push(...[...children].reverse());
+    }
+  }
+}
+
+function breadth(node) {
+  const stack = [node];
+  while (stack.length) {
+    const cur = stack.shift();
+    visitNode(cur);
+    const children = cur.childNodes;
+    if (children.length) {
+      stack.push(...[...children]);
+    }
+  }
+}
+// deep(root);
+breadth(root);

@@ -1,0 +1,54 @@
+Browser;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Task Interruption Test</title>
+  </head>
+  <body>
+    <h1>Browser Task Interruption Test</h1>
+    <button id="start">Start Long Task</button>
+    <button id="update">Update Status</button>
+    <button id="highPriority">High Priority Task</button>
+    <p id="status">Status: Waiting...</p>
+
+    <script>
+      // 耗时的 JavaScript 任务
+      document.getElementById("start").addEventListener("click", function () {
+        console.log("Starting long task");
+        const start = Date.now();
+        while (Date.now() - start < 5000) {
+          // 5秒的阻塞任务
+        }
+        console.log("Long task completed");
+      });
+
+      // 模拟一个简单的UI更新
+      document.getElementById("update").addEventListener("click", function () {
+        document.getElementById("status").textContent = "Button clicked!";
+        console.log("Status updated");
+      });
+
+      // 模拟低优先级任务
+      function lowPriorityTask() {
+        console.log("Starting low priority task");
+        requestIdleCallback(() => {
+          const start = Date.now();
+          while (Date.now() - start < 5000) {
+            // 5秒的阻塞任务
+          }
+          console.log("Low priority task completed");
+        });
+      }
+
+      // 模拟高优先级任务
+      document.getElementById("highPriority").addEventListener("click", function () {
+        console.log("High priority task executed");
+      });
+
+      // 启动低优先级任务
+      lowPriorityTask();
+    </script>
+  </body>
+</html>
