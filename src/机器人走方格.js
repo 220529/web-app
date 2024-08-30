@@ -9,7 +9,7 @@ for (let y = 0; y < m; y++) {
 }
 
 for (let x = 1; x < n; x++) {
-    arr[0][x] = x
+  arr[0][x] = x;
 }
 
 for (let y = 1; y < m; y++) {
@@ -18,4 +18,4 @@ for (let y = 1; y < m; y++) {
   }
 }
 
-console.log(arr);
+console.log("arr", arr);
