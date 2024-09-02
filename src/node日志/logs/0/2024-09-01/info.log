@@ -1,0 +1,38 @@
+INFO: 2024-09-01 18:16:29: This is a log message.
+INFO: 2024-09-01 18:16:29: This is an info message.
+WARN: 2024-09-01 18:16:29: This is a warning message.
+ERROR: 2024-09-01 18:16:29: This is an error message.
+INFO: 2024-09-01 18:16:29: Logging an object:, {
+  "a": 1,
+  "b": {
+    "c": 2
+  },
+  "d": [
+    1,
+    2,
+    3
+  ]
+}
+INFO: 2024-09-01 18:16:29: Logging circular object:, {}
+ERROR: 2024-09-01 18:16:29: Caught an error:, {}
+INFO: 2024-09-01 18:16:30: Time Test-time: 1001ms
+ERROR: 2024-09-01 18:16:32: Uncaught Exception: Simulated uncaught exception
+INFO: 2024-09-01 18:17:03: This is a log message.
+INFO: 2024-09-01 18:17:03: This is an info message.
+WARN: 2024-09-01 18:17:03: This is a warning message.
+ERROR: 2024-09-01 18:17:03: This is an error message.
+INFO: 2024-09-01 18:17:03: Logging an object:, {
+  "a": 1,
+  "b": {
+    "c": 2
+  },
+  "d": [
+    1,
+    2,
+    3
+  ]
+}
+INFO: 2024-09-01 18:17:03: Logging circular object:, {}
+ERROR: 2024-09-01 18:17:03: Caught an error:, {}
+INFO: 2024-09-01 18:17:04: Time Test-time: 1002ms
+ERROR: 2024-09-01 18:17:06: Uncaught Exception: aaa is not defined

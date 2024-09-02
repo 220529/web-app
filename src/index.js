@@ -1,4 +1,4 @@
-console.log("web-app ------------2");
+console.log("web-app ------------");
 
 // import "./LazyMan";
 // import "./New";
@@ -19,4 +19,7 @@ console.log("web-app ------------2");
 // import "./this"
 // import "./机器人走方格";
 // import "./lego";
-import "./数组第二大";
+// import "./数组第二大";
+// import "./进制转换";
+// import "./js输出1";
+import "./x的平方根";

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 300px;
+        height: 500px;
+        -webkit-overflow-scrolling: touch;
+        overflow: auto;
+        position: relative;
+        background-color: aqua;
+      }
+      .content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: yellow;
+      }
+      .content-item {
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        text-align: center;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 虚拟列表：固定子项高度 -->
+    <div id="root">
+      <!-- 可视区(container) -->
+      <div ref="containerRef" class="container" @scroll="scrollEvent">
+        <!-- 内容虚拟撑开区(phantom) -->
+        <div class="phantom" :style="{ height: phantomHeight + 'px' }"></div>
+        <!-- 内容可见区(content) -->
+        <div class="content" :style="{ transform: getTransform }">
+          <div
+            v-for="item in visibleData"
+            :key="item.index"
+            class="content-item"
+            ref="itemRefs"
+            :id="item.index"
+          >
+            {{ item.text }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script type="module">
+      const { createApp, ref, reactive, computed, onMounted, onUpdated } = Vue;
+      import { faker } from "https://esm.sh/@faker-js/faker";
+      const throttle = _.throttle;
+
+      createApp({
+        setup() {
+          // 列表数据
+          const listData = ref(
+            new Array(1000)
+              .fill({})
+              .map((item, index) => ({ index, text: faker.lorem.sentences() }))
+          );
+          // 预估子项高度
+          const estimateHeight = ref(100);
+          // 子项位置集合
+          const itemPositions = ref({});
+          // 子项元素集合
+          const itemRefs = ref([]);
+          // 可视区数据
+          const visibleInfo = reactive({
+            startIndex: 0, // 起始索引
+            endIndex: 0, // 结束索引
+            height: 0, // 可视区高度
+            count: 0, // 可视区子项个数
+          });
+          // 可视区内容
+          const visibleData = computed(() => {
+            const start = visibleInfo.startIndex - aboveCount.value;
+            const end = visibleInfo.endIndex + belowCount.value;
+            return listData.value.slice(start, end);
+          });
+          // 缓冲区比例（缓冲区数据与可视区数据的比例）
+          const bufferRatio = 1;
+          // 起始缓冲数量
+          const aboveCount = computed(() => {
+            return Math.min(visibleInfo.startIndex, visibleInfo.count * bufferRatio);
+          });
+          // 终止缓冲数量
+          const belowCount = computed(() => {
+            return Math.min(
+              listData.value.length - visibleInfo.endIndex,
+              visibleInfo.count * bufferRatio
+            );
+          });
+          // 内容区需要被撑开的高度
+          const phantomHeight = ref(0);
+          // 可视区示例
+          const containerRef = ref(null);
+          // 偏移量
+          const startOffset = ref(0);
+          // 偏移量对应的style：滚动后偏移多少子项元素 需要增补回来
+          const getTransform = computed(() => `translate3d(0,${startOffset.value}px,0)`);
+
+          // 初始化
+          onMounted(() => {
+            // step1: 计算可视区高度、内容区撑开高度
+            visibleInfo.height = containerRef.value.clientHeight;
+            phantomHeight.value = listData.value.length * estimateHeight.value;
+
+            // step2: 根据预估高度来初始化可视区索引、可视区展示子项个数
+            visibleInfo.startIndex = 0;
+            visibleInfo.count = Math.ceil(visibleInfo.height / estimateHeight.value);
+            visibleInfo.endIndex = visibleInfo.startIndex + visibleInfo.count;
+
+            // step3：初始化 itemPositions 用来记录每个子项的高度及起止距离
+            itemPositions.value = listData.value.map((item, index) => {
+              return {
+                index,
+                top: index * estimateHeight.value,
+                bottom: (index + 1) * estimateHeight.value,
+                height: estimateHeight.value,
+              };
+            });
+          });
+          // 监听子项高度变动
+          onUpdated(
+            throttle(() => {
+              if (!itemRefs.value || !itemRefs.value.length) return;
+              // 计算更新可视区子项位置集合
+              computedVisualSize();
+              // 计算虚拟占位高度
+              phantomHeight.value = itemPositions.value[itemPositions.value.length - 1].bottom;
+              // 计算偏移量
+              getOffsetY();
+            }, 100)
+          );
+          // 计算更新可视区子项位置集合
+          const computedVisualSize = () => {
+            itemRefs.value.map(item => {
+              const id = +item.id;
+              const curHeight = item.clientHeight;
+              const oldHeight = itemPositions.value[id].height;
+              const dValue = curHeight - oldHeight;
+              console.log("dValue...", itemRefs.value.length, dValue);
+
+              if (dValue) {
+                itemPositions.value[id].height = curHeight;
+                itemPositions.value[id].bottom = itemPositions.value[id].bottom + dValue;
+
+                for (let index = id + 1; index < itemPositions.value.length; index++) {
+                  itemPositions.value[index].top = itemPositions.value[index].top + dValue;
+                  itemPositions.value[index].bottom = itemPositions.value[index].bottom + dValue;
+                }
+              }
+            });
+          };
+          // 获取偏移量
+          const getOffsetY = () => {
+            // 实际滑出可视区个数
+            const realStart = visibleInfo.startIndex - aboveCount.value;
+            if (realStart) {
+              startOffset.value = itemPositions.value[realStart].top;
+            } else {
+              startOffset.value = 0;
+            }
+          };
+          // 监听可视区滚动事件
+          const scrollEvent = throttle(e => {
+            const scrollTop = e.target.scrollTop;
+            visibleInfo.startIndex = getStartIndex(scrollTop);
+            visibleInfo.endIndex = visibleInfo.startIndex + visibleInfo.count;
+            getOffsetY();
+          }, 100);
+          // 二分法查找初始索引
+          const getStartIndex = scrollTop => {
+            let start = 0;
+            let end = listData.value.length - 1;
+            let tempIndex = null;
+            while (start <= end) {
+              const midIndex = parseInt(String((end + start) / 2));
+              const midBottom = itemPositions.value[midIndex].bottom;
+              if (midBottom === scrollTop) {
+                tempIndex = midIndex + 1;
+                return tempIndex;
+              } else if (midBottom < scrollTop) {
+                start = midIndex + 1;
+              } else if (midBottom > scrollTop) {
+                if (tempIndex === null || tempIndex > midIndex) {
+                  tempIndex = midIndex;
+                }
+                end = end - 1;
+              }
+            }
+            return tempIndex;
+          };
+          return {
+            scrollEvent,
+            phantomHeight,
+            containerRef,
+            itemRefs,
+            visibleData,
+            getTransform,
+            estimateHeight,
+          };
+        },
+      }).mount("#root");
+    </script>
+  </body>
+</html>

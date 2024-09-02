@@ -1,0 +1,6 @@
+ERROR: 2024-09-01 18:16:29: This is an error message.
+ERROR: 2024-09-01 18:16:29: Caught an error:, {}
+ERROR: 2024-09-01 18:16:32: Uncaught Exception: Simulated uncaught exception
+ERROR: 2024-09-01 18:17:03: This is an error message.
+ERROR: 2024-09-01 18:17:03: Caught an error:, {}
+ERROR: 2024-09-01 18:17:06: Uncaught Exception: aaa is not defined

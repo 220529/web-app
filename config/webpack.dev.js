@@ -11,7 +11,7 @@ module.exports = merge(webpackCommonConf, {
     static: {
       directory: distPath,
     },
-    port: 9000,
+    port: 1000,
     // open: true, // 自动打开浏览器
     compress: true, // 启动 gzip 压缩
 
