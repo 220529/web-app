@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>webpack demo</title>
+    <style>
+      #root {
+        display: none;
+      }
+      #draggable {
+        width: 50px;
+        height: 50px;
+        border: red 1px solid;
+      }
+    </style>
   </head>
   <body>
-    <!-- <div id="root">
+    <div id="root">
       <p>1 <b>2</b></p>
       <img src="https://lagou-zhaopin-fe.lagou.com/fed/lg-app-fed/ali.png" />
       <!-注释->
@@ -15,6 +25,7 @@
         <li>a</li>
         <li>b</li>
       </ul>
-    </div> -->
+    </div>
+    <div id="draggable" draggable="true"></div>
   </body>
 </html>

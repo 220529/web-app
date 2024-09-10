@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Loop DOM Demo</title>
+  </head>
+  <body>
+    <div id="app">初始内容</div>
+    <script>
+      function logAndSetText(content) {
+        console.log(content);
+        document.getElementById("app").textContent = content;
+      }
+
+      // 同步任务
+      logAndSetText("同步任务 1");
+
+      Promise.resolve().then(() => {
+        logAndSetText("微任务 1 (Promise then)");
+      });
+
+      setTimeout(() => {
+        logAndSetText("宏任务 1 (setTimeout)");
+      }, 0);
+
+      const channel = new MessageChannel();
+      channel.port1.onmessage = () => {
+        logAndSetText("宏任务 2 (MessageChannel onmessage)");
+      };
+      channel.port2.postMessage(null);
+
+      logAndSetText("同步任务 2");
+
+      Promise.resolve().then(() => {
+        logAndSetText("微任务 2 (Promise then)");
+      });
+
+      setTimeout(() => {
+        logAndSetText("宏任务 3 (setTimeout)");
+      }, 0);
+
+      logAndSetText("同步任务 3");
+    </script>
+  </body>
+</html>
