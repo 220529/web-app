@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe 页面</title>
+  </head>
+  <body>
+    <p>iframe iframe 页面</p>
+    <p id="dynamicData">这是 iframe iframe 中的动态数据！</p>
+
+    <script>
+      // 监听来自父页面的消息
+      window.addEventListener("message", event => {
+        if (event.data === "requestData") {
+          const dynamicData = document.getElementById("dynamicData").textContent;
+          // 返回数据给父页面
+          window.parent.postMessage(dynamicData, event.origin);
+        }
+      });
+    </script>
+  </body>
+</html>

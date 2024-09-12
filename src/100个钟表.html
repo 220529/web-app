@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="clockCanvas" width="1200" height="800"></canvas>
+    <script>
+      // 获取画布和绘图上下文
+      const canvas = document.getElementById("clockCanvas");
+      const ctx = canvas.getContext("2d");
+
+      // 定义不同时区的偏移量（以小时为单位）
+      const timeZones = [
+        -12, -11, -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+      ];
+
+      // 画钟表
+      const drawClock = (x, y, radius, timeZoneOffset) => {
+        // 获取当前时间并调整时区偏移
+        const now = new Date();
+        const utc = now.getTime() + now.getTimezoneOffset() * 60000; // UTC 时间
+        const localTime = new Date(utc + timeZoneOffset * 3600000); // 按时区偏移计算本地时间
+
+        const hours = localTime.getHours();
+        const minutes = localTime.getMinutes();
+        const seconds = localTime.getSeconds();
+
+        // 清除表盘
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        ctx.stroke();
+
+        // 绘制中心点
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, 2 * Math.PI);
+        ctx.fill();
+
+        // 计算角度
+        const secondAngle = (seconds / 60) * 2 * Math.PI - Math.PI / 2;
+        const minuteAngle = (minutes / 60) * 2 * Math.PI - Math.PI / 2;
+        const hourAngle = (((hours % 12) + minutes / 60) / 12) * 2 * Math.PI - Math.PI / 2;
+
+        // 时针
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(x + Math.cos(hourAngle) * radius * 0.5, y + Math.sin(hourAngle) * radius * 0.5);
+        ctx.stroke();
+
+        // 分针
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(
+          x + Math.cos(minuteAngle) * radius * 0.75,
+          y + Math.sin(minuteAngle) * radius * 0.75
+        );
+        ctx.stroke();
+
+        // 秒针
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(
+          x + Math.cos(secondAngle) * radius * 0.9,
+          y + Math.sin(secondAngle) * radius * 0.9
+        );
+        ctx.strokeStyle = "red";
+        ctx.stroke();
+        ctx.strokeStyle = "black";
+
+        // 显示时区偏移
+        ctx.font = "14px Arial";
+        ctx.fillText(
+          `UTC${timeZoneOffset >= 0 ? "+" : ""}${timeZoneOffset}`,
+          x - radius / 2,
+          y + radius + 15
+        );
+      };
+
+      // 绘制多个钟表
+      const drawClocks = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const radius = 50;
+        let x = radius + 10,
+          y = radius + 10;
+
+        for (let i = 0; i < timeZones.length; i++) {
+          const timeZoneOffset = timeZones[i];
+          drawClock(x, y, radius, timeZoneOffset);
+
+          x += radius * 2 + 20; // 水平方向间隔
+          if (x > canvas.width - radius) {
+            x = radius + 10; // 换行
+            y += radius * 2 + 40; // 垂直方向间隔
+          }
+        }
+
+        requestAnimationFrame(drawClocks); // 动画更新
+      };
+
+      // 开始绘制
+      drawClocks();
+    </script>
+  </body>
+</html>

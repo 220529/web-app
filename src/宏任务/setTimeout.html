@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setTimeout Test</title>
+  </head>
+  <body>
+    <p>setTimeout Interval Test</p>
+
+    <button id="startBtn">开始测试</button>
+
+    <script>
+      let lastTime = 0;
+      let frameCount = 0;
+
+      function testTimeout() {
+        const currentTime = performance.now();
+        const timeDifference = currentTime - lastTime;
+        lastTime = currentTime;
+
+        console.log(`Timeout ${frameCount}: ${timeDifference.toFixed(2)}ms`);
+
+        frameCount++;
+        if (frameCount < 100) {
+          setTimeout(testTimeout); // 大约每 16ms 执行一次
+        }
+      }
+
+      document.getElementById("startBtn").addEventListener("click", () => {
+        lastTime = performance.now(); // 初始化时间
+        frameCount = 0; // 重置计数
+        console.clear(); // 清空控制台
+        setTimeout(testTimeout); // 开始测试
+      });
+    </script>
+  </body>
+</html>

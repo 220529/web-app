@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>父页面</title>
+  </head>
+  <body>
+    <p>index 页面</p>
+    <iframe id="myIframe" src="http://localhost:4000" width="600" height="400"></iframe>
+
+    <button id="getDataBtn">从 iframe 获取数据</button>
+    <p>从 iframe 接收到的数据: <span id="iframeData"></span></p>
+
+    <script>
+      const iframe = document.getElementById("myIframe");
+      const dataDisplay = document.getElementById("iframeData");
+
+      // 发送请求给 iframe 获取数据
+      document.getElementById("getDataBtn").addEventListener("click", () => {
+        iframe.contentWindow.postMessage("requestData", "http://localhost:4000");
+      });
+
+      // 监听来自 iframe 的消息
+      window.addEventListener("message", event => {
+        if (event.origin !== "http://localhost:4000") {
+          // 确保来源正确
+          return;
+        }
+        dataDisplay.textContent = event.data; // 显示 iframe 返回的数据
+      });
+    </script>
+  </body>
+</html>

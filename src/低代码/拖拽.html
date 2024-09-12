@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #f {
+        width: 200px;
+        height: 300px;
+        border: blue 1px solid;
+        position: relative;
+      }
+      #s {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background-color: yellow;
+        top: 0;
+        left: 0;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="f">
+      <div id="s"></div>
+    </div>
+    <script>
+      const f = document.getElementById("f");
+      const s = document.getElementById("s");
+      const m = {};
+      const onMousedown = e => {
+        m.x = e.clientX;
+        m.y = e.clientY;
+        m.top = parseInt(s.style.top) || 0;
+        m.left = parseInt(s.style.left) || 0;
+        document.addEventListener("mousemove", onMousemove);
+        document.addEventListener("mouseup", onMouseUp);
+      };
+      const onMouseUp = e => {
+        document.removeEventListener("mousemove", onMousemove);
+      };
+      const onMousemove = e => {
+        const { clientX, clientY } = e;
+        const diff = {
+          x: clientX - m.x,
+          y: clientY - m.y,
+        };
+        s.style.left = diff.x + m.left + "px";
+        s.style.top = diff.y + m.top + "px";
+      };
+      s.addEventListener("mousedown", onMousedown);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript 无缝滚动</title>
+    <style>
+      .container {
+        overflow: hidden;
+        position: relative;
+      }
+
+      .content {
+        display: flex;
+      }
+
+      .item {
+        flex-shrink: 0;
+        background-color: lightcoral;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="item">1234567890abcdefg</div>
+      </div>
+    </div>
+
+    <button id="btn">btn</button>
+    <script type="module">
+      import { unstable_scheduleCallback } from "./Schedule.js";
+
+      const el = document.querySelector(".item");
+      const parent = el.parentNode;
+      const box = document.querySelector(".container");
+      box.style.width = el.clientWidth + "px";
+      parent.append(el.cloneNode(true));
+
+      let x = 0;
+      let timer = null;
+
+      function run() {
+        x -= 0.5;
+        if (Math.abs(x) === el.clientWidth) {
+          x = 0;
+        }
+        parent.style.transform = `translateX(${x}px)`;
+        // clearTimeout(timer);
+        // timer = setTimeout(run, 0);
+        requestAnimationFrame(run);
+        // requestIdleCallback(run);
+      }
+      run();
+
+      const log = () => {
+        unstable_scheduleCallback(
+          3,
+          () => {
+            console.log("start...");
+            for (let index = 0; index < 1 * 10000; index++) {
+              console.log("index: ", index);
+            }
+            console.log("end...");
+          },
+          {
+            delay: 10,
+          }
+        );
+      };
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", log);
+
+      unstable_scheduleCallback(3, () => {
+        console.log(1);
+      });
+    </script>
+  </body>
+</html>

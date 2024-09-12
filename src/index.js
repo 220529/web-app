@@ -17,7 +17,7 @@ console.log("web-app ------------");
 // import "./闭包"
 // import './合并两个递增数组'
 // import "./this"
-// import "./机器人走方格";
+import "./机器人走方格";
 // import "./lego";
 // import "./数组第二大";
 // import "./进制转换";
@@ -38,4 +38,4 @@ console.log("web-app ------------");
 // import "./函数参数";
 // import "./防抖节流";
 // import "./箭头函数";
-import "./for-in和for-of";
+// import "./for-in和for-of";
