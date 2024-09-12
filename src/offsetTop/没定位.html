@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offsetTop 示例</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin-top: 100px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box" id="myBox">Box</div>
+
+<script>
+    const box = document.getElementById('myBox');
+    // 获取相对于文档顶部的 offsetTop
+    console.log('offsetTop: ' + box.offsetTop);
+</script>
+
+</body>
+</html>

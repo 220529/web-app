@@ -6,16 +6,17 @@
     <title>Document</title>
     <style>
       #f {
-        width: 200px;
-        height: 300px;
+        margin: 30px;
+        width: 100px;
+        height: 100px;
         border: blue 1px solid;
         position: relative;
       }
       #s {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         cursor: pointer;
-        background-color: yellow;
+        background-color: red;
         top: 0;
         left: 0;
         position: absolute;
@@ -29,6 +30,8 @@
     <script>
       const f = document.getElementById("f");
       const s = document.getElementById("s");
+      const maxTop = f.clientHeight - s.clientHeight;
+      const maxLeft = f.clientWidth - s.clientWidth;
       const m = {};
       const onMousedown = e => {
         m.x = e.clientX;
@@ -47,8 +50,11 @@
           x: clientX - m.x,
           y: clientY - m.y,
         };
-        s.style.left = diff.x + m.left + "px";
-        s.style.top = diff.y + m.top + "px";
+        const realLeft = diff.x + m.left;
+        const realTop = diff.y + m.top;
+        
+        s.style.left = Math.max(0, Math.min(realLeft, maxLeft)) + "px";
+        s.style.top = Math.max(0, Math.min(realTop, maxTop)) + "px";
       };
       s.addEventListener("mousedown", onMousedown);
     </script>
