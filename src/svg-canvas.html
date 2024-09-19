@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg width="400" height="110">
+      <rect
+        width="150"
+        height="75"
+        style="fill: rgb(0, 0, 255); stroke-width: 3; stroke: rgb(0, 0, 0)"
+      />
+    </svg>
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    <script type="text/javascript">
+      var c = document.getElementById("myCanvas");
+      var cxt = c.getContext("2d");
+      cxt.fillStyle = "#FF0000";
+      cxt.fillRect(0, 0, 150, 75);
+    </script>
+  </body>
+</html>

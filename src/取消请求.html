@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const url = "http://nest.lytt.fun/cats";
+      const useXhr = () => {
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+        xhr.onreadystatechange = () => {
+          console.log("xhr", xhr);
+        };
+        xhr.send();
+        xhr.abort();
+      };
+      //   useXhr();
+
+      const useFetch = () => {
+        const controller = new AbortController();
+        fetch(url, { signal: controller.signal })
+          .then(res => res.json())
+          .then(res => {
+            console.log("fetch", res);
+          });
+        // controller.abort();
+      };
+      useFetch();
+    </script>
+  </body>
+</html>

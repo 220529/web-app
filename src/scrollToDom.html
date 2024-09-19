@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>scrollToDom 示例</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        z-index: 1000;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      section {
+        height: 100vh;
+        padding-top: 60px; /* 为固定导航栏留出空间 */
+      }
+      #section1 {
+        background-color: #f4f4f4;
+      }
+      #section2 {
+        background-color: #e4e4e4;
+      }
+      #section3 {
+        background-color: #d4d4d4;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#" data-target="section1">部分 1</a>
+      <a href="#" data-target="section2">部分 2</a>
+      <a href="#" data-target="section3">部分 3</a>
+    </nav>
+
+    <section id="section1">
+      <h2>部分 1</h2>
+      <p>这是第一部分的内容。</p>
+    </section>
+
+    <section id="section2">
+      <h2>部分 2</h2>
+      <p>这是第二部分的内容。</p>
+    </section>
+
+    <section id="section3">
+      <h2>部分 3</h2>
+      <p>这是第三部分的内容。</p>
+    </section>
+
+    <script>
+      // scrollToDom 函数：滚动到指定的 DOM 元素
+      function scrollToDom(elementId) {
+        const element = document.getElementById(elementId);
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth", // 平滑滚动
+            block: "start", // 对齐到顶部
+          });
+        }
+      }
+
+      // 为导航链接添加点击事件监听器
+      document.querySelectorAll("nav a").forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault(); // 阻止默认的跳转行为
+          const targetId = this.getAttribute("data-target");
+          scrollToDom(targetId);
+        });
+      });
+    </script>
+  </body>
+</html>

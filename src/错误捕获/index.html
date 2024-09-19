@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>错误捕获测试</title>
+    <script>
+      // 捕获全局 JavaScript 错误
+      window.addEventListener("error", function (event) {
+        console.log(
+          "捕获到全局 JavaScript 错误:",
+          event.message,
+          "在",
+          event.filename,
+          "的行号:",
+          event.lineno,
+          "列号:",
+          event.colno
+        );
+        event.preventDefault(); // 防止浏览器默认处理
+      });
+
+      // 捕获 Promise 中的未处理拒绝
+      window.addEventListener(
+        "unhandledrejection",
+        function (event) {
+          console.log("捕获到未处理的 Promise 拒绝:", event.reason);
+          event.preventDefault(); // 防止浏览器默认处理
+        },
+        false
+      );
+
+      // 捕获资源加载错误
+      window.addEventListener("error", function (event) {
+        console.log("error", event);
+        if (event.target.tagName === "IMG" || event.target.tagName === "SCRIPT") {
+          console.log("捕获到资源加载错误:", event.target.src || event.target.href);
+          event.preventDefault(); // 防止浏览器默认处理
+        }
+      });
+
+      // 使用 try...catch 捕获同步错误
+      function causeSyncError() {
+        a = b;
+        // try {
+        //   const undefinedVar = undefinedVariable; // 这会导致 ReferenceError
+        // } catch (error) {
+        //   console.error("捕获到同步错误:", error.message);
+        // }
+      }
+
+      // 捕获 async 函数中的错误
+      async function causeAsyncError() {
+        try {
+          await new Promise((_, reject) => reject(new Error("这是一个测试的异步错误")));
+        } catch (error) {
+          console.error("捕获到异步错误:", error.message);
+        }
+      }
+
+      // 触发资源加载错误
+      function causeResourceError() {
+        const img = new Image();
+        img.src = "invalid-image-url.jpg"; // 一个无效的图片 URL
+        img.onload = function () {
+          console.log("图片加载成功");
+        };
+        // img.onerror = function () {
+        //   console.log("图片加载失败");
+        // };
+      }
+
+      // 触发未处理的 Promise 拒绝
+      function causePromiseRejection() {
+        return new Promise((_, reject) => reject("这是一个测试的 Promise 拒绝"));
+      }
+    </script>
+  </head>
+  <body>
+    <p>错误捕获测试</p>
+    <button onclick="causeSyncError()">触发同步错误</button>
+    <button onclick="causeAsyncError()">触发异步错误</button>
+    <button onclick="causeResourceError()">触发资源加载错误</button>
+    <button onclick="causePromiseRejection()">触发未处理的 Promise 拒绝</button>
+    <img id="test-image" src="https://tinypng.com/fskfjdkls.png" alt="测试图片" />
+  </body>
+</html>

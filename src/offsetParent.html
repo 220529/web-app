@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>offsetParent Example</title>
+    <style>
+      /* 定义各个元素的样式 */
+      .static-parent {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin-bottom: 20px;
+      }
+
+      .relative-parent {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background-color: lightgreen;
+        margin-bottom: 20px;
+      }
+
+      .absolute-child {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: coral;
+      }
+
+      .fixed-child {
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background-color: lightcoral;
+      }
+
+      .table-container {
+        display: table;
+        width: 100%;
+        background-color: lightyellow;
+        margin-bottom: 20px;
+      }
+
+      .table-row {
+        display: table-row;
+      }
+
+      .table-cell {
+        display: table-cell;
+        width: 100px;
+        height: 100px;
+        background-color: lightgray;
+        text-align: center;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <p>offsetParent Examples</p>
+
+    <!-- Static Parent, Absolute Child -->
+    <div class="static-parent">
+      Static Parent (No position)
+      <div class="absolute-child" id="absoluteInStatic">Absolute Child (in Static Parent)</div>
+    </div>
+
+    <!-- Relative Parent, Absolute Child -->
+    <div class="relative-parent" id="relativeParent">
+      Relative Parent
+      <div class="absolute-child" id="absoluteInRelative">Absolute Child (in Relative Parent)</div>
+    </div>
+
+    <!-- Fixed positioned element -->
+    <div class="fixed-child" id="fixedElement">Fixed Child</div>
+
+    <!-- Table and Table cell example -->
+    <div class="table-container">
+      <div class="table-row">
+        <div class="table-cell" id="tableCell">Table Cell</div>
+      </div>
+    </div>
+
+    <!-- Button to check offsetParent -->
+    <button onclick="printOffsetParent('absoluteInStatic')">Check Absolute in Static Parent</button>
+    <button onclick="printOffsetParent('absoluteInRelative')">
+      Check Absolute in Relative Parent
+    </button>
+    <button onclick="printOffsetParent('fixedElement')">Check Fixed Element</button>
+    <button onclick="printOffsetParent('tableCell')">Check Table Cell</button>
+
+    <script>
+      // 打印元素的 offsetParent 信息
+      function printOffsetParent(elementId) {
+        const element = document.getElementById(elementId);
+        const offsetParent = element.offsetParent;
+        if (offsetParent) {
+          console.log(
+            `Element: #${elementId}\nOffsetParent: ${offsetParent.tagName} (ID: ${
+              offsetParent.id || "none"
+            })`
+          );
+        } else {
+          console.log(`Element: #${elementId}\nOffsetParent: null`);
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class MyPromise {
+        constructor(fn) {
+          this.value = null;
+          this.resolves = [];
+          this.rejects = [];
+          this.status = "pendding";
+          const resolve = value => {
+            this.value = value;
+            this.status = "fulfilled";
+            this.resolves.forEach(i => i(this.value));
+          };
+          const reject = value => {
+            this.value = value;
+            this.status = "rejected";
+            this.rejects.forEach(i => i(this.value));
+          };
+          try {
+            fn(resolve, reject);
+          } catch (error) {}
+        }
+        then(success, fail) {
+          if (success && this.status === "fulfilled") {
+            success(this.value);
+          }
+          if (fail && this.status === "rejected") {
+            fail(this.value);
+          }
+          if (this.status === "pendding") {
+            success && this.resolves.push(success);
+            fail && this.rejects.push(success);
+          }
+        }
+      }
+      const test = () => {
+        return new MyPromise((resolve, reject) => {
+          setTimeout(() => {
+            resolve(100);
+          }, 1000);
+          //   resolve(100);
+        });
+      };
+      test().then(e => {
+        console.log("test", e);
+      });
+      console.log("1");
+    </script>
+  </body>
+</html>

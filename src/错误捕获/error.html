@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="https://yun.tuia22.cn/imag/kkk00111.png" />
+    <script src="https://yun.tuia.cn/foundnull.js"></script>
+    <link href="https://yun.tuia.cn/foundnull.css" rel="stylesheet" />
+    <script>
+      const handleResourceError = error => {
+        console.log("捕获到异常：", error);
+      };
+      window.addEventListener("error", handleResourceError, true);
+    </script>
+    <script>
+      // SyntaxError，解析时发生语法错误
+      //   const xx
+
+      //   TypeError，值不是所期待的类型
+      //   const person = void 0;
+      //   person.name;
+
+      //   ReferenceError，引用未声明的变量
+      //   nodefined;
+
+      //   RangeError，栈溢出
+      //   (function fn() {
+      //     fn();
+      //   })();
+
+      //   ResourceError，资源加载错误
+      //   new Image().src = "/remote/image/notdeinfed.png";
+
+      //   Http请求错误
+      //   fetch("/remote/notdefined", {});
+
+      // 常规运行时错误，可以捕获 ✅
+      //   try {
+      //     console.log(notdefined);
+      //   } catch (e) {
+      //     console.log("捕获到异常：", e);
+      //   }
+
+      // 语法错误，不能捕获 ❌
+      //   try {
+      //     const notdefined,
+      //   } catch(e) {
+      //     console.log('捕获到异常：', e);
+      //   }
+
+      // 异步错误，不能捕获 ❌
+      //   try {
+      //     setTimeout(() => {
+      //       console.log(notdefined);
+      //     }, 0);
+      //   } catch (e) {
+      //     console.log("捕获到异常：", e);
+      //   }
+
+      /**
+       * @param {String}  message    错误信息
+       * @param {String}  source    出错文件
+       * @param {Number}  lineno    行号
+       * @param {Number}  colno    列号
+       * @param {Object}  error  Error对象
+       */
+
+      //   window.onerror = function (message, source, lineno, colno, error) {
+      //     console.log("捕获到异常：", { message, source, lineno, colno, error });
+      //   };
+
+      // 常规运行时错误，可以捕获 ✅
+
+      // window.onerror = function(message, source, lineno, colno, error) {
+      //   console.log('捕获到异常：',{message, source, lineno, colno, error});
+      // }
+      //   console.log(notdefined);
+
+      // 语法错误，不能捕获 ❌
+      // window.onerror = function(message, source, lineno, colno, error) {
+      //   console.log('捕获到异常：',{message, source, lineno, colno, error});
+      // }
+      // const notdefined;
+
+      // 异步错误，可以捕获 ✅
+      // window.onerror = function(message, source, lineno, colno, error) {
+      //   console.log('捕获到异常：',{message, source, lineno, colno, error});
+      // }
+      //   setTimeout(() => {
+      //     console.log(notdefined);
+      //   }, 0);
+    </script>
+  </body>
+</html>

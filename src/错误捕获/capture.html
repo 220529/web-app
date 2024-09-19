@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capture Error Test</title>
+  </head>
+  <body>
+    <p>Capture Error Test</p>
+    <button id="send-error">Send Error</button>
+    <script src="http://127.0.0.1:5500/packages/monitor/dist/umd/monitor.min.js"></script>
+    <script>
+      console.log("monitor_ns", monitor_ns.default);
+      monitor_ns.default.init();
+
+      //   const a = 1;
+      //   a = 2;
+
+      //   const nn;
+      //   fjfldsjfjdsk;
+
+      //   const m
+
+      // 上报数据源
+      //   var REMOTE = {
+      //     server: "http://localhost:16800/monitor/collect.gif",
+      //   };
+      //   function imgGET(params) {
+      //     var _img = new Image();
+      //     _img.src = REMOTE.server + "?" + new URLSearchParams(params).toString();
+      //   }
+      document.getElementById("send-error").addEventListener("click", () => {
+        // 构建一个包含多个参数的 URL
+        const params = {
+          type: "error",
+          plat: "PC",
+          page_id: "1mb422",
+          address_id: "x1tmg",
+          lt: "pcshow",
+          os: "MacOS",
+          browser: "Chrome",
+          browser_version: "128.0.0.0",
+          screen_height: 1050,
+          screen_width: 1680,
+          referer: "https://www.lagou.com/wn/",
+          url: "https://www.lagou.com/wn/",
+          time: Date.now(),
+        };
+        monitor_ns.default.upload(params);
+        // imgGET(params);
+      });
+    </script>
+  </body>
+</html>

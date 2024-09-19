@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>0.5px Line Example</title>
+    <style>
+      /* 使用 transform: scale 缩放 */
+      .line-scale {
+        height: 1px;
+        background-color: black;
+        transform: scaleY(0.5); /* 缩放 Y 轴实现 0.5px */
+      }
+
+      /* 使用伪元素 ::after 实现 */
+      .line-pseudo {
+        position: relative;
+        height: 1px;
+      }
+      .line-pseudo::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: black;
+        transform: scaleY(0.5); /* 伪元素缩放 */
+      }
+
+      /* 使用 box-shadow 实现 */
+      .line-shadow {
+        box-shadow: 0 0 0.5px black;
+      }
+
+      /* 使用 border 和 transform */
+      .line-border-transform {
+        border-bottom: 1px solid black;
+        transform: scaleY(0.5);
+      }
+
+      /* 使用背景渐变实现 */
+      .line-gradient {
+        height: 1px;
+        background: linear-gradient(to right, black 50%, transparent 50%);
+      }
+
+      /* 为了展示效果的每个线条的间距 */
+      .line {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>0.5px Line Implementations</h2>
+
+    <!-- 使用 transform: scale 缩放 -->
+    <div class="line line-scale">Transform: scale(0.5)</div>
+
+    <!-- 使用伪元素 ::after -->
+    <div class="line line-pseudo">Pseudo Element ::after</div>
+
+    <!-- 使用 box-shadow -->
+    <div class="line line-shadow">Box-shadow: 0 0 0.5px</div>
+
+    <!-- 使用 border 和 transform -->
+    <div class="line line-border-transform">Border + Transform</div>
+
+    <!-- 使用背景渐变 -->
+    <div class="line line-gradient">Background Gradient</div>
+  </body>
+</html>

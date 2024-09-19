@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      img {
+        width: 500px;
+        min-height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <img src="../../imgs/loading.gif" data-src="../../imgs/1.png" alt="" />
+      </li>
+      <li>
+        <img src="../../imgs/loading.gif" data-src="../../imgs/2.png" alt="" />
+      </li>
+      <li>
+        <img src="../../imgs/loading.gif" data-src="../../imgs/3.png" alt="" />
+      </li>
+      <li>
+        <img src="../../imgs/loading.gif" data-src="../../imgs/4.png" alt="" />
+      </li>
+    </ul>
+    <script>
+      const els = document.querySelectorAll("img[data-src]");
+      const options = {
+        threshold: 0.1,
+      };
+
+      let callback = (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.setAttribute("src", entry.target.dataset.src);
+            entry.target.removeAttribute("data-src");
+            observer.unobserve(entry.target);
+          }
+        });
+      };
+
+      const observer = new IntersectionObserver(callback, options);
+      els.forEach(el => {
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>

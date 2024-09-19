@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Contains Test</title>
+  </head>
+  <body>
+    <h1>DOM Contains 判断示例</h1>
+
+    <div id="parent" style="border: 1px solid black; padding: 10px">
+      Parent Element
+      <div id="child" style="border: 1px solid red; padding: 10px">
+        Child Element
+        <div id="grandchild" style="border: 1px solid green; padding: 10px">Grandchild Element</div>
+      </div>
+    </div>
+
+    <div id="outside" style="border: 1px solid blue; padding: 10px; margin-top: 10px">
+      Outside Element
+    </div>
+
+    <button onclick="checkParentChild()">父元素包含子元素</button>
+    <button onclick="checkParentGrandchild()">父元素包含孙元素</button>
+    <button onclick="checkChildSelf()">子元素包含自身</button>
+    <button onclick="checkOutside()">外部元素是否包含父元素</button>
+
+    <script>
+      function checkParentChild() {
+        const parent = document.getElementById("parent");
+        const child = document.getElementById("child");
+        console.log(parent.contains(child)); // 打印 true 或 false
+      }
+
+      function checkParentGrandchild() {
+        const parent = document.getElementById("parent");
+        const grandchild = document.getElementById("grandchild");
+        console.log(parent.contains(grandchild)); // 打印 true 或 false
+      }
+
+      function checkChildSelf() {
+        const child = document.getElementById("child");
+        console.log(child.contains(child)); // 打印 true 或 false
+      }
+
+      function checkOutside() {
+        const outside = document.getElementById("outside");
+        const parent = document.getElementById("parent");
+        console.log(outside.contains(parent)); // 打印 true 或 false
+      }
+    </script>
+  </body>
+</html>
