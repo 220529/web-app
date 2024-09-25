@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>长任务监测示例</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      #startTask {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+      #taskLogs {
+        margin-top: 20px;
+        max-height: 200px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>长任务监测示例</p>
+    <button id="startTask">开始长任务</button>
+    <div id="taskLogs"></div>
+
+    <script>
+      let longTasks = [];
+
+      const longTaskObserver = new PerformanceObserver(list => {
+        list.getEntries().forEach(entry => {
+          if (entry.duration > 50) {
+            longTasks.push({
+              name: entry.name,
+              startTime: entry.startTime,
+              duration: entry.duration,
+            });
+            logTask(`长任务: ${entry.name}, 持续时间: ${entry.duration.toFixed(2)}ms`);
+          }
+        });
+      });
+
+      longTaskObserver.observe({ entryTypes: ["longtask"] });
+
+      document.getElementById("startTask").addEventListener("click", () => {
+        // 模拟多个长任务
+        for (let i = 0; i < 5; i++) {
+          simulateLongTask(`任务 ${i + 1}`, 100 + Math.random() * 200);
+        }
+      });
+
+      function simulateLongTask(taskName, duration) {
+        const start = performance.now();
+        // 使用 setTimeout 模拟长任务
+        setTimeout(() => {
+          const end = performance.now();
+          const taskDuration = end - start;
+          performance.mark(taskName);
+          performance.measure(taskName, taskName);
+        }, duration);
+      }
+
+      function logTask(message) {
+        const logContainer = document.getElementById("taskLogs");
+        const logEntry = document.createElement("div");
+        logEntry.textContent = message;
+        logContainer.appendChild(logEntry);
+        logContainer.scrollTop = logContainer.scrollHeight; // 滚动到最新
+      }
+
+      window.addEventListener("unload", () => {
+        if (longTasks.length > 0) {
+          console.log("长任务统计数据:", longTasks);
+          // 这里可以使用 navigator.sendBeacon 发送数据
+          // navigator.sendBeacon('/log-long-tasks', JSON.stringify(longTasks));
+        }
+      });
+    </script>
+  </body>
+</html>

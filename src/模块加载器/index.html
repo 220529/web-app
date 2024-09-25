@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const modules = {};
+      function define(moduldId, dependencies, factory) {
+        modules[moduldId] = {
+          dependencies,
+          factory,
+          instance: null,
+        };
+      }
+      function require(moduldId) {
+        const target = modules[moduldId];
+        const dependencies = target.dependencies.map(id => require(id));
+        return (target.instance = target.factory(...dependencies));
+      }
+      // 定义模块 A
+      define("moduleA", [], function () {
+        return {
+          greet: function () {
+            return "Hello from A";
+          },
+        };
+      });
+
+      // 定义模块 B，依赖于 A
+      define("moduleB", ["moduleA"], function (moduleA) {
+        return {
+          greet: function () {
+            return "B says: " + moduleA.greet();
+          },
+        };
+      });
+
+      // 加载模块 B
+      const moduleB = require("moduleB");
+      console.log(moduleB.greet()); // 输出 "B says: Hello from A"
+    </script>
+  </body>
+</html>

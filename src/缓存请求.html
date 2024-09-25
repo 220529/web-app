@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class CacheRequest {
+        constructor() {
+          this.map = new Map();
+        }
+        request(method, url) {
+          const key = `${method} ${url}`;
+          const isExist = this.map.get(key);
+          if (isExist) {
+            return isExist;
+          }
+          const req = fetch(url, { method }).then(e => e.json());
+          this.map.set(key, req);
+          return req;
+        }
+      }
+      const req = new CacheRequest();
+      const url = "http://nest.lytt.fun/cats";
+      req.request("get", url).then(e => {
+        console.log("e1", e);
+      });
+      req.request("get", url).then(e => {
+        console.log("e2", e);
+      });
+      req.request("get", url).then(e => {
+        console.log("e3", e);
+      });
+    </script>
+  </body>
+</html>

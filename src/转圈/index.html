@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .loading {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 3px solid gray;
+        border-bottom-color: transparent;
+        animation: circle 2.5s infinite linear;
+      }
+      @keyframes circle {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .spin-container {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        animation: circle 2.5s infinite linear;
+      }
+
+      .spin-dot {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #1890ff;
+        border-radius: 50%;
+        animation: spin 1.2s linear infinite;
+      }
+
+      .spin-dot1 {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-delay: -0.45s;
+      }
+
+      .spin-dot2 {
+        top: 50%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        animation-delay: -0.3s;
+      }
+
+      .spin-dot3 {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-delay: -0.15s;
+      }
+
+      .spin-dot4 {
+        top: 50%;
+        left: 0;
+        transform: translate(-50%, -50%);
+        animation-delay: 0s;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: translate(-50%, -50%) scale(1);
+        }
+        50% {
+          transform: translate(-50%, -50%) scale(0.5);
+        }
+        100% {
+          transform: translate(-50%, -50%) scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loading"></div>
+    <div class="spin-container">
+      <div class="spin-dot spin-dot1"></div>
+      <div class="spin-dot spin-dot2"></div>
+      <div class="spin-dot spin-dot3"></div>
+      <div class="spin-dot spin-dot4"></div>
+    </div>
+  </body>
+</html>

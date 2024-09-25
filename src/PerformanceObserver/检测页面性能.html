@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PerformanceObserver Test</title>
+  </head>
+  <body>
+    <p>Hello, PerformanceObserver!</p>
+    <img src="https://via.placeholder.com/150" alt="Test Image" />
+
+    <script>
+      if ("PerformanceObserver" in window) {
+        const observer = new PerformanceObserver(list => {
+          list.getEntries().forEach(entry => {
+            console.log(`Entry Name: ${entry.name}`);
+            console.log(`Entry Type: ${entry.entryType}`);
+            console.log(`Start Time: ${entry.startTime}`);
+            console.log(`Duration: ${entry.duration}`);
+            console.log("---------------");
+          });
+        });
+
+        // 监听首次绘制性能，如 FCP (First Contentful Paint)
+        observer.observe({ type: "paint", buffered: true });
+
+        // 监听资源加载性能，如图片、脚本、样式表等资源的加载时间
+        observer.observe({ type: "resource", buffered: true });
+      } else {
+        console.log("PerformanceObserver is not supported in this browser.");
+      }
+    </script>
+  </body>
+</html>

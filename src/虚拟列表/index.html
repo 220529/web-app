@@ -38,11 +38,10 @@
         <!-- 内容可见区(content) -->
         <div class="content" :style="{ transform: getTransform }">
           <div
-            v-for="item in visibleData"
+            v-for="item, index in visibleData"
             :key="item.index"
             class="content-item"
             ref="itemRefs"
-            :id="item.index"
           >
             {{ item.text }}
           </div>
@@ -50,12 +49,19 @@
       </div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script type="module">
+      const throttle = (handler, time) => {
+        let oldTime = 0;
+        return function () {
+          const nowTime = Date.now();
+          if (nowTime - oldTime > time) {
+            oldTime = nowTime;
+            handler.call(this, ...arguments);
+          }
+        };
+      };
       const { createApp, ref, reactive, computed, onMounted, onUpdated } = Vue;
       import { faker } from "https://esm.sh/@faker-js/faker";
-      const throttle = _.throttle;
-
       createApp({
         setup() {
           // 列表数据
@@ -64,6 +70,8 @@
               .fill({})
               .map((item, index) => ({ index, text: faker.lorem.sentences() }))
           );
+          console.log("listData", listData);
+
           // 预估子项高度
           const estimateHeight = ref(100);
           // 子项位置集合

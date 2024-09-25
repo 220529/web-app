@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 三列 */
+      grid-template-rows: auto; /* 行高度自适应 */
+      gap: 20px; /* 网格项之间的间距 */
+      margin-bottom: 40px; /* 下方留空 */
+    }
+    .grid-item {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .grid-item:hover {
+      background-color: #45a049; /* 悬停时的颜色变化 */
+    }
+
+    /* 配置不同的网格布局 */
+    .grid-1 {
+      grid-template-columns: repeat(2, 1fr); /* 两列 */
+    }
+    .grid-2 {
+      grid-template-columns: repeat(4, 1fr); /* 四列 */
+    }
+    .grid-3 {
+      grid-template-columns: 1fr 2fr 1fr; /* 不同列宽比例 */
+    }
+    .grid-4 {
+      grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+      grid-template-rows: 100px 1fr 50px; /* 固定行高 */
+    }
+    .header { grid-area: header; }
+    .sidebar { grid-area: sidebar; }
+    .main { grid-area: main; }
+    .footer { grid-area: footer; }
+
+    @media (max-width: 600px) {
+      .grid-item {
+        height: 100px; /* 响应式调整高度 */
+      }
+      .grid-container {
+        grid-template-columns: 1fr; /* 小屏幕下改为一列 */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Grid Layout Demo</h1>
+
+  <h2>基本三列布局</h2>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+  </div>
+
+  <h2>两列布局</h2>
+  <div class="grid-container grid-1">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+  </div>
+
+  <h2>四列布局</h2>
+  <div class="grid-container grid-2">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div</div>
+  </div>
+
+  <h2>不同比例列宽</h2>
+  <div class="grid-container grid-3">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+  </div>
+
+  <h2>区域布局</h2>
+  <div class="grid-container grid-4">
+    <div class="grid-item header">Header</div>
+    <div class="grid-item sidebar">Sidebar</div>
+    <div class="grid-item main">Main Content</div>
+    <div class="grid-item footer">Footer</div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow Hidden Demo</title>
+    <style>
+      .container {
+        background-color: lightblue;
+        padding: 10px;
+        /* 使用 overflow: hidden 处理浮动 */
+        /* overflow: hidden; */
+        display: flex;
+      }
+
+      .left {
+        float: left;
+        width: 50%;
+        background-color: lightcoral;
+      }
+
+      .right {
+        float: right;
+        width: 50%;
+        background-color: lightgreen;
+      }
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">左侧内容</div>
+      <div class="right">右侧内容</div>
+    </div>
+    <p>1233</p>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+      .dice {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border: 5px solid #333;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      .dot {
+        width: 20px;
+        height: 20px;
+        background-color: #333;
+        border-radius: 50%;
+        position: absolute;
+      }
+      /* 各个点的位置 */
+      .dot-1 {
+        top: 40%;
+        left: 40%;
+      }
+      .dot-2 {
+        top: 20%;
+        left: 20%;
+      }
+      .dot-3 {
+        top: 20%;
+        right: 20%;
+      }
+      .dot-4 {
+        top: 60%;
+        left: 20%;
+      }
+      .dot-5 {
+        top: 60%;
+        right: 20%;
+      }
+      .dot-6 {
+        top: 20%;
+        left: 40%;
+        right: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dice">
+      <div class="dot dot-1"></div>
+      <!-- 1 -->
+      <div class="dot dot-2"></div>
+      <!-- 2 -->
+      <div class="dot dot-3"></div>
+      <!-- 3 -->
+      <div class="dot dot-4"></div>
+      <!-- 4 -->
+      <div class="dot dot-5"></div>
+      <!-- 5 -->
+      <div class="dot dot-6"></div>
+      <!-- 6 -->
+    </div>
+  </body>
+</html>

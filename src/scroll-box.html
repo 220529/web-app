@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>滚动节流测试</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .scroll-box {
+        width: 300px;
+        height: 500px;
+        overflow-y: scroll;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+      }
+      .content {
+        height: 5000px;
+        background: linear-gradient(0deg, #ffffff, #d3d3d3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll-box" id="scroll-box">
+      <div class="content"></div>
+    </div>
+
+    <script>
+      // 节流函数
+      function throttle(func, delay) {
+        let lastCall = 0;
+        return function (...args) {
+          const now = new Date().getTime();
+          if (now - lastCall >= delay) {
+            lastCall = now;
+            return func(...args);
+          }
+        };
+      }
+
+      // 处理滚动事件
+      function handleScroll() {
+        console.log("正在滚动", new Date().toLocaleTimeString());
+      }
+
+      const scrollBox = document.getElementById("scroll-box");
+
+      // 监听滚动事件，使用节流
+      scrollBox.addEventListener("scroll", throttle(handleScroll, 200));
+    </script>
+  </body>
+</html>

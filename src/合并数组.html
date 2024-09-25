@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const num1 = [1, 2, 3, 0, 0, 0];
+      const num2 = [2, 5, 6];
+      const m = 3;
+      const n = 3;
+      function merge(num1, num2, m, n) {
+        let p1 = m - 1;
+        let p2 = n - 1;
+        let p = m + n - 1;
+        while (p2 >= 0 && p1 >= 0) {
+          const n1 = num1[p1];
+          const n2 = num2[p2];
+          if (n1 > n2) {
+            num1[p] = n1;
+            p1--;
+          } else if (n1 <= n2) {
+            num1[p] = n2;
+            p2--;
+          }
+          p--;
+        }
+      }
+      merge(num1, num2, m, n);
+      console.log("num1", num1);
+    </script>
+  </body>
+</html>

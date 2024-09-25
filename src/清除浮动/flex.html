@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Demo</title>
+    <style>
+      .container {
+        display: flex;
+        background-color: lightblue;
+        padding: 10px;
+      }
+
+      .left,
+      .right {
+        flex: 1;
+        padding: 10px;
+      }
+
+      .left {
+        background-color: lightcoral;
+      }
+
+      .right {
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">左侧内容</div>
+      <div class="right">右侧内容</div>
+    </div>
+  </body>
+</html>
