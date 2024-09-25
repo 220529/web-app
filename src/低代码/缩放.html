@@ -1,162 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>拖拽缩放</title>
     <style>
-        .root {
-            padding: 50px;
-        }
-        .page {
-            width: 200px;
-            height: 500px;
-            border: 1px solid red;
-            position: relative;
-        }
+      .root {
+        padding: 50px;
+      }
+      .page {
+        width: 200px;
+        height: 500px;
+        border: 1px solid red;
+        position: relative;
+      }
 
-        .wrap {
-            display: inline-block;
-            top: 30px;
-            left: 40px;
-            position: absolute;
-            width: 70px;
-            height: 70px;
-        }
+      .wrap {
+        display: inline-block;
+        top: 30px;
+        left: 40px;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+      }
 
-        #real {
-            width: 100%;
-            height: 100%;
-            background-color: #4CAF50;
-        }
+      #real {
+        width: 100%;
+        height: 100%;
+        background-color: #4caf50;
+      }
 
-        .border {
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            position: absolute;
-        }
+      .border {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+      }
 
-        .point {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #fff;
-            border: 3px solid #1890ff;
-            position: absolute;
-        }
+      .point {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #fff;
+        border: 3px solid #1890ff;
+        position: absolute;
+      }
 
-        .top-left {
-            left: -5px;
-            top: -5px;
-            cursor: nwse-resize;
-        }
+      .top-left {
+        left: -5px;
+        top: -5px;
+        cursor: nwse-resize;
+      }
 
-        .top-right {
-            right: -5px;
-            top: -5px;
-            cursor: nesw-resize;
-        }
+      .top-right {
+        right: -5px;
+        top: -5px;
+        cursor: nesw-resize;
+      }
 
-        .bottom-left {
-            left: -5px;
-            bottom: -5px;
-            cursor: nesw-resize;
-        }
+      .bottom-left {
+        left: -5px;
+        bottom: -5px;
+        cursor: nesw-resize;
+      }
 
-        .bottom-right {
-            right: -5px;
-            bottom: -5px;
-            cursor: nwse-resize;
-        }
+      .bottom-right {
+        right: -5px;
+        bottom: -5px;
+        cursor: nwse-resize;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-<div class="root">
-    <div class="page">
+  <body>
+    <div class="root">
+      <div class="page">
         <div class="wrap">
-            <div id="real"></div>
-            <div class="border">
-                <div class="point top-left" data-type="top-left"></div>
-                <div class="point top-right" data-type="top-right"></div>
-                <div class="point bottom-right" data-type="bottom-right"></div>
-                <div class="point bottom-left" data-type="bottom-left"></div>
-            </div>
+          <div id="real"></div>
+          <div class="border">
+            <div class="point top-left" data-type="top-left"></div>
+            <div class="point top-right" data-type="top-right"></div>
+            <div class="point bottom-right" data-type="bottom-right"></div>
+            <div class="point bottom-left" data-type="bottom-left"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
     <script>
-        const border = document.querySelector(".border");
-        const wrap = document.querySelector(".wrap");
-        const page = wrap.parentNode;
+      const border = document.querySelector(".border");
+      const wrap = document.querySelector(".wrap");
+      const page = wrap.parentNode;
 
-        const realInfo = {};
-        let ws = {};
-        let moveType = "";
+      const realInfo = {};
+      let ws = {};
+      let moveType = "";
 
-        const mouseMove = e => {
-            const { clientX, clientY } = e;
-            delete realInfo.top;
-            delete realInfo.left;
+      const mouseMove = e => {
+        const { clientX, clientY } = e;
+        delete realInfo.top;
+        delete realInfo.left;
 
-            if (moveType === "top-left") {
-                realInfo.width = ws.right - clientX;
-                realInfo.height = ws.bottom - clientY;
-                realInfo.top = clientY - page.offsetTop;
-                realInfo.left = clientX - page.offsetLeft
-            }
-
-            // 修改宽、高、top
-            if (moveType === "top-right") {
-                realInfo.width = clientX - ws.left;
-                realInfo.height = ws.bottom - clientY;
-                realInfo.top = clientY - page.offsetTop
-            }
-
-            // 修改宽、高、left
-            if (moveType === "bottom-left") {
-                realInfo.width = ws.right - clientX;
-                realInfo.height = clientY - ws.top;
-                realInfo.left = clientX - page.offsetLeft
-            }
-
-            // 只需修改宽高
-            if (moveType === "bottom-right") {
-                realInfo.width = clientX - ws.left;
-                realInfo.height = clientY - ws.top;
-            }
-
-            const { top, left, width, height } = realInfo
-            wrap.style.width = width + "px";
-            wrap.style.height = height + "px";
-
-            if (typeof top === "number") {
-                wrap.style.top = top + "px";
-            }
-            if (typeof left === "number") {
-                wrap.style.left = left + "px";
-            }
+        if (moveType === "top-left") {
+          realInfo.width = ws.right - clientX;
+          realInfo.height = ws.bottom - clientY;
+          realInfo.top = clientY - page.offsetTop;
+          realInfo.left = clientX - page.offsetLeft;
         }
 
-        const mouseUp = e => {
-            console.log("mouseUp", e);
-            document.removeEventListener("mousemove", mouseMove)
+        // 修改宽、高、top
+        if (moveType === "top-right") {
+          realInfo.width = clientX - ws.left;
+          realInfo.height = ws.bottom - clientY;
+          realInfo.top = clientY - page.offsetTop;
         }
 
-        border.addEventListener("mousedown", function (e) {
-            if (e.target.classList.contains("point")) {
-                ws = wrap.getBoundingClientRect();
-                moveType = e.target.dataset.type;
-                document.addEventListener("mousemove", mouseMove);
-                document.addEventListener("mouseup", mouseUp)
-            }
-        })
+        // 修改宽、高、left
+        if (moveType === "bottom-left") {
+          realInfo.width = ws.right - clientX;
+          realInfo.height = clientY - ws.top;
+          realInfo.left = clientX - page.offsetLeft;
+        }
+
+        // 只需修改宽高
+        if (moveType === "bottom-right") {
+          realInfo.width = clientX - ws.left;
+          realInfo.height = clientY - ws.top;
+        }
+
+        const { top, left, width, height } = realInfo;
+        wrap.style.width = width + "px";
+        wrap.style.height = height + "px";
+
+        if (typeof top === "number") {
+          wrap.style.top = top + "px";
+        }
+        if (typeof left === "number") {
+          wrap.style.left = left + "px";
+        }
+      };
+
+      const mouseUp = e => {
+        console.log("mouseUp", e);
+        document.removeEventListener("mousemove", mouseMove);
+      };
+
+      border.addEventListener("mousedown", function (e) {
+        if (e.target.classList.contains("point")) {
+          ws = wrap.getBoundingClientRect();
+          moveType = e.target.dataset.type;
+          document.addEventListener("mousemove", mouseMove);
+          document.addEventListener("mouseup", mouseUp);
+        }
+      });
+
+      // 创建 ResizeObserver 实例
+      const resizeObserver = new ResizeObserver(entries => {
+        for (let entry of entries) {
+          const { width, height } = entry.contentRect;
+          console.log(`Width: ${width}, Height: ${height}`);
+        }
+      });
+
+      // 观察 .box 元素
+      resizeObserver.observe(wrap);
     </script>
-
-</body>
-
+  </body>
 </html>

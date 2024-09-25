@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const url = "http://nest.lytt.fun/cats";
+      const requests = [];
+      const count = 10;
+      for (let i = 0; i < count; i++) {
+        requests.push({
+          id: i,
+          url,
+        });
+      }
+      const toFetch = url => {
+        return fetch(url).then(e => e.json());
+      };
+      const delay = url => {
+        const time = 1000;
+        return new Promise(resolve => {
+          setTimeout(() => {
+            resolve(`${url} is delay ${time}s`);
+          }, time);
+        });
+      };
+      const batchFetch = async () => {
+        // for await (const item of requests.map(i => delay(i))) {
+        //   console.log("item", item);
+        // }
+
+        for (let i of requests) {
+          const res = await toFetch(i.url);
+          console.log("res", res);
+        }
+      };
+      //   batchFetch();
+      class RequestQueue {
+        constructor({ requests }) {
+          this.requests = requests;
+          this.queue = [];
+          this.limit = 1; // 每次多少条
+          this.point = 0;
+        }
+        enQueue() {
+          let m = 0;
+          let start = this.point;
+          this.queue = [];
+          for (let i = 0; i < this.limit && this.point < this.requests.length; i++) {
+            this.queue.push(this.requests[i + start]);
+            this.point++;
+          }
+        }
+        send(url) {
+          return fetch(url).then(e => e.json());
+        }
+        performUnit() {
+          return Promise.all(this.queue.map(item => this.send(item.url)));
+        }
+        async perform() {
+          const tasks = [];
+          const res = await this.performUnit();
+          console.log("perform.res", res);
+          if (this.point < this.requests.length) {
+            this.run();
+          }
+        }
+        run() {
+          this.enQueue();
+          this.perform();
+        }
+      }
+      const batchFetch2 = () => {
+        const queue = new RequestQueue({ requests });
+        queue.run();
+      };
+      batchFetch2();
+    </script>
+  </body>
+</html>
