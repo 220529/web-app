@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF 预览</title>
+    <style>
+      canvas {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>PDF 预览</p>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script>
+      // 指定 PDF 文件的路径
+      const pdfUrl = "https://lagou-zhaopin-fe.lagou.com/activities/0925/1.doc";
+      const root = document.getElementById("root");
+
+      function createCanvas(page) {
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+        const viewport = page.getViewport({ scale: 1 });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+        // 渲染 PDF 页面到 canvas
+        const renderContext = {
+          canvasContext: context,
+          viewport: viewport,
+        };
+        page.render(renderContext);
+        root.appendChild(canvas);
+      }
+
+      // 使用 pdf.js 加载 PDF 文件
+      pdfjsLib
+        .getDocument(pdfUrl)
+        .promise.then(pdf => {
+          for (let i = 0; i < pdf.numPages; i++) {
+            pdf.getPage(i + 1).then(createCanvas);
+          }
+        })
+        .catch(error => {
+          console.error("Error loading PDF:", error);
+        });
+    </script>
+  </body>
+</html>

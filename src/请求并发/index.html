@@ -42,7 +42,7 @@
         constructor({ requests }) {
           this.requests = requests;
           this.queue = [];
-          this.limit = 1; // 每次多少条
+          this.limit = 3; // 每次多少条
           this.point = 0;
         }
         enQueue() {
@@ -66,6 +66,8 @@
           console.log("perform.res", res);
           if (this.point < this.requests.length) {
             this.run();
+          } else {
+            console.log("is over");
           }
         }
         run() {

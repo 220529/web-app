@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>划词右键菜单</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .custom-menu {
+        display: none;
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .custom-menu li {
+        padding: 8px 12px;
+        cursor: pointer;
+      }
+      .custom-menu li:hover {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <p>请在这段文本中进行划词操作，然后右键点击以显示自定义菜单。</p>
+    <p>这是用于测试的第二段文本内容，您可以选择任何文本来触发菜单。</p>
+
+    <!-- 自定义菜单 -->
+    <ul id="context-menu" class="custom-menu">
+      <li id="copy">复制</li>
+      <li id="search">搜索</li>
+    </ul>
+
+    <script>
+      // 获取自定义菜单元素
+      const menu = document.getElementById("context-menu");
+      let selectedText = "";
+
+      // 检测鼠标右键点击
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault(); // 禁用浏览器默认的右键菜单
+
+        // 获取用户选中的文本
+        const selection = window.getSelection();
+        selectedText = selection.toString().trim();
+
+        // 如果有选中的文本，显示自定义菜单
+        if (selectedText) {
+          menu.style.display = "block";
+          menu.style.top = `${event.pageY}px`;
+          menu.style.left = `${event.pageX}px`;
+        } else {
+          // 如果没有选中文字，隐藏菜单
+          menu.style.display = "none";
+        }
+      });
+
+      // 隐藏菜单处理
+      document.addEventListener("click", function () {
+        menu.style.display = "none";
+      });
+
+      // 点击复制选项
+      document.getElementById("copy").addEventListener("click", function () {
+        if (selectedText) {
+          navigator.clipboard.writeText(selectedText).then(() => {
+            alert("已复制: " + selectedText);
+          });
+        }
+        menu.style.display = "none"; // 操作后隐藏菜单
+      });
+
+      // 点击搜索选项（跳转到搜索引擎）
+      document.getElementById("search").addEventListener("click", function () {
+        if (selectedText) {
+          const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(selectedText)}`;
+          window.open(searchUrl, "_blank");
+        }
+        menu.style.display = "none"; // 操作后隐藏菜单
+      });
+    </script>
+  </body>
+</html>
