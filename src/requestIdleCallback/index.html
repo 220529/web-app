@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let taskHandle = null;
+      //   let taskList = [
+      //     () => {
+      //       console.log("task1");
+      //     },
+      //     () => {
+      //       console.log("task2");
+      //     },
+      //     () => {
+      //       console.log("task3");
+      //     },
+      //   ];
+
+      const sleep = delay => {
+        for (let start = Date.now(); Date.now() - start <= delay; ) {}
+      };
+
+      let taskHandle = null;
+      let taskList = [
+        () => {
+          console.log("task1");
+          sleep(50);
+        },
+        () => {
+          console.log("task2");
+          sleep(50);
+        },
+        () => {
+          console.log("task3");
+          sleep(50);
+        },
+      ];
+
+      if (typeof requestIdleCallback === "undefined") {
+        window.requestIdleCallback = function (callback) {
+          // 使用 setTimeout 模拟空闲回调，延迟 1 毫秒执行
+          return setTimeout(function () {
+            const start = Date.now();
+            callback({
+              didTimeout: false,
+              timeRemaining: function () {
+                return Math.max(0, 50 - (Date.now() - start));
+              },
+            });
+          }, 1);
+        };
+
+        window.cancelIdleCallback = function (id) {
+          clearTimeout(id);
+        };
+      }
+
+      function runTaskQueue(deadline) {
+        console.log(`deadline: ${deadline.timeRemaining()}`);
+        while ((deadline.timeRemaining() > 0 || deadline.didTimeout) && taskList.length) {
+          let task = taskList.shift();
+          task();
+        }
+
+        if (taskList.length) {
+          taskHandle = requestIdleCallback(runTaskQueue, { timeout: 1000 });
+        } else {
+          taskHandle = 0;
+        }
+      }
+      const performUnit = deadline => {
+        console.log(deadline.timeRemaining(), deadline);
+        // requestIdleCallback(performUnit);
+      };
+      const handle = requestIdleCallback(runTaskQueue, { timeout: 1000 });
+      console.log("handle", handle);
+    </script>
+  </body>
+</html>
