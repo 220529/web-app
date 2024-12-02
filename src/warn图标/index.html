@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warning Icon</title>
+  <style>
+    /* 定义警告图标样式 */
+   .warning-icon {
+      width: 50px;
+      /* 根据需要调整大小 */
+      height: 50px;
+      background-color: orange;
+      border-radius: 50%;
+      position: relative;
+    }
+
+   .warning-icon::before {
+      content: "!";
+      font-size: 30px;
+      /* 根据图标大小调整字体大小 */
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="warning-icon"></div>
+</body>
+
+</html>
