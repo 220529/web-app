@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let json = "{\"id\":3251,\"title\":null,\"targetId\":3251,\"type\":51,\"adminId\":1302,\"area\":0,\"peopleNum\":null,\"houseSpace\":null,\"houseType\":6,\"fitType\":null,\"fitUse\":null,\"houseState1\":null,\"houseState2\":null,\"houseState3\":null,\"status\":1,\"data\":\"{\\\"fileId\\\":null,\\\"fitUse\\\":\\\"2025年02月\\\",\\\"id\\\":3251,\\\"order_number\\\":\\\"HTCWC2502171124837\\\",\\\"orderStatus\\\":1,\\\"customer\\\":{\\\"department\\\":\\\"北京城外城店\\\",\\\"departmentId\\\":2,\\\"designDepartment\\\":\\\"北京城外城店\\\",\\\"designDepartmentId\\\":2,\\\"designGroupName\\\":\\\"设计一组\\\",\\\"designGroupId\\\":54,\\\"designLeaderName\\\":\\\"张洪庆\\\",\\\"designerName\\\":\\\"哪吒\\\",\\\"designerId\\\":1302,\\\"saleDepartment\\\":\\\"\\\",\\\"saleDepartmentId\\\":\\\"\\\",\\\"saleGroupName\\\":\\\"无\\\",\\\"saleGroupId\\\":null,\\\"salerId\\\":null,\\\"salerName\\\":\\\"无\\\",\\\"noSalePersonName\\\":\\\"无\\\",\\\"name\\\":\\\"jun-1\\\",\\\"mobile\\\":\\\"15713857018\\\",\\\"id\\\":75353,\\\"customerChannel\\\":\\\"自拓\\\",\\\"customerSignType\\\":\\\"乐享家119800\\\",\\\"type\\\":847,\\\"area\\\":150},\\\"amount\\\":{\\\"designFee\\\":0,\\\"designPriceAmount\\\":0,\\\"signingAmount\\\":164750,\\\"contractTotalAmount\\\":1000000,\\\"contractTotalAmountRate\\\":6.0698,\\\"specialOfferAmount\\\":0,\\\"totalPrice\\\":164750,\\\"effectivePerformanceAmount\\\":164450,\\\"upstairsFee\\\":100,\\\"remoteFee\\\":200,\\\"refundAmount\\\":0,\\\"refundAmount401\\\":0,\\\"refundAmount402\\\":0,\\\"refundAmount403\\\":0},\\\"refundIds\\\":[],\\\"taskCount\\\":[{\\\"status\\\":2}],\\\"refundCount\\\":{\\\"1\\\":0,\\\"2\\\":0}}\",\"createdAt\":\"2025-02-17T07:28:38.000Z\",\"updatedAt\":\"2025-02-17T07:28:38.000Z\",\"user\":{\"id\":1302,\"name\":\"哪吒\"},\"order\":{\"id\":3251,\"number\":\"HTCWC2502171124837\",\"customerId\":75353,\"remote\":0,\"customer\":{\"id\":75353,\"name\":\"jun-1\",\"mobile\":\"15713857018\",\"companyId\":1}},\"number\":\"HTCWC2502171124837\",\"orderId\":3251,\"createTime\":\"2025-02-17 15:28:38\",\"customerName\":\"jun-1\",\"customerMobile\":\"15713857018\",\"customerId\":75353,\"adminName\":\"哪吒\",\"passName\":\"审核中……\",\"passTime\":\"---\",\"originRecordId\":332299,\"recordId\":null}"
+
+         json = JSON.parse(json);
+        json.data = JSON.parse(json.data);
+        console.log("json", json);
+    </script>
+</body>
+</html>
