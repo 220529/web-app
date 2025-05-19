@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const user = {
+        id: 1302,
+        name: "哪吒",
+        mobile: "13721722000",
+        roles: "3,9,11,105,32,63,129,64,12,5,6,76,10,75,97",
+        departmentId: "54",
+        outPerformanceCommission: 0,
+        filterAddRecords: [],
+        roleType: "designer",
+        idCard: "",
+        basicSalary: 2000,
+        performanceWage: 0,
+        performanceCommission: "25000.00",
+        bonus: 0,
+        backPay: 120,
+        absenceDeduction: 0,
+        otherDeduction: 240,
+        // grossPay: "26880.00",
+        socialSecurity: 0,
+        accumulationFund: 0,
+        tax1: 0,
+        tax2: 0,
+        // netPay: "0.00",
+        remark: "04月工资条",
+        department: "设计一组",
+        fitUse: "202504",
+        amount2: "0.00",
+      };
+      /**
+       * 薪资计算工具函数
+       * @param {Object} user - 包含薪资字段的用户对象
+       * @returns {Object} 包含应发工资(grossPay)和实发工资(netPay)的对象
+       */
+      /**
+       * 薪资计算工具函数（完全配置化版）
+       * @param {Object} user - 包含薪资字段的用户对象
+       * @returns {Object} 包含应发工资(grossPay)和实发工资(netPay)的对象
+       */
+      function calculateSalary(user) {
+        // 1. 计算规则配置（与业务逻辑完全解耦）
+        const CALC_RULES = {
+          grossPay: {
+            adds: ["basicSalary", "performanceWage", "performanceCommission", "bonus", "backPay"],
+            subs: ["absenceDeduction", "otherDeduction"],
+            isBase: true, // 标记为基准计算项
+          },
+          netPay: {
+            base: "grossPay", // 基于已计算的grossPay值
+            subs: ["socialSecurity", "accumulationFund", "tax1", "tax2"],
+          },
+        };
+
+        // 2. 安全数值转换
+        const toNumber = value => parseFloat(value) || 0;
+
+        // 3. 计算结果缓存
+        const results = {};
+
+        // 4. 计算引擎（自动处理依赖关系）
+        const calculate = type => {
+          if (results[type]) return results[type]; // 已计算过的直接返回
+
+          const rule = CALC_RULES[type];
+          let result = rule.base ? toNumber(calculate(rule.base)) : 0; // 递归解决依赖
+
+          // 处理累加项
+          if (rule.adds) {
+            result += rule.adds.reduce((sum, field) => sum + toNumber(user[field]), 0);
+          }
+
+          // 处理扣除项
+          if (rule.subs) {
+            result -= rule.subs.reduce((sum, field) => sum + toNumber(user[field]), 0);
+          }
+
+          results[type] = result.toFixed(2); // 缓存结果
+          return results[type];
+        };
+
+        // 5. 执行计算（自动按依赖顺序处理）
+        return {
+          grossPay: calculate("grossPay"),
+          netPay: calculate("netPay"),
+        };
+      }
+      // 计算结果
+      const result = calculateSalary(user);
+      console.log(result);
+    </script>
+  </body>
+</html>

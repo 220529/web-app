@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function formatToLocalDateString(dateInput) {
+        if (!dateInput) return null;
+
+        // 1. 转换输入为Date对象
+        let date;
+        if (typeof dateInput === "number" || /^\d+$/.test(dateInput)) {
+          const timestamp = parseInt(dateInput);
+          date =
+            timestamp < 10000000000
+              ? new Date(timestamp * 1000) // 秒级时间戳
+              : new Date(timestamp); // 毫秒级时间戳
+        } else {
+          date = new Date(dateInput);
+        }
+
+        // 2. 检查日期有效性
+        if (isNaN(date.getTime())) return null;
+
+        // 3. 获取本地时区信息（如 GMT+0800）
+        const timezoneOffset = -date.getTimezoneOffset() / 60;
+        const timezoneSign = timezoneOffset >= 0 ? "+" : "-";
+        const timezoneGMT = `GMT${timezoneSign}${Math.abs(timezoneOffset)
+          .toString()
+          .padStart(2, "0")}00`;
+
+        // 4. 手动拼接目标格式
+        const weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        const months = [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ];
+
+        const weekday = weekdays[date.getDay()];
+        const month = months[date.getMonth()];
+        const day = date.getDate().toString().padStart(2, " ");
+        const year = date.getFullYear();
+        const hours = date.getHours().toString().padStart(2, "0");
+        const minutes = date.getMinutes().toString().padStart(2, "0");
+        const seconds = date.getSeconds().toString().padStart(2, "0");
+
+        // 5. 组合成目标格式
+        return `${weekday} ${month} ${day} ${year} ${hours}:${minutes}:${seconds} ${timezoneGMT} (GMT${timezoneSign}${Math.abs(
+          timezoneOffset
+        )
+          .toString()
+          .padStart(2, "0")}:00)`;
+      }
+      const n = "1704384000";
+      const d = new Date(Number(n) * 1000).toLocaleString("zh-CN");
+      console.log("n1:", d);
+      console.log("n2:", formatToLocalDateString(n).toLocaleString("zh-CN"));
+
+      const dateStr = "2025-04-10T06:06:22.000Z";
+      const date = new Date(dateStr);
+
+      console.log(date.toISOString()); // "2025-04-10T06:06:22.000Z"（UTC）
+      console.log(date.toLocaleString("zh-CN")); // "2025/4/10 14:06:22"（UTC+8 时区，自动转换）
+    </script>
+  </body>
+</html>

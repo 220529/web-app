@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function cumulativeOrderAmount(params) {
+        const { rows, addRows, bills, rules, users } = params;
+        const stat = params.stat || {
+          store: {},
+          departments: {},
+          designers: {},
+        };
+        // 增项签单额
+        addRows?.forEach(row => {
+          const data = typeof row.data === "string" ? JSON.parse(row.data) : row.data;
+          const { customer, materials } = data;
+          syncLeaderAmount({
+            customer,
+            stat,
+            type: row.type,
+            houseType: row.houseType,
+            orderId: row.targetId,
+            materials: materials.filter(m => m.status === 2),
+          });
+        });
+        rows?.forEach(row => {
+          const data = typeof row.data === "string" ? JSON.parse(row.data) : row.data;
+          const { customer, amount } = data;
+          // 订金、合同款的实收金额
+          let paymentAmount = getRealAmount({
+            bill: bills[row.targetId],
+            types: [301, 302],
+          });
+          // 首期款比例 不足 30% 时，不计入个人签单额
+          if (paymentAmount / amount.signingAmount < 0.3) {
+            paymentAmount = 0;
+          }
+          console.log("paymentAmount", paymentAmount);
+
+          if (paymentAmount > 0) {
+            syncLeaderAmount({
+              customer,
+              amount: paymentAmount,
+              stat,
+              type: row.type,
+              houseType: row.houseType,
+              orderId: row.targetId,
+            });
+          }
+          // 提点是根据签单额算的，所以需要同步
+          if (rules && users) {
+            syncRatio({ stat, customer, rules, users });
+          }
+        });
+        return stat;
+      }
+      function getRealAmount({ bill, types }) {
+        if (!bill || types.length === 0) {
+          return 0;
+        }
+        let amount = 0;
+        const { payments, refunds } = bill;
+        types.forEach(type => {
+          amount += payments?.[type] || 0;
+          amount -= refunds?.[type] || 0;
+        });
+        return amount;
+      }
+      function syncLeaderAmount(params) {
+        const realAmount = +params.amount || 0;
+        const { customer, orderId, type, houseType, materials, isMaterial } = params;
+        const stat = params.stat || {
+          designers: {},
+          departments: {},
+          store: {},
+        };
+        const { designerId, designGroupId, departmentId } = customer;
+        stat.designers[designerId] = stat.designers[designerId] || {};
+        const designer = stat.designers[designerId];
+        designer[orderId] = designer[orderId] || {
+          amount: 0,
+          materials: [],
+        };
+        if (type === 54 && (houseType === 1 || houseType === 2)) {
+          materials?.forEach(material => {
+            const target = designer[orderId].materials.find(m => m.id == material.id);
+            if (!target) {
+              // const realAmount = material.paymentAmount;
+              const realAmount = material.paymentAmount - material.refundAmount;
+              designer[orderId].materials.push({
+                id: material.id,
+                amount: realAmount,
+              });
+              syncLeaderAmount({
+                customer,
+                amount: realAmount,
+                stat,
+                orderId,
+                isMaterial: true,
+              });
+            }
+          });
+        } else {
+          // 物料实收金额，不计入个人签单额，但会累加到个人总金额
+          if (!isMaterial) {
+            designer[orderId].amount = realAmount; // 设计师签单额
+          }
+          designer.total = (designer.total || 0) + realAmount;
+          // 部门签单额
+          stat.departments[designGroupId] = stat.departments[designGroupId] || {
+            total: 0,
+          };
+          stat.departments[designGroupId].total += realAmount;
+          // 门店签单额
+          stat.store[departmentId] = stat.store[departmentId] || { total: 0 };
+          stat.store[departmentId].total += realAmount;
+        }
+        return stat;
+      }
+      const json = {
+        code: 1,
+        data: {
+          name: "2025年03月 开工业绩确认 - 设计 ",
+          testData: {
+            departmentIds: [54],
+            rows: [
+              {
+                id: 333269,
+                title: "1_54,2_1302,3_1038",
+                type: 54,
+                adminId: 1291,
+                area: 0,
+                peopleNum: null,
+                houseSpace: null,
+                houseType: 3,
+                fitType: null,
+                fitUse: 202503,
+                houseState1: null,
+                houseState2: null,
+                houseState3: null,
+                status: 2,
+                data: '{"fileId":125,"id":3267,"order_number":"HTCWC2503041147549","orderStatus":1,"customer":{"companyId":1,"department":"北京城外城店","departmentId":2,"designDepartment":"北京城外城店","designDepartmentId":2,"designGroupName":"设计一组","designGroupId":54,"designLeaderName":"张洪庆","designerName":"哪吒","designerId":1302,"saleDepartment":"","saleDepartmentId":"","saleGroupName":"无","saleGroupId":null,"salerId":null,"salerName":"无","noSalePersonName":"无","name":"004","mobile":"15713857031","id":75373,"customerChannel":"自拓","customerSignType":"乐享家119800","type":847,"area":150},"action_records":[{"user_type":1,"month":"2025-03","confirm":true,"reason":"","createdAt":"2025-04-01T08:32:48.735Z"},{"user_type":2,"confirm":true,"reason":"","createdAt":"2025-04-01T08:32:48.735Z"}],"amount":{"designFee":20000,"designPriceAmount":0,"signingAmount":233453,"contractTotalAmount":-50000,"contractTotalAmountRate":-0.2141,"specialOfferAmount":1000,"totalPrice":232453.21556799999,"effectivePerformanceAmount":232453,"refundAmount":110000,"refundAmount401":50000,"refundAmount402":60000,"refundAmount403":0,"upstairsFee":1000,"remoteFee":400},"refundIds":[17035,17036],"taskCount":[{"status":2}],"refundCount":{"1":0,"2":0}}',
+                createdAt: "2025-04-01T08:32:48.000Z",
+                updatedAt: "2025-04-01T08:32:48.000Z",
+                targetId: 3267,
+                earliestBillCreatedAt: null,
+              },
+              {
+                id: 333267,
+                title: "1_54,2_1302,3_1038",
+                type: 54,
+                adminId: 1291,
+                area: 0,
+                peopleNum: null,
+                houseSpace: null,
+                houseType: 3,
+                fitType: null,
+                fitUse: 202503,
+                houseState1: null,
+                houseState2: null,
+                houseState3: null,
+                status: 2,
+                data: '{"fileId":125,"id":3276,"order_number":"HTCWC2503131054660","orderStatus":1,"customer":{"companyId":1,"department":"北京城外城店","departmentId":2,"designDepartment":"北京城外城店","designDepartmentId":2,"designGroupName":"设计一组","designGroupId":54,"designLeaderName":"张洪庆","designerName":"哪吒","designerId":1302,"saleDepartment":"","saleDepartmentId":"","saleGroupName":"无","saleGroupId":null,"salerId":null,"salerName":"无","noSalePersonName":"无","name":"006","mobile":"15713857036","id":75387,"customerChannel":"自拓","customerSignType":"乐享家119800","type":847,"area":200},"action_records":[{"user_type":1,"month":"2025-03","confirm":true,"reason":"","createdAt":"2025-04-01T08:06:23.817Z"},{"user_type":2,"confirm":true,"reason":"","createdAt":"2025-04-01T08:06:23.817Z"}],"amount":{"designFee":50000,"designPriceAmount":50000,"signingAmount":464919,"contractTotalAmount":150000,"contractTotalAmountRate":0.3226,"specialOfferAmount":10000,"totalPrice":454919.66400000005,"effectivePerformanceAmount":454919,"refundAmount":200000,"refundAmount401":0,"refundAmount402":200000,"refundAmount403":0,"upstairsFee":100,"remoteFee":400},"refundIds":[17063],"taskCount":[{"status":2}],"refundCount":{"1":0,"2":0}}',
+                createdAt: "2025-04-01T08:06:23.000Z",
+                updatedAt: "2025-04-01T08:06:23.000Z",
+                targetId: 3276,
+                earliestBillCreatedAt: null,
+              },
+            ],
+            bills: {
+              3267: {
+                paymentAmount: 210000,
+                refundAmount: 110000,
+                payments: {
+                  301: 150000,
+                  302: 60000,
+                },
+                refunds: {
+                  301: 50000,
+                  302: 60000,
+                },
+                types: {
+                  301: [
+                    {
+                      id: 16903,
+                      amount: 50000,
+                      payments: [
+                        {
+                          id: 59,
+                          refundBillId: 17036,
+                          paymentBillId: 16903,
+                          refundAmount: 50000,
+                        },
+                      ],
+                      refundMaterials: [],
+                    },
+                    {
+                      id: 17037,
+                      amount: 100000,
+                      payments: [],
+                      refundMaterials: [],
+                    },
+                  ],
+                  302: [
+                    {
+                      id: 16904,
+                      amount: 60000,
+                      payments: [
+                        {
+                          id: 58,
+                          refundBillId: 17035,
+                          paymentBillId: 16904,
+                          refundAmount: 60000,
+                        },
+                      ],
+                      refundMaterials: [],
+                    },
+                  ],
+                },
+              },
+              3276: {
+                paymentAmount: 510000,
+                refundAmount: 200000,
+                payments: {
+                  301: 160000,
+                  302: 350000,
+                },
+                refunds: {
+                  302: 200000,
+                },
+                types: {
+                  301: [
+                    {
+                      id: 17399,
+                      amount: 160000,
+                      payments: [],
+                      refundMaterials: [],
+                    },
+                  ],
+                  302: [
+                    {
+                      id: 17050,
+                      amount: 200000,
+                      payments: [
+                        {
+                          id: 60,
+                          refundBillId: 17063,
+                          paymentBillId: 17050,
+                          refundAmount: 200000,
+                        },
+                      ],
+                      refundMaterials: [],
+                    },
+                    {
+                      id: 17395,
+                      amount: 150000,
+                      payments: [],
+                      refundMaterials: [],
+                    },
+                  ],
+                },
+              },
+            },
+            orderAmounts: {
+              store: {},
+              departments: {},
+              designers: {
+                1302: {
+                  3267: {
+                    amount: 0,
+                    materials: [],
+                  },
+                  3276: {
+                    amount: 0,
+                    materials: [],
+                  },
+                },
+              },
+            },
+          },
+        },
+        message: "请求成功",
+        testVersion: "v1.0.6",
+        time: "42ms",
+        env: "test",
+      };
+      const bills = json.data.testData.bills;
+      const rows = json.data.testData.rows;
+      const orderAmounts = cumulativeOrderAmount({
+        rows,
+        addRows: [],
+        bills,
+      });
+      console.log("orderAmounts", orderAmounts);
+    </script>
+  </body>
+</html>

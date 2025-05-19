@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const json = { a: 1, b: null };
+      const { a, b = 0, c = 0, d } = json;
+      console.log("a:", a);
+      console.log("b:", b);
+      console.log("c:", c);
+      console.log("d:", d);
+    </script>
+  </body>
+</html>

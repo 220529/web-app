@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const depsRes = [
+        {
+          fitUse: 202504,
+          ids: [277],
+        },
+        {
+          fitUse: 202503,
+          ids: [54],
+        },
+      ];
+      const deps = depsRes.reduce((acc, cur) => {
+        acc[cur.fitUse] = cur.ids;
+        return acc;
+      }, {});
+      console.log(deps);
+    </script>
+  </body>
+</html>

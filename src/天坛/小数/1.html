@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function decimalToPercent(decimal, { precise = true, maxDecimals = 2 } = {}) {
+        const percent = decimal * 100;
+        return (
+          (precise
+            ? Math.floor(percent * 10 ** maxDecimals) / 10 ** maxDecimals // 使用 Math.floor 截断
+            : Math.round(percent)
+          ).toFixed(maxDecimals) + "%"
+        );
+      }
+
+      // 测试用例
+      console.log(decimalToPercent(0.29999999)); // "29.99%"（截断）
+      console.log(decimalToPercent(0.29999999, { precise: false })); // "30%"（四舍五入）
+
+      /**
+       * 精确判断a是否大于等于b（先放大再比较）
+       * @param {number} a - 要比较的值
+       * @param {number} b - 基准值
+       * @param {number} [decimalPlaces=10] - 放大小数位数
+       * @returns {boolean} a是否大于等于b
+       */
+      function isGreaterThanOrEqual(a, b, decimalPlaces = 10) {
+        const factor = 10 ** decimalPlaces;
+        const aScaled = Math.round(a * factor);
+        const bScaled = Math.round(b * factor);
+        console.log(a * factor, b * factor, aScaled, bScaled);
+        return aScaled >= bScaled;
+      }
+
+      // 使用示例
+      console.log(isGreaterThanOrEqual(0.1 + 0.2, 0.3)); // true
+      console.log(isGreaterThanOrEqual(0.29999999999999999, 0.3)); // true
+      console.log(isGreaterThanOrEqual(0.2999999999999999, 0.3)); // false
+    </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function normalizeAmount(amount) {
+        // 处理空值（null、undefined、空字符串等）
+        if (amount === null || amount === undefined || amount === "") {
+          return "0.00";
+        }
+
+        // 如果是字符串，去除可能的前后空格
+        if (typeof amount === "string") {
+          amount = amount.trim();
+          // 如果去除空格后为空字符串
+          if (amount === "") {
+            return "0.00";
+          }
+        }
+
+        // 尝试转换为数字
+        const number = Number(amount);
+
+        // 如果转换结果是NaN（不是有效数字）
+        if (isNaN(number)) {
+          return "0.00";
+        }
+
+        // 四舍五入到2位小数并转换为字符串
+        const formatted = number.toFixed(2);
+
+        return formatted;
+      }
+
+      // 测试用例
+      console.log(normalizeAmount(123)); // "123.00"
+      console.log(normalizeAmount("123.456")); // "123.46"
+      console.log(normalizeAmount("123")); // "123.00"
+      console.log(normalizeAmount("")); // "0.00"
+      console.log(normalizeAmount(null)); // "0.00"
+      console.log(normalizeAmount(undefined)); // "0.00"
+      console.log(normalizeAmount("abc")); // "0.00"
+      console.log(normalizeAmount(" 123.456 ")); // "123.46"
+    </script>
+  </body>
+</html>

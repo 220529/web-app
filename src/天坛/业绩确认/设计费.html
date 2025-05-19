@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const json = {
+        code: 1,
+        data: {
+          deps: {
+            202501: [277],
+            202504: [277],
+          },
+          rows: [
+            {
+              id: 333697,
+              title: "1_277,2_1304,3_1156",
+              type: 54,
+              adminId: 1291,
+              area: 0,
+              peopleNum: null,
+              houseSpace: null,
+              houseType: 4,
+              fitType: 1,
+              fitUse: 202504,
+              houseState1: null,
+              houseState2: null,
+              houseState3: null,
+              status: 2,
+              data: '{"fileId":126,"id":3291,"order_number":"HTCWC2504171541487","orderStatus":1,"customer":{"companyId":1,"department":"北京城外城店","departmentId":2,"designDepartment":"北京城外城店","designDepartmentId":2,"designGroupName":"设计五部","designGroupId":277,"designLeaderName":"刘元俊","designerName":"400","designerId":1304,"saleDepartment":"","saleDepartmentId":"","saleGroupName":"无","saleGroupId":null,"salerId":null,"salerName":"无","noSalePersonName":"无","name":"100","mobile":"15713857099","id":75403,"customerChannel":"自拓","customerSignType":"乐享家119800","type":847,"area":180},"action_records":[{"user_type":1,"month":"2025-04","confirm":true,"reason":"","createdAt":"2025-04-19T03:07:04.115Z"},{"user_type":2,"confirm":true,"reason":"","createdAt":"2025-04-19T03:07:04.115Z"}],"amount":{"designFee":10000,"designPriceAmount":10000,"designPriceAmountTime":"2025-04-17T07:58:48.000Z","signingAmount":492336,"contractTotalAmount":200000,"contractTotalAmountRate":0.4062,"specialOfferAmount":1000,"totalPrice":491336.524152,"refundAmount":0,"refundAmount401":0,"refundAmount402":0,"refundAmount403":0},"refundIds":[],"refundCount":{"1":0,"2":0},"designRemark":"","designTichengAmount":{"202504":{"ss_je":"300000","td":50,"ffb":25,"tc":5000,"tc_hf":3750,"tc_sf":1250,"is_started":"是"}},"designLeaderTichengAmount":{"202504":{"td":50,"tc":5000}},"fitType":1}',
+              createdAt: "2025-04-19T03:07:04.000Z",
+              updatedAt: "2025-04-19T03:07:24.000Z",
+              targetId: 3291,
+            },
+            {
+              id: 334059,
+              title: "1_277,2_1304,3_1156",
+              type: 54,
+              adminId: 1291,
+              area: 0,
+              peopleNum: null,
+              houseSpace: null,
+              houseType: 4,
+              fitType: null,
+              fitUse: 202501,
+              houseState1: null,
+              houseState2: null,
+              houseState3: null,
+              status: 2,
+              data: '{"fileId":128,"id":3315,"order_number":"HTCWC2504241113388","orderStatus":1,"customer":{"companyId":1,"department":"北京城外城店","departmentId":2,"designDepartment":"北京城外城店","designDepartmentId":2,"designGroupName":"设计五部","designGroupId":277,"designLeaderName":"刘元俊","designerName":"00000001","designerId":1304,"saleDepartment":"","saleDepartmentId":"","saleGroupName":"无","saleGroupId":null,"salerId":null,"salerName":"无","noSalePersonName":"无","name":"0101","mobile":"15713850420","id":75428,"customerChannel":"自拓","customerSignType":"乐享家119800","type":847,"area":200},"action_records":[{"user_type":1,"month":"2025-03","confirm":true,"reason":"","createdAt":"2025-04-26T02:50:30.672Z"},{"user_type":2,"confirm":true,"reason":"","createdAt":"2025-04-26T02:50:30.672Z"}],"amount":{"designFee":20000,"designPriceAmount":20000,"designPriceAmountTime":"2025-04-25T03:35:29.000Z","signingAmount":467175,"contractTotalAmount":150000,"contractTotalAmountRate":0.321,"specialOfferAmount":11000,"totalPrice":456175.58264,"refundAmount":0,"refundAmount401":0,"refundAmount402":0,"refundAmount403":0},"refundIds":[],"refundCount":{"1":0,"2":0}}',
+              createdAt: "2025-04-26T02:50:30.000Z",
+              updatedAt: "2025-04-26T02:50:30.000Z",
+              targetId: 3315,
+            },
+          ],
+          isConfirm: false,
+        },
+        message: "请求成功",
+        testVersion: "v1.0.6",
+        time: "19ms",
+        env: "test",
+      };
+      const { deps, rows, isConfirm } = json.data;
+      console.log("deps:", deps);
+      console.log("rows:", rows);
+      const a = rows.filter(v => {
+        const data = JSON.parse(v.data || "{}") || {};
+        const dId1 = data?.customer.designGroupId;
+        const departmentIds = deps[v.fitUse]?.ids || [];
+        console.log("departmentIds", deps[v.fitUse], departmentIds);
+        console.log("dId1", dId1);
+        let passed = true;
+        if (dId1 && !departmentIds.includes(+dId1)) passed = false;
+        return passed;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>B 域名页面</title>
+  </head>
+  <body>
+    <h1>B 域名页面</h1>
+    <button id="sendToA">发送消息到 A</button>
+    <div id="messagesFromA"></div>
+
+    <script>
+      const sendToA = document.getElementById("sendToA");
+      const messagesFromA = document.getElementById("messagesFromA");
+
+      // 监听来自 a 域名的消息
+      window.addEventListener("message", function (event) {
+        // 安全起见，检查来源
+        if (event.origin === "http://localhost:7101") {
+          console.log("B 收到来自 A 的消息:", event.data);
+          messagesFromA.innerHTML += `<p>${event.data}</p>`;
+
+          // 可选：回复消息
+          event.source.postMessage("B 收到了你的消息: " + event.data, event.origin);
+        }
+      });
+
+      // 发送消息到 A
+      sendToA.addEventListener("click", function () {
+        const message = "来自 B 的消息: " + Date.now();
+        window.parent.postMessage(message, "*");
+        // window.parent.postMessage(message, "http://localhost:7101");
+      });
+    </script>
+  </body>
+</html>

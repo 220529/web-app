@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const json = {
+        data: {
+          type: "component",
+          runOnSaveId: 67,
+          runOnSaveKey: "ugvezztxlo9eq9ts",
+          name: "甘特图，监理验收数据",
+          updateTime: "2024-11-30 19:52:33",
+          flows: { initData: { flowId: "rpme7x5h0js2uxck", propsParamsRequestKey: ["id", "row"] } },
+          config: { commonParams: { componentName: "supervisorCheckNodes" } },
+        },
+        params: {
+          data: '{"id":8127,"configData":{"id":8127,"pageId":67,"name":"大大大大大"}}',
+          configData: { id: 8127, pageId: 67, name: "大大大大大" },
+          row: '{"data":"{\\"id\\":8127,\\"configData\\":{\\"id\\":8127,\\"pageId\\":67,\\"name\\":\\"大大大大大\\"}}","configData":{"id":8127,"pageId":67,"name":"大大大大大"}}',
+        },
+      };
+      const json2 = {
+        data: {
+          type: "component",
+          runOnSaveId: 67,
+          runOnSaveKey: "ugvezztxlo9eq9ts",
+          name: "甘特图，监理验收数据",
+          updateTime: "2024-11-30 19:52:33",
+          flows: { initData: { flowId: "rpme7x5h0js2uxck", propsParamsRequestKey: ["id", "row"] } },
+          config: { commonParams: { componentName: "supervisorCheckNodes" } },
+        },
+        params: {
+          id: 8127,
+          parentId: 8126,
+          parentName: "中期验收",
+          configId: 1,
+          parentConfigId: 18,
+          holidayWork: false,
+          ignoreStop: false,
+          pageId: 67,
+          kind: 3,
+          name: "监理中期验收",
+          adminId: 1259,
+          adminName: "杨业",
+          roleType: "supervisor",
+          warningDay: 0,
+          delayDay: 0,
+          totalDay: 2,
+          startDate: "2025-05-20",
+          endDate: "2025-05-22",
+          startTime: null,
+          endTime: null,
+          stopDays: [],
+          color: "#aaa",
+          explainText: "",
+          warningText: "",
+          delayText: "",
+          checkNodes: [],
+          chooseClass: [378, 367],
+          status: 0,
+          data: '{"configData":{"id":1,"name":"监理中期验收","totalDay":2,"warningDay":0,"roleType":"supervisor","handleType":"checkSupervisorAcceptanceDoneByNodeClass","pageId":67,"chooseClass":[378,367],"startDay":0,"endDay":0,"isStartAfterPreNode":false,"turnOffSendingNotification":false,"holidayWork":false,"ignoreStop":false,"startText":"","warningText":"","delayText":"","explainText":""},"pid":18}',
+          configData: {
+            id: 1,
+            name: "监理中期验收",
+            totalDay: 2,
+            warningDay: 0,
+            roleType: "supervisor",
+            handleType: "checkSupervisorAcceptanceDoneByNodeClass",
+            pageId: 67,
+            chooseClass: [378, 367],
+            startDay: 0,
+            endDay: 0,
+            isStartAfterPreNode: false,
+            turnOffSendingNotification: false,
+            holidayWork: false,
+            ignoreStop: false,
+            startText: "",
+            warningText: "",
+            delayText: "",
+            explainText: "",
+          },
+          row: '{"id":8127,"parentId":8126,"parentName":"中期验收","configId":1,"parentConfigId":18,"holidayWork":false,"ignoreStop":false,"pageId":67,"kind":3,"name":"监理中期验收","adminId":1259,"adminName":"杨业","roleType":"supervisor","warningDay":0,"delayDay":0,"totalDay":2,"startDate":"2025-05-20","endDate":"2025-05-22","startTime":null,"endTime":null,"stopDays":[],"color":"#aaa","explainText":"","warningText":"","delayText":"","checkNodes":[],"chooseClass":[378,367],"status":0,"data":"{\\"configData\\":{\\"id\\":1,\\"name\\":\\"监理中期验收\\",\\"totalDay\\":2,\\"warningDay\\":0,\\"roleType\\":\\"supervisor\\",\\"handleType\\":\\"checkSupervisorAcceptanceDoneByNodeClass\\",\\"pageId\\":67,\\"chooseClass\\":[378,367],\\"startDay\\":0,\\"endDay\\":0,\\"isStartAfterPreNode\\":false,\\"turnOffSendingNotification\\":false,\\"holidayWork\\":false,\\"ignoreStop\\":false,\\"startText\\":\\"\\",\\"warningText\\":\\"\\",\\"delayText\\":\\"\\",\\"explainText\\":\\"\\"},\\"pid\\":18}","configData":{"id":1,"name":"监理中期验收","totalDay":2,"warningDay":0,"roleType":"supervisor","handleType":"checkSupervisorAcceptanceDoneByNodeClass","pageId":67,"chooseClass":[378,367],"startDay":0,"endDay":0,"isStartAfterPreNode":false,"turnOffSendingNotification":false,"holidayWork":false,"ignoreStop":false,"startText":"","warningText":"","delayText":"","explainText":""}}',
+        },
+      };
+      const json3 =
+        '{"configData":{"id":1,"name":"监理中期验收","totalDay":2,"warningDay":0,"roleType":"supervisor","handleType":"checkSupervisorAcceptanceDoneByNodeClass","pageId":67,"chooseClass":[378,367],"startDay":0,"endDay":0,"isStartAfterPreNode":false,"turnOffSendingNotification":false,"holidayWork":false,"ignoreStop":false,"startText":"","warningText":"","delayText":"","explainText":""},"pid":18}';
+      const json4 =
+        '{"id":8127,"parentId":8126,"parentName":"中期验收","configId":1,"parentConfigId":18,"holidayWork":false,"ignoreStop":false,"pageId":67,"kind":3,"name":"监理中期验收","adminId":1259,"adminName":"杨业","roleType":"supervisor","warningDay":0,"delayDay":0,"totalDay":2,"startDate":"2025-05-20","endDate":"2025-05-22","startTime":null,"endTime":null,"stopDays":[],"color":"#aaa","explainText":"","warningText":"","delayText":"","checkNodes":[],"chooseClass":[378,367],"status":0,"data":"{\\"configData\\":{\\"id\\":1,\\"name\\":\\"监理中期验收\\",\\"totalDay\\":2,\\"warningDay\\":0,\\"roleType\\":\\"supervisor\\",\\"handleType\\":\\"checkSupervisorAcceptanceDoneByNodeClass\\",\\"pageId\\":67,\\"chooseClass\\":[378,367],\\"startDay\\":0,\\"endDay\\":0,\\"isStartAfterPreNode\\":false,\\"turnOffSendingNotification\\":false,\\"holidayWork\\":false,\\"ignoreStop\\":false,\\"startText\\":\\"\\",\\"warningText\\":\\"\\",\\"delayText\\":\\"\\",\\"explainText\\":\\"\\"},\\"pid\\":18}","configData":{"id":1,"name":"监理中期验收","totalDay":2,"warningDay":0,"roleType":"supervisor","handleType":"checkSupervisorAcceptanceDoneByNodeClass","pageId":67,"chooseClass":[378,367],"startDay":0,"endDay":0,"isStartAfterPreNode":false,"turnOffSendingNotification":false,"holidayWork":false,"ignoreStop":false,"startText":"","warningText":"","delayText":"","explainText":""}}';
+    </script>
+  </body>
+</html>

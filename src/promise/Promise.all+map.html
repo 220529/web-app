@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 模拟一个异步函数，延迟随机时间后返回结果
+      const asyncTask = (item, delay) => {
+        return new Promise(resolve => {
+          setTimeout(() => {
+            console.log(`处理完成: ${item} (延迟 ${delay}ms)`);
+            resolve(`结果-${item}`);
+          }, delay);
+        });
+      };
+
+      // 测试数据
+      const items = ["A", "B", "C", "D"];
+
+      // 模拟每个项目不同的延迟时间 (100-1000ms随机)
+      const delays = items.map(() => Math.floor(Math.random() * 900) + 100);
+
+      // 使用 Promise.all + map 并行处理
+      async function processParallel() {
+        console.log("开始并行处理...");
+        const startTime = Date.now();
+
+        // 使用 map 创建 Promise 数组
+        const promises = items.map((item, index) => asyncTask(item, delays[index]));
+
+        // 等待所有 Promise 完成
+        const results = await Promise.all(promises);
+
+        console.log("所有任务完成结果:", results);
+        console.log(`总耗时: ${Date.now() - startTime}ms`);
+      }
+
+      // 执行测试
+      processParallel();
+
+      // 对比: 顺序处理的版本
+      async function processSequential() {
+        console.log("\n开始顺序处理...");
+        const startTime = Date.now();
+        const results = [];
+
+        for (const [index, item] of items.entries()) {
+          const result = await asyncTask(item, delays[index]);
+          results.push(result);
+        }
+
+        console.log("所有任务完成结果:", results);
+        console.log(`总耗时: ${Date.now() - startTime}ms`);
+      }
+
+      // 执行顺序测试
+      //   processSequential();
+    </script>
+  </body>
+</html>

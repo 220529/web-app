@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const rows = [
+        {
+          id: 17478,
+          number: "KK250409189896429",
+          targetId: 3276,
+          type: 6052,
+          kind: 838,
+          adminId: 1291,
+          auditor: null,
+          amount: 40,
+          sendId: 1302,
+          data: {
+            roleType: "designer",
+            adminName: "张毓",
+            companyId: 1,
+            department: "设计一组",
+          },
+          time: "2025-04-09T07:07:36.000Z",
+          date: null,
+          status: 1,
+          remarks: "iu",
+          createdAt: "2025-04-09T07:07:36.000Z",
+          updatedAt: "2025-04-09T08:13:13.000Z",
+          name: "哪吒",
+          updateTime: "2025-04-09T08:13:13.000Z",
+          adminName: "张毓",
+          department: "设计一组",
+          kindName: "业绩扣款",
+          roleTypeStr: "设计师",
+        },
+        {
+          id: 17712,
+          number: "KK250417131777640",
+          targetId: 3276,
+          type: 6052,
+          kind: 838,
+          adminId: 1291,
+          auditor: null,
+          amount: 200,
+          sendId: 1302,
+          data: {
+            roleType: "designer",
+            adminName: "张毓",
+            companyId: 1,
+            department: "设计一组",
+          },
+          time: "2025-04-17T07:19:38.000Z",
+          date: null,
+          status: 1,
+          remarks: "100",
+          createdAt: "2025-04-17T07:19:38.000Z",
+          updatedAt: "2025-04-17T07:19:44.000Z",
+          name: "哪吒",
+          updateTime: "2025-04-17T07:19:44.000Z",
+          adminName: "张毓",
+          department: "设计一组",
+          kindName: "业绩扣款",
+          roleTypeStr: "设计师",
+        },
+      ];
+      const a = rows.reduce((acc, cur) => {
+        return acc + cur.amount;
+      }, 0);
+      console.log("a", a);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /**
+       * 截取指定位数小数后比较a是否大于等于b
+       * @param {number} a - 要比较的值
+       * @param {number} b - 基准值
+       * @param {Object} [options] - 配置选项
+       * @param {number} [options.decimalPlaces=4] - 要截取的小数位数（默认4位）
+       * @param {boolean} [options.round=false] - 是否四舍五入而非截断（默认false）
+       * @returns {boolean} a是否大于等于b
+       */
+      function isGteWithPrecision(a, b, { decimalPlaces = 4, round = false } = {}) {
+        console.log(a, b, decimalPlaces, round);
+        // 验证输入
+        if (typeof a !== "number" || typeof b !== "number" || isNaN(a) || isNaN(b)) {
+          return false;
+        }
+
+        // 计算放大因子
+        const factor = 10 ** decimalPlaces;
+
+        // 根据配置选择截断或四舍五入
+        const adjustFn = round ? Math.round : Math.floor;
+
+        // 调整数值精度
+        const adjustA = adjustFn(a * factor) / factor;
+        const adjustB = adjustFn(b * factor) / factor;
+
+        console.log(a, b, a * factor, b * factor);
+        console.log(adjustA, adjustB);
+
+        return adjustA >= adjustB;
+      }
+      // 默认使用截断4位小数
+      console.log(isGteWithPrecision(0.29999999999999999, 0.3)); // false (0.2999 >= 0.3000)
+      //   console.log(isGteWithPrecision(0.3000001, 0.3));
+    </script>
+  </body>
+</html>

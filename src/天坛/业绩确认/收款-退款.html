@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const json = {
+        3260: {
+          paymentAmount: 276000,
+          refundAmount: 0,
+          payments: {
+            301: 270000,
+            302: 6000,
+          },
+          refunds: {},
+          types: {
+            301: [
+              {
+                id: 16848,
+                amount: 10000,
+                payments: [],
+                refundMaterials: [],
+              },
+              {
+                id: 17058,
+                amount: 200000,
+                payments: [],
+                refundMaterials: [],
+              },
+              {
+                id: 17066,
+                amount: 60000,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+            302: [
+              {
+                id: 16849,
+                amount: 6000,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+          },
+        },
+        3261: {
+          paymentAmount: 356915,
+          refundAmount: 0,
+          payments: {
+            302: 120000,
+            306: 236915,
+          },
+          refunds: {},
+          types: {
+            302: [
+              {
+                id: 16852,
+                amount: 120000,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+            306: [
+              {
+                id: 16966,
+                amount: 39615,
+                payments: [],
+                refundMaterials: [],
+              },
+              {
+                id: 16995,
+                amount: 197300,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+          },
+        },
+        3267: {
+          paymentAmount: 210000,
+          refundAmount: 110000,
+          payments: {
+            301: 150000,
+            302: 60000,
+          },
+          refunds: {
+            301: 50000,
+            302: 60000,
+          },
+          types: {
+            301: [
+              {
+                id: 16903,
+                amount: 50000,
+                payments: [
+                  {
+                    id: 59,
+                    refundBillId: 17036,
+                    paymentBillId: 16903,
+                    refundAmount: 50000,
+                  },
+                ],
+                refundMaterials: [],
+              },
+              {
+                id: 17037,
+                amount: 100000,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+            302: [
+              {
+                id: 16904,
+                amount: 60000,
+                payments: [
+                  {
+                    id: 58,
+                    refundBillId: 17035,
+                    paymentBillId: 16904,
+                    refundAmount: 60000,
+                  },
+                ],
+                refundMaterials: [],
+              },
+            ],
+          },
+        },
+        3273: {
+          paymentAmount: 373280,
+          refundAmount: 0,
+          payments: {
+            301: 100000,
+            302: 50000,
+            306: 223280,
+          },
+          refunds: {},
+          types: {
+            301: [
+              {
+                id: 16989,
+                amount: 100000,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+            302: [
+              {
+                id: 17057,
+                amount: 50000,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+            306: [
+              {
+                id: 17055,
+                amount: 223280,
+                payments: [],
+                refundMaterials: [],
+              },
+            ],
+          },
+        },
+        3276: {
+          paymentAmount: 397300,
+          refundAmount: 326000,
+          payments: {
+            302: 200000,
+            306: 197300,
+          },
+          refunds: {
+            302: 200000,
+            306: 126000,
+          },
+          types: {
+            302: [
+              {
+                id: 17050,
+                amount: 200000,
+                payments: [
+                  {
+                    id: 60,
+                    refundBillId: 17063,
+                    paymentBillId: 17050,
+                    refundAmount: 200000,
+                  },
+                ],
+                refundMaterials: [],
+              },
+            ],
+            306: [
+              {
+                id: 17052,
+                amount: 197300,
+                payments: [
+                  {
+                    id: 62,
+                    refundBillId: 17089,
+                    paymentBillId: 17052,
+                    refundAmount: 126000,
+                  },
+                ],
+                refundMaterials: [
+                  {
+                    id: 364,
+                    type: 2,
+                    amount: 126000,
+                    billId: 17089,
+                    materialId: 31585,
+                  },
+                ],
+              },
+            ],
+          },
+        },
+      };
+      function calculateAmounts({ bills, orderId, types, materialId = null }) {
+        // 初始化结果
+        const result = {
+          balance: 0,
+          payment: 0,
+          refund: 0,
+        };
+
+        // 检查订单是否存在
+        const order = bills[orderId];
+        if (!order) {
+          console.error(`订单 ${orderId} 不存在`);
+          return result;
+        }
+
+        // 定义物料类型
+        const materialTypes = [305, 306];
+
+        // 遍历传入的 types
+        types.forEach(type => {
+          // 检查 type 是否存在
+          if (!order.types[type]) {
+            // console.warn(`订单 ${orderId} 中不存在类型 ${type}`);
+            return;
+          }
+
+          // 处理普通类型（301、302、303、304）
+          if (!materialTypes.includes(type)) {
+            // 累加收款金额
+            result.payment += order.payments[type] || 0;
+            // 累加退款金额
+            result.refund += order.refunds[type] || 0;
+          }
+          // 处理物料类型（305、306）
+          else {
+            // 检查是否传入了 materialId
+            if (!materialId) {
+              console.warn(`类型 ${type} 需要传入 materialId`);
+              return;
+            }
+
+            // 遍历物料类型的退款记录
+            order.types[type].forEach(item => {
+              item.refundMaterials.forEach(material => {
+                // 如果 materialId 匹配，累加退款金额
+                if (material.materialId === materialId) {
+                  result.refund += material.amount;
+                }
+              });
+            });
+
+            // 累加物料类型的收款金额
+            result.payment += order.payments[type] || 0;
+          }
+        });
+
+        // 计算实收金额
+        result.balance = result.payment - result.refund;
+
+        return result;
+      }
+      console.log(
+        "物料：",
+        calculateAmounts({ bills: json, orderId: 3276, types: [306], materialId: 31585 })
+      );
+    </script>
+  </body>
+</html>

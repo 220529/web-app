@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      my-component::part(my-button) {
+        font-weight: bold;
+        color: red !important;
+      }
+    </style>
+  </head>
+  <body>
+    <button>外部按钮</button>
+    <my-component></my-component>
+
+    <script>
+      class MyComponent extends HTMLElement {
+        constructor() {
+          super();
+          const shadow = this.attachShadow({ mode: "open" });
+          shadow.innerHTML = `
+        <style>
+          button { color: blue; } /* 仅对组件内部的 button 生效 */
+        </style>
+        <button part="my-button">组件内部的按钮</button> <!-- 添加 part 属性 -->
+      `;
+        }
+      }
+      customElements.define("my-component", MyComponent);
+      const component = document.querySelector("my-component button");
+      console.log("component.shadowRoot:", component);
+      const internalButton = document
+        .querySelector("my-component")
+        .shadowRoot.querySelector("button"); // 正确方式
+      console.log(internalButton); // <button>组件内部的按钮</button>
+    </script>
+  </body>
+</html>

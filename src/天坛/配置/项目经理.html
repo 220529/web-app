@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const json =
+        '{"id":332209,"title":"杭州_1099套餐(标)","targetId":1,"periods":[{"name":"首期","items":[{"name":"水路验收","icon":4483},{"name":"电路验收","icon":4482}]},{"name":"中期","items":[{"name":"中期验收","icon":4481}]},{"name":"尾期","items":[{"name":"竣工验收","icon":4479}]}],"houseType":[1,2],"products":[3,2,1],"areas":[{"min":0,"max":70,"price":0,"id":null},{"min":70,"max":9999,"price":470,"id":null}],"formulas":[{"name":"首期","config":{"formula":"MAX({SigningArea},{MinSettlementArea}) * {SettlementUnitPrice} * 0.15 + ({OldHouseDemolitionSubsidy} * 0.4)","formatFormula":"MAX(签单面积,起结面积) * 结算单价 * 0.15 + (老房拆除补助 * 0.4)"}},{"name":"中期","config":{"formula":"MAX({SigningArea},{MinSettlementArea}) * {SettlementUnitPrice} * 0.3 + ({OldHouseDemolitionSubsidy} * 0.3) + {AdditionalAmount} - {ReduceAmount}","formatFormula":"MAX(签单面积,起结面积) * 结算单价 * 0.3 + (老房拆除补助 * 0.3) + 增项金额 - 减项"}},{"name":"尾期","config":{"formula":"(MAX({SigningArea},{MinSettlementArea}) * {SettlementUnitPrice} * 0.55) + ({OldHouseDemolitionSubsidy} * 0.3) - {Deduction} - {AuxiliaryMaterialCosts} + {SupplementaryPayment} + {AdditionalAmount} - {ReduceAmount}","formatFormula":"(MAX(签单面积,起结面积) * 结算单价 * 0.55) + (老房拆除补助 * 0.3) - 扣款 - 基材费 + 补款 + 增项金额 - 减项"}}]}';
+      const obj = JSON.parse(json);
+      console.log(obj);
+      const json2 =
+        '{"id":-1,"title":"杭州_1099套餐(标)","targetId":-1,"shops":[1],"designer":{"isPerformanceTotalRule":true,"performanceTotalRules":[{"min":0,"max":30,"percent":3},{"min":30,"max":50,"percent":4}],"isEnableOther":true,"otherRules":{"1":{"percent":0,"isAcc":true,"minAmount":-1},"2":{"percent":0,"isAcc":true,"minAmount":-1},"3":{"percent":0,"isAcc":true,"minAmount":-1},"4":{"percent":0,"isAcc":true,"minAmount":0}},"isEnableDesignFeeRule":true,"designFeeRules":[{"min":0,"max":999999999,"percent":0}],"isEnableOut":true,"outRules":[{"classId":0,"className":"","brandId":0,"brandName":"","percent":0,"amount":0,"type":"percent","_X_ROW_KEY":"row_400"}],"isEnableDefaultOut":true,"defaultOutConfig":{"min":0,"max":0,"classId":0,"className":"","brandId":0,"brandName":"","percent":0,"amount":0,"type":"percent"}},"designLeader":{"isPerformanceTotalRule":true,"performanceTotalRules":[{"min":0,"max":30,"percent":3}],"isEnableOther":true,"otherRules":{"count":5,"addCount":1,"amount":30},"isEnableDesignFeeRule":true,"designFeeRules":[{"min":0,"max":999999999,"percent":0}],"isEnableOut":true,"outRules":[{"min":0,"max":999999999,"percent":0,"type":"percent","amount":0,"classId":-1,"className":"","brandId":-1,"brandName":""}],"isEnableDefaultOut":true,"defaultOutConfig":{"min":0,"max":0,"classId":0,"className":"","brandId":0,"brandName":"","percent":0,"amount":0,"type":"percent"}},"saler":{"isPerformanceTotalRule":true,"performanceTotalRules":[{"min":0,"max":30,"percent":3}]},"saleLeader":{"isPerformanceTotalRule":true,"performanceTotalRules":[{"min":0,"max":30,"percent":3}]},"storeLeader":{"isPerformanceTotalRule":true,"performanceTotalRules":[{"min":0,"max":30,"percent":3}]},"deputyStoreLeader":{"isPerformanceTotalRule":true,"performanceTotalRules":[{"min":0,"max":30,"percent":3}]},"others":{}}';
+
+      const obj2 = JSON.parse(json2);
+      console.log(obj2);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>主页面</title>
+  </head>
+  <body>
+    <h1>主页面</h1>
+    <iframe id="aFrame" src="http://localhost:7101" width="600" height="400"></iframe>
+
+    <script>
+      // 监听来自 a 域名的消息（可选）
+      // window.addEventListener("message", function (event) {
+      //   // 安全起见，检查来源
+      //   if (event.origin === "http://localhost:7101") {
+      //     console.log("主页面收到来自 a 的消息:", event.data);
+      //   }
+      //   if (event.origin === "http://localhost:7102") {
+      //     console.log("主页面收到来自 b 的消息:", event.data);
+      //   }
+      //   // console.log("主页面收到来自", event.origin, "的消息:", event.data);
+      // });
+      window.addEventListener("message", event => {
+        // console.log("Received message:", event);
+        // 必须检查origin以确保安全
+        if (event.origin === "http://localhost:7101") {
+          console.log("Received message:", event.data);
+        }
+      });
+    </script>
+  </body>
+</html>

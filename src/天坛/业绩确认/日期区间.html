@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function getMonthRange(monthStr) {
+        const year = parseInt(monthStr.substring(0, 4));
+        const month = parseInt(monthStr.substring(4)) - 1; // 月份从0开始
+
+        const startDate = new Date(year, month, 1);
+        const endDate = new Date(year, month + 1, 0, 23, 59, 59, 999);
+
+        return [startDate, endDate];
+      }
+
+      /**
+       * 将两个年月格式转换为日期范围
+       * @param {string} startMonth 开始月份 如 202501
+       * @param {string} endMonth 结束月份 如 202503
+       * @returns {[Date, Date]} 返回 [开始月初, 结束月末]
+       */
+      function getRangeBetweenMonths(startMonth, endMonth) {
+        const [start] = getMonthRange(startMonth);
+        const [, end] = getMonthRange(endMonth);
+        return [start, end];
+      }
+      console.log(getMonthRange("202504"));
+      console.log(getRangeBetweenMonths("202501", "202503"));
+    </script>
+  </body>
+</html>

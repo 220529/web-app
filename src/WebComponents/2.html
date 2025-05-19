@@ -1,0 +1,18 @@
+<style>
+  button {
+    color: red;
+  } /* 全局样式，影响所有 button */
+</style>
+
+<button>外部按钮</button>
+<my-component></my-component>
+
+<script>
+  class MyComponent extends HTMLElement {
+    constructor() {
+      super();
+      this.innerHTML = `<button>组件内部的按钮</button>`;
+    }
+  }
+  customElements.define("my-component", MyComponent);
+</script>

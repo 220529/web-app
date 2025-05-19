@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>网格布局测试</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px auto 100px;
+        gap: 15px;
+        grid-template-areas:
+          "header header header"
+          "sidebar main main"
+          "footer footer footer";
+        height: 80vh;
+        border: 2px solid #333;
+        padding: 15px;
+        background-color: #f5f5f5;
+      }
+
+      .item {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .header {
+        grid-area: header;
+        background-color: #2196f3;
+      }
+
+      .sidebar {
+        grid-area: sidebar;
+        background-color: #ff9800;
+      }
+
+      .main {
+        grid-area: main;
+        background-color: #9c27b0;
+      }
+
+      .footer {
+        grid-area: footer;
+        background-color: #607d8b;
+      }
+
+      .controls {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #eee;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 8px 15px;
+        margin-right: 10px;
+        background-color: #2196f3;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0b7dda;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS网格布局测试</h1>
+
+    <div class="grid-container">
+      <div class="item header">页眉 (Header)</div>
+      <div class="item sidebar">侧边栏 (Sidebar)</div>
+      <div class="item main">主要内容区 (Main Content)</div>
+      <div class="item footer">页脚 (Footer)</div>
+    </div>
+
+    <div class="controls">
+      <h3>布局调整:</h3>
+      <button onclick="changeLayout('default')">默认布局</button>
+      <button onclick="changeLayout('sidebar-left')">侧边栏在左</button>
+      <button onclick="changeLayout('sidebar-right')">侧边栏在右</button>
+      <button onclick="changeLayout('full-width')">全宽度布局</button>
+    </div>
+
+    <script>
+      function changeLayout(type) {
+        const container = document.querySelector(".grid-container");
+
+        switch (type) {
+          case "default":
+            container.style.gridTemplateAreas = `"header header header"
+                                                        "sidebar main main"
+                                                        "footer footer footer"`;
+            container.style.gridTemplateColumns = "repeat(3, 1fr)";
+            break;
+          case "sidebar-left":
+            container.style.gridTemplateAreas = `"header header header"
+                                                        "sidebar main main"
+                                                        "footer footer footer"`;
+            container.style.gridTemplateColumns = "200px 1fr 1fr";
+            break;
+          case "sidebar-right":
+            container.style.gridTemplateAreas = `"header header header"
+                                                        "main main sidebar"
+                                                        "footer footer footer"`;
+            container.style.gridTemplateColumns = "1fr 1fr 200px";
+            break;
+          case "full-width":
+            container.style.gridTemplateAreas = `"header header header"
+                                                        "main main main"
+                                                        "footer footer footer"`;
+            container.style.gridTemplateColumns = "1fr 1fr 1fr";
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>

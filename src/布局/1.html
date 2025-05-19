@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>横向排列自动换行布局</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
+      }
+
+      /* 主要布局样式 */
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* 统一设置行间距和列间距 */
+      }
+
+      .flex-item {
+        /* 每行默认显示4个元素 */
+        flex: 1 0 calc(25% - 20px);
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .flex-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .flex-item h3 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+
+      .flex-item p {
+        color: #7f8c8d;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      /* 响应式调整 */
+      @media (max-width: 992px) {
+        .flex-item {
+          flex: 1 0 calc(33.333% - 20px); /* 中屏幕上每行3个 */
+        }
+      }
+
+      @media (max-width: 768px) {
+        .flex-item {
+          flex: 1 0 calc(50% - 20px); /* 小屏幕上每行2个 */
+        }
+      }
+
+      @media (max-width: 480px) {
+        .flex-item {
+          flex: 1 0 100%; /* 超小屏幕上每行1个 */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>横向排列自动换行布局示例</h1>
+
+      <div class="flex-container">
+        <div class="flex-item">
+          <h3>项目 1</h3>
+          <p>这是一个示例项目的内容描述。布局会自动适应不同屏幕尺寸。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 2</h3>
+          <p>这是一个示例项目的内容描述。元素之间保持相同的间距。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 3</h3>
+          <p>这是一个示例项目的内容描述。超出容器宽度会自动换行。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 4</h3>
+          <p>这是一个示例项目的内容描述。上下左右间距都相同。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 5</h3>
+          <p>这是一个示例项目的内容描述。使用了现代CSS布局技术。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 6</h3>
+          <p>这是一个示例项目的内容描述。响应式设计适配各种设备。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 7</h3>
+          <p>这是一个示例项目的内容描述。可以添加任意数量的项目。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 8</h3>
+          <p>这是一个示例项目的内容描述。布局整洁美观。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 9</h3>
+          <p>这是一个示例项目的内容描述。使用flexbox实现。</p>
+        </div>
+        <div class="flex-item">
+          <h3>项目 10</h3>
+          <p>这是一个示例项目的内容描述。完全符合要求。</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

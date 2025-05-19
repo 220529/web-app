@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      my-button {
+        width: 50px;
+        height: 30px;
+        display: inline-block;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 定义组件 -->
+    <!-- <user-card name="Alice"></user-card> -->
+    <!-- <my-button></my-button> -->
+    <script>
+      class UserCard extends HTMLElement {
+        constructor() {
+          super();
+          const shadow = this.attachShadow({ mode: "open" });
+          shadow.innerHTML = `
+        <style>p { color: blue; }</style>
+        <p>Hello, ${this.getAttribute("name")}!</p>
+      `;
+        }
+      }
+      customElements.define("user-card", UserCard);
+      class MyButton extends HTMLElement {
+        constructor() {
+          super();
+          this.addEventListener("click", () => console.log("Clicked!"));
+        }
+      }
+      customElements.define("my-button", MyButton);
+    </script>
+  </body>
+</html>
