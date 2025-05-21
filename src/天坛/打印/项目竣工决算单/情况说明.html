@@ -1,0 +1,43 @@
+function (data, options, globalData) { return `
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    border: 1px solid #000 !important;
+    table-layout: fixed;
+  }
+  /* 确保所有单元格边框严格1px */
+  th,
+  td {
+    border: 1px solid #000 !important;
+    padding: 8px;
+    text-align: left;
+  }
+  /* 移除浏览器默认的边框样式 */
+  table,
+  th,
+  td {
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 1px !important;
+  }
+</style>
+<table>
+  <!-- 第一行 -->
+  <tr>
+    <td colspan="1" rowspan="3">情况说明：</td>
+    <td colspan="1">材料</td>
+    <td colspan="18">0</td>
+  </tr>
+  <!-- 第二行 -->
+  <tr>
+    <td colspan="1">工长</td>
+    <td colspan="18">0</td>
+  </tr>
+  <tr>
+    <td colspan="1">提成</td>
+    <td colspan="18">0</td>
+  </tr>
+</table>
+`; }

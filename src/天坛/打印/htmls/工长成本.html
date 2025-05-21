@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>等宽表格示例</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        table-layout: fixed; /* 关键属性：固定等宽布局 */
+      }
+      td {
+        border: 1px solid #000;
+        padding: 8px;
+        /* text-align: center; */
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- 第一行 -->
+      <tr>
+        <td rowspan="3">工长成本</td>
+        <td>项目编号</td>
+        <td colspan="2">0</td>
+        <td>项目地址</td>
+        <td colspan="4">0</td>
+        <td>工长合同金额</td>
+        <td>0</td>
+      </tr>
+
+      <!-- 第二行 -->
+      <tr>
+        <td>工长姓名</td>
+        <td>0</td>
+        <td>水电结算款</td>
+        <td>0</td>
+        <td>中期结算款</td>
+        <td>0</td>
+        <td>竣工结算款</td>
+        <td>0</td>
+        <td>质保金</td>
+        <td>0</td>
+      </tr>
+
+      <!-- 第三行 -->
+      <tr>
+        <td>工长成本合计</td>
+        <td colspan="9">0</td>
+      </tr>
+    </table>
+  </body>
+</html>

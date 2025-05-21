@@ -1,0 +1,45 @@
+function (data, options, globalData) { return `
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    table-layout: fixed;
+  }
+  td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+</style>
+<table>
+  <tr>
+    <td rowspan="3">收入情况</td>
+    <td>合同款收入（含税）</td>
+    <td>50,000</td>
+    <td>增、减项收入（含税）</td>
+    <td>2,000</td>
+    <td>设计费收入（含税）</td>
+    <td>3,000</td>
+    <td>套外收入（含税）</td>
+    <td>1,500</td>
+    <td>电器（含税）</td>
+    <td>1,200</td>
+  </tr>
+  <tr>
+    <td>合同款收入（不含税）</td>
+    <td>45,454.55</td>
+    <td>增、减项收入（不含税）</td>
+    <td>1,818.18</td>
+    <td>设计费收入（不含税）</td>
+    <td>2,727.27</td>
+    <td>套外收入（不含税）</td>
+    <td>1,363.64</td>
+    <td>电商/零售收入（不含税）</td>
+    <td>1,090.91</td>
+  </tr>
+  <tr>
+    <td colspan="1">项目收入合计</td>
+    <td colspan="9">¥58,000.00</td>
+  </tr>
+</table>
+`; };
