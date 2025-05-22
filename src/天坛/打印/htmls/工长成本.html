@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>等宽表格示例</title>
     <style>
-      table {
-        border-collapse: collapse;
+      .table-zebg {
+        border-collapse: collapse; /* 合并边框 */
         width: 100%;
-        font-family: Arial, sans-serif;
-        table-layout: fixed; /* 关键属性：固定等宽布局 */
+        table-layout: fixed;
       }
-      td {
-        border: 1px solid #000;
-        padding: 8px;
-        /* text-align: center; */
+      .table-zebg th,
+      .table-zebg td {
+        padding: 5px;
       }
     </style>
   </head>
   <body>
-    <table>
+    <table class="table-zebg" border="1">
       <!-- 第一行 -->
       <tr>
         <td rowspan="3">工长成本</td>

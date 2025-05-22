@@ -1,20 +1,5 @@
-function (data, options, globalData) { console.log("data: ", data); console.log("options: ",
-options); console.log("globalData: ", globalData); return `
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    table-layout: fixed; /* 关键属性：固定等宽布局 */
-  }
-  td {
-    border: 1px solid #000;
-    padding: 8px;
-    /* text-align: center; */
-  }
-</style>
-<table>
-  <!-- 第一行 -->
+function (data, options, globalData) { return `
+<table class="table-zebg" border="1">
   <tr>
     <td rowspan="3">工长成本</td>
     <td>项目编号</td>
