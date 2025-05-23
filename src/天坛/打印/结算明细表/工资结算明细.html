@@ -1,0 +1,10 @@
+function ( colTotal, tableData, printData, groupData, ) { console.log("colTotal:", colTotal);
+console.log("tableData:", tableData); console.log("printData:", printData);
+console.log("groupData:", groupData); return `
+<tr>
+  <td colspan="13">套外成本合计: ${printData?.amount3 || 0.00}元</td>
+</tr>
+<tr>
+  <td colspan="13">套外毛利率: ${printData?.amount3 || 0.00}元</td>
+</tr>
+`; };

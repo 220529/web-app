@@ -2,18 +2,46 @@ function (data, options, globalData) { console.log("data: ", data); console.log(
 options); console.log("globalData: ", globalData); return `
 <style>
   .table-zebg {
-    border-collapse: collapse; /* 合并边框 */
     width: 100%;
     table-layout: fixed;
+    border: none;
+    border-bottom: 0.75pt solid #000;
+    border-right: 0.75pt solid #000;
+    --color1: #f9f9f9;
+    --padding: 3pt 10pt;
+    --size1: 8pt;
+    --font-color1: #17233e;
+    --font-weight1: 500;
+    --size2: 8pt;
+    --font-color2: #17233e;
+    --font-weight2: 900;
   }
-  .table-zebg th,
   .table-zebg td {
-    padding: 5px;
+    border: none;
+    border-top: 0.75pt solid #000;
+    border-left: 0.75pt solid #000;
+  }
+  .table-zebg td:nth-child(odd) {
+    background: var(--color1);
+    padding: var(--padding);
+    color: var(--font-color1);
+    font-size: var(--size1);
+    font-weight: var(--font-weight1);
+  }
+  .table-zebg td:nth-child(even) {
+    padding: var(--padding);
+    color: var(--font-color2);
+    font-size: var(--size2);
+    font-weight: var(--font-weight2);
+  }
+  .none {
+    display: none;
   }
 </style>
-<table class="table-zebg" border="1">
+<table class="table-zebg odd-table-zebg">
   <tr>
     <td rowspan="2">基础信息</td>
+    <td class="none"></td>
     <td>合同号</td>
     <td colspan="2">HT20230001</td>
     <td>客户姓名</td>
