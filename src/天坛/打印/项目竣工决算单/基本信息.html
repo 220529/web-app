@@ -43,21 +43,21 @@ options); console.log("globalData: ", globalData); return `
     <td rowspan="2">基础信息</td>
     <td class="none"></td>
     <td>合同号</td>
-    <td colspan="2">HT20230001</td>
+    <td colspan="2">${globalData?.number}</td>
     <td>客户姓名</td>
-    <td>张三</td>
+    <td>${globalData?.customer?.name}</td>
     <td>客户电话</td>
-    <td colspan="2">13800138000</td>
+    <td colspan="2">${globalData?.customer?.mobile}</td>
     <td>套餐类型</td>
-    <td>vip</td>
+    <td>${globalData?.productName}</td>
   </tr>
   <tr>
     <td>施工地址</td>
-    <td colspan="5">北京市朝阳区建国路88号</td>
+    <td colspan="5">${globalData?.customer?.location}</td>
     <td>面积（㎡）</td>
-    <td>120</td>
+    <td>${globalData?.customer?.area}</td>
     <td>合同金额</td>
-    <td>¥58,000</td>
+    <td>${globalData?.lockPrice}</td>
   </tr>
 </table>
 `; };
