@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /**
+         * 分配已结金额到各期
+         * @param {number} paidAmount 已结金额
+         * @param {number} firstTermAmount 首期结算金额
+         * @param {number} middleTermAmount 中期结算金额
+         * @param {number} finalTermAmount 尾期结算金额
+         * @returns {[number, number, number]} 返回三个数字的数组，分别代表首期已结金额、中期已结金额、尾期已结金额
+         */
+        function distributePayment(paidAmount, firstTermAmount, middleTermAmount, finalTermAmount) {
+            // 验证输入是否为非负数
+            if ([paidAmount, firstTermAmount, middleTermAmount, finalTermAmount].some(amount => amount < 0)) {
+                throw new Error('所有金额必须为非负数');
+            }
+            
+            // 计算总应结金额
+            const totalAmount = firstTermAmount + middleTermAmount + finalTermAmount;
+            
+            // 如果已结金额为0，直接返回[0, 0, 0]
+            if (paidAmount === 0) {
+                return [0, 0, 0];
+            }
+            
+            // 如果已结金额大于等于总应结金额，则全部结清
+            if (paidAmount >= totalAmount) {
+                return [firstTermAmount, middleTermAmount, finalTermAmount];
+            }
+            
+            // 初始化各期已结金额
+            let firstPaid = 0;
+            let middlePaid = 0;
+            let finalPaid = 0;
+            
+            // 分配逻辑：按首期、中期、尾期的顺序依次结清
+            if (paidAmount <= firstTermAmount) {
+                // 只够支付部分或全部首期
+                firstPaid = paidAmount;
+            } else {
+                // 支付全部首期
+                firstPaid = firstTermAmount;
+                const remainingAfterFirst = paidAmount - firstTermAmount;
+                
+                if (remainingAfterFirst <= middleTermAmount) {
+                    // 剩余金额只够支付部分或全部中期
+                    middlePaid = remainingAfterFirst;
+                } else {
+                    // 支付全部中期
+                    middlePaid = middleTermAmount;
+                    // 剩余金额支付尾期
+                    finalPaid = remainingAfterFirst - middleTermAmount;
+                }
+            }
+            
+            return [firstPaid, middlePaid, finalPaid];
+        }
+        
+        // 示例1: 已结金额为0
+        console.log(distributePayment(0, 100, 200, 300)); // [0, 0, 0]
+
+        // 示例2: 已结金额等于总和
+        console.log(distributePayment(600, 100, 200, 300)); // [100, 200, 300]
+
+        // 示例3: 已结金额小于首期
+        console.log(distributePayment(50, 100, 200, 300)); // [50, 0, 0]
+
+        // 示例4: 已结金额大于首期但小于首期+中期
+        console.log(distributePayment(150, 100, 200, 300)); // [100, 50, 0]
+
+        // 示例5: 已结金额大于首期+中期但小于总和
+        console.log(distributePayment(350, 100, 200, 300)); // [100, 200, 50]
+    </script>
+</body>
+</html>
