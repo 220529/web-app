@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>供应商排序演示(修正版)</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .button-group { margin-bottom: 20px; }
+        button { padding: 8px 16px; margin-right: 10px; cursor: pointer; }
+        #output { 
+            border: 1px solid #ddd; padding: 15px; margin-top: 20px; 
+            background-color: #f9f9f9; white-space: pre-wrap;
+        }
+        .highlight { color: #3175FB; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>供应商排序演示(修正版)</h2>
+    <div class="button-group">
+        <button onclick="sortAndPrint('settlement')">按已结算排序</button>
+        <button onclick="sortAndPrint('unresolved')">按未结算排序</button>
+    </div>
+    <div id="output">点击上方按钮查看排序结果...</div>
+
+    <script>
+        // 先将JC、ZC拍平合并去重，以公司为key，每个公司有两个字段.zc、jc，这两个字段是对象，包含settlement、unresolved两个字段。表示已结算、未结算的金额。
+        // 然后将这个数据，先按照jc的金额排序，再按照zc的金额排序。
+        // 模拟数据
+        const data = {
+            ZC: [
+                { supplierName: "北京梦知窗商贸有限公司", settlement: 11100, unresolved: 0 },
+                { supplierName: "北京智慧家家居有限公司", settlement: 0, unresolved: 2512 },
+                { supplierName: "北京盛世新锐科技发展有限公司", settlement: 0, unresolved: 0 },
+                { supplierName: "北京金隅天坛家具股份有限公司", settlement: 0, unresolved: 1150 }
+            ],
+            JC: [
+                { supplierName: "北京北建机电设备有限责任公司", settlement: 308.1, unresolved: 0 },
+                { supplierName: "北京好材多多科技有限公司", settlement: 0, unresolved: 9506.86 }
+            ]
+        };
+
+        // 将这个数据排序
+
+        /**
+         * 获取排序后的公司列表（修正版）
+         * @param {'settlement'|'unresolved'} sortBy - 排序依据字段
+         * @returns {Array} 排序后的供应商数组
+         */
+        function getSortedSuppliers(sortBy) {
+            // 合并所有供应商并标记类型
+            const allSuppliers = [
+                ...data.JC.map(s => ({ ...s, type: 'JC' })),
+                ...data.ZC.map(s => ({ ...s, type: 'ZC' }))
+            ];
+
+            // 分离有数据和无数据的供应商
+            const withData = allSuppliers.filter(s => s[sortBy] > 0);
+            const withoutData = allSuppliers.filter(s => s[sortBy] <= 0);
+
+            // 有数据的按金额降序排序
+            withData.sort((a, b) => b[sortBy] - a[sortBy]);
+            
+            // 无数据的排序：JC优先，ZC在后
+            withoutData.sort((a, b) => a.type === 'JC' ? -1 : 1);
+
+            return [...withData, ...withoutData];
+        }
+
+        /**
+         * 排序并打印结果
+         */
+        function sortAndPrint(sortBy) {
+            const sortedSuppliers = getSortedSuppliers(sortBy);
+            const output = document.getElementById('output');
+            
+            let result = `按照${sortBy === 'settlement' ? '已结算' : '未结算'}排序结果：\n\n`;
+            result += "<strong>排序规则：</strong>\n";
+            result += "1. <span class='highlight'>有数据的供应商优先显示</span>（按金额降序）\n";
+            result += "2. 无数据的供应商中，基材供应商(JC)优先\n\n";
+            result += "<strong>排序后的公司列表：</strong>\n";
+            
+            sortedSuppliers.forEach((supplier, index) => {
+                const value = supplier[sortBy];
+                const highlightClass = value > 0 ? "class='highlight'" : "";
+                result += `${index + 1}. ${supplier.supplierName} <small>(${supplier.type})</small> - ${sortBy === 'settlement' ? '已结算' : '未结算'}: <span ${highlightClass}>${value}</span>\n`;
+            });
+            
+            output.innerHTML = result;
+        }
+    </script>
+</body>
+</html>

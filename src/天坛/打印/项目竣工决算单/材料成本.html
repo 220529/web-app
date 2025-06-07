@@ -1,43 +1,51 @@
-function (data, options, globalData) { return `
-<table class="table-zebg" border="1">
-  <tr>
-    <td rowspan="5">材料成本</td>
-    <td class="none"></td>
-    <td>项目</td>
-    <td colspan="2">类别</td>
-    <td colspan="8">材料名称</td>
-    <td colspan="2">单价（含税）</td>
-    <td colspan="2">单价（不含税）</td>
-    <td colspan="2">数量</td>
-    <td colspan="2">结算价（含税）</td>
-    <td colspan="2">材料成本（不含税）</td>
-  </tr>
+function (data, options, globalData) {
+  console.log("globalData...", globalData)
+  const maters = globalData?.maters || [];
+  const bases = globalData?.bases || [];
+  const len = maters.length + bases.length;
+  return `
+    <table class="table-zebg" border="1">
+      <tr>
+        <td rowspan="5">材料成本</td>
+        <td class="none"></td>
+        <td>项目</td>
+        <td colspan="2">类别</td>
+        <td colspan="8">材料名称</td>
+        <td colspan="2">单价（含税）</td>
+        <td colspan="2">单价（不含税）</td>
+        <td colspan="2">数量</td>
+        <td colspan="2">结算价（含税）</td>
+        <td colspan="2">材料成本（不含税）</td>
+      </tr>
+      <tr>
+        <td rowspan="${maters.length}">主材</td>
+      </tr>
+      ${maters.map(item => `
+        <tr>
+          <td colspan="2">0</td>
+          <td colspan="8">0</td>
+          <td colspan="2">0</td>
+          <td colspan="2">0</td>
+          <td colspan="2">0</td>
+          <td colspan="2">0</td>
+          <td colspan="2">0</td>
+        </tr>
+      `).join('')}
+      <tr>
+        <td>主材</td>
+        <td colspan="2">主材</td>
+        <td colspan="8">0</td>
+        <td colspan="2">0</td>
+        <td colspan="2">0</td>
+        <td colspan="2">0</td>
+        <td colspan="2">0</td>
+        <td colspan="2">0</td>
+      </tr>
 
-  <tr>
-    <td>主材</td>
-    <td colspan="2">主材</td>
-    <td colspan="8">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-  </tr>
-  <tr>
-    <td>主材</td>
-    <td colspan="2">主材</td>
-    <td colspan="8">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-    <td colspan="2">0</td>
-  </tr>
-
-  <!-- 第四行 - 合计行 -->
-  <tr>
-    <td colspan="3">材料成本成本合计</td>
-    <td colspan="18">0</td>
-  </tr>
-</table>
-`; }
+      <!-- 第四行 - 合计行 -->
+      <tr>
+        <td colspan="3">材料成本成本合计</td>
+        <td colspan="18">0</td>
+      </tr>
+    </table>`;
+}

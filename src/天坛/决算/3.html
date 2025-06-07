@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 模拟数据
+    const data = {
+        ZC: [
+            { supplierName: "北京梦知窗商贸有限公司", settlement: 11100, unresolved: 0 },
+            { supplierName: "北京智慧家家居有限公司", settlement: 0, unresolved: 2512 },
+            { supplierName: "北京盛世新锐科技发展有限公司", settlement: 0, unresolved: 0 },
+            { supplierName: "北京金隅天坛家具股份有限公司", settlement: 0, unresolved: 1150 }
+        ],
+        JC: [
+            { supplierName: "北京北建机电设备有限责任公司", settlement: 308.1, unresolved: 0 },
+            { supplierName: "北京好材多多科技有限公司", settlement: 0, unresolved: 9506.86 },
+            { supplierName: "北京智慧家家居有限公司", settlement: 1200, unresolved: 500 } // 添加一个同时存在于JC和ZC的公司
+        ]
+    };
+
+// 1. 合并数据并结构化
+const mergedSuppliers = {};
+
+// 处理JC数据
+data.JC.forEach(jcItem => {
+  if (!mergedSuppliers[jcItem.supplierName]) {
+    mergedSuppliers[jcItem.supplierName] = {
+      name: jcItem.supplierName,
+      jc: { settlement: jcItem.settlement, unresolved: jcItem.unresolved },
+      zc: { settlement: 0, unresolved: 0 } // 默认值
+    };
+  } else {
+    mergedSuppliers[jcItem.supplierName].jc = {
+      settlement: jcItem.settlement,
+      unresolved: jcItem.unresolved
+    };
+  }
+});
+
+// 处理ZC数据
+data.ZC.forEach(zcItem => {
+  if (!mergedSuppliers[zcItem.supplierName]) {
+    mergedSuppliers[zcItem.supplierName] = {
+      name: zcItem.supplierName,
+      zc: { settlement: zcItem.settlement, unresolved: zcItem.unresolved },
+      jc: { settlement: 0, unresolved: 0 } // 默认值
+    };
+  } else {
+    mergedSuppliers[zcItem.supplierName].zc = {
+      settlement: zcItem.settlement,
+      unresolved: zcItem.unresolved
+    };
+  }
+});
+
+// 转换为数组
+const supplierArray = Object.values(mergedSuppliers);
+
+// 2. 排序函数
+function sortSuppliers(suppliers, sortBy) {
+    suppliers.sort((a, b) => {
+       return b.jc[sortBy] - a.jc[sortBy];
+    });
+    suppliers.sort((a, b) => {
+       return b.zc[sortBy] - a.zc[sortBy];
+    });
+    return suppliers;
+}
+
+// 3. 使用示例
+function printSortedSuppliers(sortBy) {
+  const sorted = sortSuppliers(supplierArray, sortBy);
+  return sorted.map(i => i.name);
+}
+
+// 测试
+// printSortedSuppliers('settlement'); // 按已结算排序
+const a = printSortedSuppliers('unresolved'); // 按未结算排序
+console.log(a);
+    </script>
+</body>
+</html>

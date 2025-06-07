@@ -1,0 +1,128 @@
+function (data, options, globalData) {
+  // 获取合同类型的付款信息
+  const paymentInfoList = globalData?.paymentInfoList?.filter(item => item.type === 'contract') || [];
+  
+  // 计算各期款项
+  const amount1 = globalData?.foremanMap?.first_settlement || 0;
+  const amount2 = globalData?.foremanMap?.interim_payment || 0;
+  const amount3 = globalData?.foremanMap?.final_payment || 0;
+  const retentionAmount = globalData?.foremanMap?.retentionAmount || 0;
+  
+  // 计算不含税金额（按97%计算）
+  const amount12 = (amount1 * 0.97)?.toFixed(2);
+  const amount22 = (amount2 * 0.97)?.toFixed(2);
+  const amount32 = (amount3 * 0.97)?.toFixed(2);
+  const retentionAmount2 = (retentionAmount * 0.97)?.toFixed(2);
+  
+  // 计算退款金额
+  const refundAmount = paymentInfoList?.reduce((acc, cur) => acc + cur.refundAmount, 0) || 0;
+  const refundAmount2 = (refundAmount * 0.97)?.toFixed(2);
+
+  // 项目经理成本
+  const managerCost = Number((amount1 + amount2 + amount3 + retentionAmount).toFixed(2));
+  const managerCost2 = Number((managerCost * 0.97).toFixed(2));
+
+  // 套内成本合计
+  const innerMatersT1Amount = globalData?.innerMatersT1Map?.price || 0;
+  // 基材成本合计
+  const basesMatersT1Amount = globalData?.basesMatersT1Map?.price || 0;
+  // 套外成本合计
+  const outerMatersAmount = globalData?.outerMatersMap?.price || 0;
+  // 材料成本合计
+  const materialCost = Number((innerMatersT1Amount + basesMatersT1Amount + outerMatersAmount).toFixed(2));
+  // 工程项目成本合计
+  const totalCost = Number((managerCost + materialCost).toFixed(2));
+  const totalCost2 = Number((managerCost2 + materialCost * 0.87).toFixed(2));
+
+  // 实收款项
+  const contractAmount = Number(globalData?.paymentMap?.contractAmount?.toFixed(2)) || 0;
+  const positiveAmount = Number(globalData?.paymentMap?.addMaterialAmount?.toFixed(2)) || 0;
+  const outMaterAmount = Number(globalData?.paymentMap?.outMaterAmount?.toFixed(2)) || 0
+  const designPrice = Number(globalData?.paymentMap?.designPrice?.toFixed(2)) || 0;
+
+  // 总收入合计
+  const incomeAmount = contractAmount + positiveAmount + outMaterAmount + designPrice;
+  const radio = (((incomeAmount - totalCost) / incomeAmount) * 100).toFixed(2) + "%";
+
+  const contractAmount2 = Number((contractAmount * (1 - 0.09)).toFixed(2));
+  const positiveAmount2 = positiveAmount * (1 - 0.09);
+  const outMaterAmount2 = outMaterAmount * (1 - 0.13);
+  const designPrice2 = designPrice * (1 - 0.06);
+  const incomeAmount2 = contractAmount2 + positiveAmount2 + outMaterAmount2 + designPrice2;
+  const radio2 = (((incomeAmount2 - totalCost2) / incomeAmount2) * 100).toFixed(2) + "%";
+
+  return `
+    <table class="table-zebg" border="1">
+      <!-- 第一行：基本信息 -->
+      <tr>
+        <td rowspan="4">项目经理成本</td>
+        <td style="display: none"></td>
+        <td colspan="2">项目经理姓名</td>
+        <td colspan="2">${globalData?.foremanMap?.name || ''}</td>
+        <td colspan="2">工长等级</td>
+        <td colspan="6">${globalData?.foremanMap?.rank}级</td>
+        <td colspan="6">
+          项目经理合同金额（${globalData?.productName === '自由装' ? '直接费' : '发包额'}）
+        </td>
+        <td colspan="2">${globalData?.foremanMap?.contractAmount}</td>
+      </tr>
+
+      <!-- 第二行：各期结算金额 -->
+      <tr>
+        <td colspan="2">首期结算款</td>
+        <td colspan="2">${amount1}</td>
+        <td colspan="2">中期结算款</td>
+        <td colspan="2">${amount2}</td>
+        <td colspan="2">竣工结算款</td>
+        <td colspan="2">${amount3}</td>
+        <td colspan="2">退单结算</td>
+        <td colspan="2">${refundAmount}</td>
+        <td colspan="2">质保金</td>
+        <td colspan="2">${retentionAmount}</td>
+      </tr>
+
+      <!-- 第三行：不含税金额 -->
+      <tr>
+        <td colspan="2">首期结算款（不含税3%）</td>
+        <td colspan="2">${amount12}</td>
+        <td colspan="2">中期结算款（不含税3%）</td>
+        <td colspan="2">${amount22}</td>
+        <td colspan="2">竣工结算款（不含税3%）</td>
+        <td colspan="2">${amount32}</td>
+        <td colspan="2">退单结算（不含税3%）</td>
+        <td colspan="2">${refundAmount2}</td>
+        <td colspan="2">质保金（不含税3%）</td>
+        <td colspan="2">${retentionAmount2}</td>
+      </tr>
+
+      <!-- 第四行：合计金额 -->
+      <tr>
+        <td colspan="2">项目经理成本合计（含税）</td>
+        <td colspan="8">${managerCost}</td>
+        <td colspan="2">项目经理成本合计（不含税）</td>
+        <td colspan="8">${managerCost2}</td>
+      </tr>
+
+      <tr>
+        <td colspan="3">工程项目成本合计（含税）</td>
+        <td colspan="8">${totalCost}（工长成本合计+材料结算）</td>
+        <td colspan="2">工程项目成本合计（不含税）</td>
+        <td colspan="8">${totalCost2}</td>
+      </tr>
+      <tr>
+        <td colspan="3">工程项目毛利率（含税）</td>
+        <td colspan="8">${radio}（（收入-成本）/收入*100%）</td>
+        <td colspan="2">工程项目毛利率（不含税）</td>
+        <td colspan="8">${radio2}</td>
+      </tr>
+      <tr>
+        <td colspan="3">设计成本合计</td>
+        <td colspan="18">/</td>
+      </tr>
+      <tr>
+        <td colspan="3">设计费毛利率</td>
+        <td colspan="18">/</td>
+      </tr>
+    </table>
+`;
+}

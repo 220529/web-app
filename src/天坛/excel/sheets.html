@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const cellData = {
+        0: {
+          0: {
+            v: "备注_0 ",
+            s: "Header_Formatter",
+          },
+          1: {
+            v: "ID_1 ",
+            s: "Header_Formatter",
+          },
+          2: {
+            v: "序号_2 ",
+            s: "Header_Formatter",
+          },
+          3: {
+            v: "签约日期_3 ",
+            s: "Header_Formatter",
+          },
+          4: {
+            v: "合同编号_4 ",
+            s: "Header_Formatter",
+          },
+          5: {
+            v: "主合同签署日期_5 ",
+            s: "Header_Formatter",
+          },
+          6: {
+            v: "客户来源_6 ",
+            s: "Header_Formatter",
+          },
+          7: {
+            v: "客户姓名_7 ",
+            s: "Header_Formatter",
+          },
+          8: {
+            v: "客户电话_8 ",
+            s: "Header_Formatter",
+          },
+          9: {
+            v: "签约类型_9 ",
+            s: "Header_Formatter",
+          },
+          10: {
+            v: "渠道部经理_10 ",
+            s: "Header_Formatter",
+          },
+          11: {
+            v: "渠道专员_11 ",
+            s: "Header_Formatter",
+          },
+          12: {
+            v: "非渠道部人员_12 ",
+            s: "Header_Formatter",
+          },
+          13: {
+            v: "面积_13 ",
+            s: "Header_Formatter",
+          },
+          14: {
+            v: "签单额_14 ",
+            s: "Header_Formatter",
+          },
+          15: {
+            v: "实收金额_15 ",
+            s: "Header_Formatter",
+          },
+          16: {
+            v: "实收比例_16 ",
+            s: "Header_Formatter",
+          },
+          17: {
+            v: "优惠金额_17 ",
+            s: "Header_Formatter",
+          },
+          18: {
+            v: "上楼费_18 ",
+            s: "Header_Formatter",
+          },
+          19: {
+            v: "远程费_19 ",
+            s: "Header_Formatter",
+          },
+          20: {
+            v: "生效业绩额_20 ",
+            s: "Header_Formatter",
+          },
+          21: {
+            v: "设计费_21 ",
+            s: "Header_Formatter",
+          },
+          22: {
+            v: "设计师_22 ",
+            s: "Header_Formatter",
+          },
+          23: {
+            v: "试用期_23 ",
+            s: "Header_Formatter",
+          },
+          24: {
+            v: "所属部门_24 ",
+            s: "Header_Formatter",
+          },
+          25: {
+            v: "提成发放比_25 ",
+            s: "Header_Formatter",
+          },
+          26: {
+            v: "设计师整装提点_26 ",
+            s: "Header_Formatter",
+          },
+          27: {
+            v: "设计师配比后提点_27 ",
+            s: "Header_Formatter",
+          },
+          28: {
+            v: "设计师本次提点_28 ",
+            s: "Header_Formatter",
+          },
+          29: {
+            v: "设计师业绩提成_29 ",
+            s: "Header_Formatter",
+          },
+          30: {
+            v: "设计部经理_30 ",
+            s: "Header_Formatter",
+          },
+          31: {
+            v: "提成发放比_31 ",
+            s: "Header_Formatter",
+          },
+          32: {
+            v: "设计部经理整装提点_32 ",
+            s: "Header_Formatter",
+          },
+          33: {
+            v: "设计部经理配比后提点_33 ",
+            s: "Header_Formatter",
+          },
+          34: {
+            v: "设计部经理新签业绩提成_34 ",
+            s: "Header_Formatter",
+          },
+          35: {
+            v: "店长_35 ",
+            s: "Header_Formatter",
+          },
+          36: {
+            v: "店长整装业绩提点_36 ",
+            s: "Header_Formatter",
+          },
+          37: {
+            v: "店长整装业绩提成_37 ",
+            s: "Header_Formatter",
+          },
+          38: {
+            v: "副店长_38 ",
+            s: "Header_Formatter",
+          },
+          39: {
+            v: "副店长整装业绩提点_39 ",
+            s: "Header_Formatter",
+          },
+          40: {
+            v: "副店长整装业绩提成_40 ",
+            s: "Header_Formatter",
+          },
+        },
+        1: {
+          0: {
+            field: "designTichengAmount.bz",
+            v: "",
+            locked: 0,
+          },
+          1: {
+            field: "id",
+            v: "331888",
+            locked: 1,
+            type: "newSign",
+          },
+          2: {
+            field: "index",
+            v: "1",
+            locked: 1,
+          },
+          3: {
+            field: "signDate",
+            v: "2025年04月",
+            locked: 1,
+          },
+          4: {
+            field: "order_number",
+            v: "HTCWC2505121015493",
+            locked: 1,
+          },
+          5: {
+            field: "mainContractDate",
+            v: "2025-05-15 11:57:05",
+            locked: 1,
+          },
+          6: {
+            field: "customer.customerChannel",
+            v: "自拓",
+            locked: 1,
+          },
+          7: {
+            field: "customer.name",
+            v: "0002",
+            locked: 1,
+          },
+          8: {
+            field: "customer.mobile",
+            v: "15713857002",
+            locked: 1,
+          },
+          9: {
+            field: "customer.customerSignType",
+            v: "乐享家119800",
+            locked: 1,
+          },
+          10: {
+            field: "customer.saleLeaderName",
+            v: "",
+            locked: 1,
+          },
+          11: {
+            field: "customer.salerName",
+            v: "无",
+            locked: 1,
+          },
+          12: {
+            field: "customer.salerName",
+            v: "无",
+            locked: 1,
+          },
+          13: {
+            field: "customer.area",
+            v: "200",
+            locked: 1,
+          },
+          14: {
+            field: "amount.signingAmount",
+            v: "307397",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          15: {
+            field: "designTichengAmount.ss_je",
+            v: "297398.57000000007",
+            locked: 1,
+          },
+          16: {
+            field: "paymentRatio",
+            v: "0.9675",
+            locked: 1,
+            f: "=p2/o2",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          17: {
+            field: "amount.specialOfferAmount",
+            v: "10000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          18: {
+            field: "amount.upstairsFee",
+            v: "1000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          19: {
+            field: "amount.remoteFee",
+            v: "2000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          20: {
+            field: "realEffectivePerformanceAmount",
+            v: "",
+            locked: 1,
+            f: "=o2-r2-s2-t2",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          21: {
+            field: "amount.designFee",
+            v: "10000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          22: {
+            field: "customer.designerName",
+            v: "00000001",
+            locked: 1,
+          },
+          23: {
+            field: "designTichengAmount.isProbationPeriod",
+            v: "",
+            locked: 1,
+          },
+          24: {
+            field: "customer.designGroupName",
+            v: "设计五部",
+            locked: 1,
+          },
+          25: {
+            field: "designTichengAmount.ffb",
+            v: "1.0000",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          26: {
+            field: "designTichengAmount.zz_yj_td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          27: {
+            field: "designTichengAmount.td_pbh",
+            v: "0.0400",
+            locked: 0,
+            f: "=z2*aa2",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          28: {
+            field: "designTichengAmount.td",
+            v: "0.0100",
+            locked: 0,
+            f: "=ab2*0.25",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          29: {
+            field: "designTichengAmount.tc",
+            v: "NaN",
+            locked: 0,
+            f: "=u2*ac2",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          30: {
+            field: "customer.designLeaderName",
+            v: "刘元俊",
+            locked: 1,
+          },
+          31: {
+            field: "designLeaderTichengAmount.ffb",
+            v: "1.0000",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          32: {
+            field: "designLeaderTichengAmount.td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          33: {
+            field: "designLeaderTichengAmount.td_pbh",
+            v: "0.0400",
+            locked: 0,
+            f: "=af2*ag2",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          34: {
+            field: "designLeaderTichengAmount.tc",
+            v: "14018.34",
+            locked: 0,
+            f: "=u2*ah2",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          35: {
+            field: "customer.storeManagerName",
+            v: "",
+            locked: 1,
+          },
+          36: {
+            field: "storeManager.td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          37: {
+            field: "storeManager.tc",
+            v: "14018.34",
+            locked: 0,
+            f: "=(u2*ak2)",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          38: {
+            field: "customer.deputyStoreManagerName",
+            v: "",
+            locked: 1,
+          },
+          39: {
+            field: "deputyStoreManager.td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          40: {
+            field: "deputyStoreManager.tc",
+            v: "14018.34",
+            locked: 0,
+            f: "=(t2*an2)",
+            t: 2,
+            s: "Number_Formatter",
+          },
+        },
+        2: {
+          0: {
+            field: "designTichengAmount.bz",
+            v: "",
+            locked: 0,
+          },
+          1: {
+            field: "id",
+            v: "331892",
+            locked: 1,
+            type: "newSign",
+          },
+          2: {
+            field: "index",
+            v: "2",
+            locked: 1,
+          },
+          3: {
+            field: "signDate",
+            v: "2025年04月",
+            locked: 1,
+          },
+          4: {
+            field: "order_number",
+            v: "HTCWC2505131737726",
+            locked: 1,
+          },
+          5: {
+            field: "mainContractDate",
+            v: "2025-05-15 15:54:14",
+            locked: 1,
+          },
+          6: {
+            field: "customer.customerChannel",
+            v: "自拓",
+            locked: 1,
+          },
+          7: {
+            field: "customer.name",
+            v: "0003",
+            locked: 1,
+          },
+          8: {
+            field: "customer.mobile",
+            v: "15713857003",
+            locked: 1,
+          },
+          9: {
+            field: "customer.customerSignType",
+            v: "1099美居整装",
+            locked: 1,
+          },
+          10: {
+            field: "customer.saleLeaderName",
+            v: "",
+            locked: 1,
+          },
+          11: {
+            field: "customer.salerName",
+            v: "无",
+            locked: 1,
+          },
+          12: {
+            field: "customer.salerName",
+            v: "无",
+            locked: 1,
+          },
+          13: {
+            field: "customer.area",
+            v: "100",
+            locked: 1,
+          },
+          14: {
+            field: "amount.signingAmount",
+            v: "47160",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          15: {
+            field: "designTichengAmount.ss_je",
+            v: "20000",
+            locked: 1,
+          },
+          16: {
+            field: "paymentRatio",
+            v: "0.4241",
+            locked: 1,
+            f: "=p3/o3",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          17: {
+            field: "amount.specialOfferAmount",
+            v: "5000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          18: {
+            field: "amount.upstairsFee",
+            v: "1000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          19: {
+            field: "amount.remoteFee",
+            v: "2000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          20: {
+            field: "realEffectivePerformanceAmount",
+            v: "",
+            locked: 1,
+            f: "=o3-r3-s3-t3",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          21: {
+            field: "amount.designFee",
+            v: "1000",
+            locked: 1,
+            t: 2,
+            s: "Number_Formatter",
+          },
+          22: {
+            field: "customer.designerName",
+            v: "00000001",
+            locked: 1,
+          },
+          23: {
+            field: "designTichengAmount.isProbationPeriod",
+            v: "",
+            locked: 1,
+          },
+          24: {
+            field: "customer.designGroupName",
+            v: "设计五部",
+            locked: 1,
+          },
+          25: {
+            field: "designTichengAmount.ffb",
+            v: "1.0000",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          26: {
+            field: "designTichengAmount.zz_yj_td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          27: {
+            field: "designTichengAmount.td_pbh",
+            v: "0.0400",
+            locked: 0,
+            f: "=z3*aa3",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          28: {
+            field: "designTichengAmount.td",
+            v: "0.0100",
+            locked: 0,
+            f: "=ab3*0.25",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          29: {
+            field: "designTichengAmount.tc",
+            v: "NaN",
+            locked: 0,
+            f: "=u3*ac3",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          30: {
+            field: "customer.designLeaderName",
+            v: "刘元俊",
+            locked: 1,
+          },
+          31: {
+            field: "designLeaderTichengAmount.ffb",
+            v: "1.0000",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          32: {
+            field: "designLeaderTichengAmount.td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          33: {
+            field: "designLeaderTichengAmount.td_pbh",
+            v: "0.0400",
+            locked: 0,
+            f: "=af3*ag3",
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          34: {
+            field: "designLeaderTichengAmount.tc",
+            v: "14018.34",
+            locked: 0,
+            f: "=u3*ah3",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          35: {
+            field: "customer.storeManagerName",
+            v: "",
+            locked: 1,
+          },
+          36: {
+            field: "storeManager.td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          37: {
+            field: "storeManager.tc",
+            v: "14018.34",
+            locked: 0,
+            f: "=(u3*ak3)",
+            t: 2,
+            s: "Number_Formatter",
+          },
+          38: {
+            field: "customer.deputyStoreManagerName",
+            v: "",
+            locked: 1,
+          },
+          39: {
+            field: "deputyStoreManager.td",
+            v: "0.0400",
+            locked: 0,
+            t: 2,
+            s: "Percent_Formatter",
+          },
+          40: {
+            field: "deputyStoreManager.tc",
+            v: "14018.34",
+            locked: 0,
+            f: "=(t3*an3)",
+            t: 2,
+            s: "Number_Formatter",
+          },
+        },
+      };
+
+      console.log("cellData: ", cellData);
+    </script>
+  </body>
+</html>
