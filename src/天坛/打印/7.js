@@ -21,10 +21,10 @@ function (data, options, globalData) {
         border-right: 0.75pt solid #000;
         --color1: #f9f9f9;
         --padding: 3pt 10pt;
-        --size1: 8pt;
+        --size1: 9pt;
         --font-color1: #17233e;
         --font-weight1: 500;
-        --size2: 8pt;
+        --size2: 9pt;
         --font-color2: #17233e;
         --font-weight2: 900;
       }
