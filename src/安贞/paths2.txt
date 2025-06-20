@@ -1,0 +1,2507 @@
+
+'/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea.png',
+'/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea-100x100.png',
+'/public/upload/file/13/0/2024-02-26-11-49-26-6a36fc31-49a2-48a6-9258-e0bee06c3c45.png',
+'/public/upload/file/13/0/2023-10-12-07-12-04-95e977f9-a741-4c8e-83c5-f17d1e408165-100x100.png',
+
+'/public/upload/file/13/0/2023-10-12-07-12-04-95e977f9-a741-4c8e-83c5-f17d1e408165-100x100.png',
+
+'/public/upload/file/13/0/2024-10-17-04-39-51-9f4656e7-dba0-4582-a0e4-2f9e700ef5f4.png',
+
+'/public/upload/file/13/0/2024-04-15-06-12-55-f68f55a6-42ac-4244-85b7-eb9335ae4d03.png',
+'/public/upload/file/13/0/2024-04-15-06-12-55-951960b0-dd07-4552-8651-33c0bd6c96c3.png',
+'/public/upload/file/13/0/2024-04-15-06-12-55-28d4aebd-8a71-45e0-a0bd-aae211bbeec1.png',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-fa57f092-cf30-4662-8700-6b3abf2c5a80-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-7348ba67-6333-466b-be63-2d268c70888a-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-7348ba67-6333-466b-be63-2d268c70888a-100x100.jpg',
+'/public/upload/file/7/508/2024-04-11-05-30-47-951617c4-e06a-42d9-b092-42aeef6ff78e-100x100.jpeg',
+'/public/upload/file/13/0/2023-10-16-03-20-47-d7faf71e-b5dc-466b-bfd3-10ada299ada4-100x100.jpg',
+'/public/upload/file/13/0/2023-10-16-03-20-01-919ccb6b-1e1c-4c4c-b87c-d84ab20e92f1-100x100.jpg',
+'/public/upload/file/13/0/2023-10-16-03-20-19-86a27557-a334-41e3-8497-d34f06281063-100x100.jpg',
+'/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325-100x100.jpg',
+'/public/upload/file/7/346/2023-10-31-04-42-56-2571e979-5e39-4618-adfe-b5ed8c187411-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325-100x100.jpg',
+
+'/public/upload/file/7/346/2023-10-31-04-42-56-2571e979-5e39-4618-adfe-b5ed8c187411-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-34-e7c0da09-7f01-475d-afcc-b64b15ebbe42-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-34-e7c0da09-7f01-475d-afcc-b64b15ebbe42-100x100.jpg',
+
+
+'/public/upload/file/13/0/2023-10-16-03-20-02-d4e9fae2-110e-4c5f-a293-872ce1c86f5c-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-bd5fdc3c-bbba-495c-894a-45d2e447b200-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-bd5fdc3c-bbba-495c-894a-45d2e447b200-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-dfb1353a-4736-4133-b310-98f93d547e18-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-dfb1353a-4736-4133-b310-98f93d547e18-100x100.jpg',
+
+'/public/upload/file/7/282/2023-10-26-12-20-14-2df47c98-e13d-44f9-8b11-8959963df1ef-100x100.jpeg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-c99a444c-a75b-40fc-8d12-6d748a9f9f99-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-47-d7faf71e-b5dc-466b-bfd3-10ada299ada4-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-47-d7faf71e-b5dc-466b-bfd3-10ada299ada4-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-47-d7faf71e-b5dc-466b-bfd3-10ada299ada4-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-47-d7faf71e-b5dc-466b-bfd3-10ada299ada4-100x100.jpg',
+
+'/public/upload/file/7/591/2024-03-08-03-01-57-0c50567a-46ed-4d71-9413-783357c715a6-100x100.jpeg',
+
+'/public/upload/file/7/591/2024-03-08-03-01-57-0c50567a-46ed-4d71-9413-783357c715a6-100x100.jpeg',
+
+'/public/upload/file/7/3164/2024-07-13-05-50-28-f7342da0-0229-49f7-ad9b-123b5d7209c8-100x100.jpeg',
+
+'/public/upload/file/7/3164/2024-07-13-05-50-28-f7342da0-0229-49f7-ad9b-123b5d7209c8-100x100.jpeg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-a343ef1a-9776-40b4-bec4-525f17c4cc13-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-a343ef1a-9776-40b4-bec4-525f17c4cc13-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-21-03-6e7a1abc-2f87-436e-b269-3c070bacd486-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-02-d5091d1f-f19a-419d-b2b4-47dea52d2042-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-02-d5091d1f-f19a-419d-b2b4-47dea52d2042-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-02-d5091d1f-f19a-419d-b2b4-47dea52d2042-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-919ccb6b-1e1c-4c4c-b87c-d84ab20e92f1-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-919ccb6b-1e1c-4c4c-b87c-d84ab20e92f1-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-919ccb6b-1e1c-4c4c-b87c-d84ab20e92f1-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-919ccb6b-1e1c-4c4c-b87c-d84ab20e92f1-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-919ccb6b-1e1c-4c4c-b87c-d84ab20e92f1-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-cdb3012b-5f0d-4d9b-828c-a42e90588201-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-01-cdb3012b-5f0d-4d9b-828c-a42e90588201-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-47-051c2fe2-20b4-49f5-a67a-1aa55fb6d582-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-19-6f09d009-c4ca-4445-8ef7-d0981b07a441-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-19-6f09d009-c4ca-4445-8ef7-d0981b07a441-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-19-6f09d009-c4ca-4445-8ef7-d0981b07a441-100x100.jpg',
+
+'/public/upload/file/13/0/2023-10-16-03-20-19-6f09d009-c4ca-4445-8ef7-d0981b07a441-100x100.jpg',
+   682        adminAvatar:
+   683:         '/public/upload/file/13/0/2023-10-16-03-20-19-6f09d009-c4ca-4445-8ef7-d0981b07a441-100x100.jpg',
+   684        recordCreatedAt: '2024-09-23 10:34:05',
+
+   706        adminAvatar:
+   707:         '/public/upload/file/13/0/2023-10-16-03-20-01-df30b585-1580-4fb9-99f1-d13f1dc04c1a-100x100.jpg',
+   708        recordCreatedAt: '2024-09-23 10:11:16',
+
+   730        adminAvatar:
+   731:         '/public/upload/file/7/240/2024-06-24-09-35-34-84974bdc-af44-449a-a0cb-6dba9764cf8b-100x100.jpeg',
+   732        recordCreatedAt: '2024-09-23 09:25:48',
+
+   754        adminAvatar:
+   755:         '/public/upload/file/13/0/2023-10-16-03-20-01-c563aa73-1f70-4080-b124-8c28acd871e8-100x100.jpg',
+   756        recordCreatedAt: '2024-09-22 20:30:22',
+
+   778        adminAvatar:
+   779:         '/public/upload/file/13/0/2023-10-16-03-20-33-4b2557f1-055a-4b28-9c84-a4a40cb94cb8-100x100.jpg',
+   780        recordCreatedAt: '2024-09-22 18:32:42',
+
+   802        adminAvatar:
+   803:         '/public/upload/file/7/3079/2024-07-06-01-58-43-f6d6102b-0bc2-40f0-9615-d30299868ef1-100x100.jpeg',
+   804        recordCreatedAt: '2024-09-22 18:04:23',
+
+   826        adminAvatar:
+   827:         '/public/upload/file/13/0/2023-10-16-03-20-47-d0db0f9e-800a-4fe9-8283-eb99c38535b4-100x100.jpg',
+   828        recordCreatedAt: '2024-09-22 14:19:04',
+
+   850        adminAvatar:
+   851:         '/public/upload/file/13/0/2023-10-16-03-20-33-7348ba67-6333-466b-be63-2d268c70888a-100x100.jpg',
+   852        recordCreatedAt: '2024-09-22 13:36:53',
+
+   874        adminAvatar:
+   875:         '/public/upload/file/13/0/2023-10-16-03-20-47-6df8fa22-fb38-4105-90ea-1353dc24b05f-100x100.jpg',
+   876        recordCreatedAt: '2024-09-22 12:14:22',
+
+   898        adminAvatar:
+   899:         '/public/upload/file/13/0/2023-10-16-11-15-53-74b734c9-8794-400f-87b3-084517ac6008-100x100.jpg',
+   900        recordCreatedAt: '2024-09-22 10:17:47',
+
+   922        adminAvatar:
+   923:         '/public/upload/file/7/2978/2024-09-15-03-52-53-2feee332-7843-4725-afad-3579e28c12e4-100x100.jpeg',
+   924        recordCreatedAt: '2024-09-22 09:52:28',
+
+   946        adminAvatar:
+   947:         '/public/upload/file/13/0/2023-10-16-03-21-03-b9a65831-4c43-4388-869e-697292b8acde-100x100.jpg',
+   948        recordCreatedAt: '2024-09-22 09:33:06',
+
+   970        adminAvatar:
+   971:         '/public/upload/file/7/3128/2024-08-28-01-38-01-e64e8393-5aef-4c4b-b2d6-9af9648992d9-100x100.jpeg',
+   972        recordCreatedAt: '2024-09-22 09:22:36',
+
+   994        adminAvatar:
+   995:         '/public/upload/file/13/0/2023-10-16-03-20-19-56ec6f41-2dd8-428a-9b67-879b0a363aac-100x100.jpg',
+   996        recordCreatedAt: '2024-09-21 09:38:14',
+
+  1018        adminAvatar:
+  1019:         '/public/upload/file/13/0/2023-10-16-03-20-34-96a8478b-cf99-44ac-9895-9ca933f6ca7b-100x100.jpg',
+  1020        recordCreatedAt: '2024-09-14 08:57:36',
+
+  1042        adminAvatar:
+  1043:         '/public/upload/file/7/240/2024-06-24-09-35-34-84974bdc-af44-449a-a0cb-6dba9764cf8b-100x100.jpeg',
+  1044        recordCreatedAt: '2024-09-13 13:49:46',
+
+  1066        adminAvatar:
+  1067:         '/public/upload/file/13/0/2023-10-16-03-20-19-1affa557-c217-401b-8906-a6439783f1b0-100x100.jpg',
+  1068        recordCreatedAt: '2024-09-06 15:26:50',
+
+  1090        adminAvatar:
+  1091:         '/public/upload/file/7/608/2024-04-05-05-51-21-48f275d5-d577-4670-8a12-86803f091ecd-100x100.jpeg',
+  1092        recordCreatedAt: '2024-09-06 14:38:34',
+
+  1114        adminAvatar:
+  1115:         '/public/upload/file/7/2985/2024-06-29-12-54-25-2cd83ebb-5837-4211-afee-9e5c965de14a-100x100.jpeg',
+  1116        recordCreatedAt: '2024-08-21 17:33:04',
+
+  1138        adminAvatar:
+  1139:         '/public/upload/file/7/92/2023-10-18-02-35-16-b13ae2bc-e50e-45e5-8247-e59823271734-100x100.jpeg',
+  1140        recordCreatedAt: '2024-08-10 10:37:23',
+
+  1162        adminAvatar:
+  1163:         '/public/upload/file/13/0/2023-10-16-03-20-18-a8e3c225-a8f9-4401-bcbe-c77492d76880-100x100.jpg',
+  1164        recordCreatedAt: '2024-07-03 15:37:52',
+
+  1186        adminAvatar:
+  1187:         '/public/upload/file/13/0/2023-10-16-03-20-34-2c22d61e-9640-4122-b60d-6ba129f22045-100x100.jpg',
+  1188        recordCreatedAt: '2024-05-20 20:36:41',
+
+  1210        adminAvatar:
+  1211:         '/public/upload/file/7/7/2023-04-27-07-54-25-206fa802-f62c-473f-a151-4689b634af33-100x100.jpeg',
+  1212        recordCreatedAt: '2024-01-24 18:11:10',
+
+  1234        adminAvatar:
+  1235:         '/public/upload/file/7/7/2023-04-27-07-54-25-206fa802-f62c-473f-a151-4689b634af33-100x100.jpeg',
+  1236        recordCreatedAt: '2023-06-15 09:16:30',
+
+code/prodSrc/codeFlow/业绩确认/发送签单排名通知.js:
+  318      icon: ctx.helper.getProdFileUrl(
+  319:       '/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea.png',
+  320      ),
+
+  354            ctx.helper.getProdFileUrl(
+  355:             '/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea-100x100.png',
+  356            ),
+
+  362          url: ctx.helper.getProdFileUrl(
+  363:           '/public/upload/file/13/0/2024-02-26-11-49-26-6a36fc31-49a2-48a6-9258-e0bee06c3c45.png',
+  364          ),
+
+code/prodSrc/codeFlow/任务管理/获取任务流程类型.js:
+  105        icon: ctx.helper.getProdFileUrl(
+  106:         '/public/upload/file/13/0/2024-03-18-09-18-57-73fedfdb-d8bc-4428-a0d7-541f34c44a55.svg',
+  107        ),
+
+  116        icon: ctx.helper.getProdFileUrl(
+  117:         '/public/upload/file/13/0/2025-02-10-11-02-26-1a2a1484-2311-45d4-b16f-9e20cf430f60.svg',
+  118        ),
+
+  127        icon: ctx.helper.getProdFileUrl(
+  128:         '/public/upload/file/13/0/2025-02-10-11-02-27-356ef1b5-0dc9-4914-9dc5-604337e4f565.svg',
+  129        ),
+
+  140        icon: ctx.helper.getProdFileUrl(
+  141:         '/public/upload/file/13/0/2024-05-20-10-03-37-a2be75e4-e4b1-4196-88e5-9e6742b895e1.svg',
+  142        ),
+
+  151        icon: ctx.helper.getProdFileUrl(
+  152:         '/public/upload/file/13/0/2025-02-10-11-02-27-356ef1b5-0dc9-4914-9dc5-604337e4f565.svg',
+  153        ),
+
+  164        icon: ctx.helper.getProdFileUrl(
+  165:         '/public/upload/file/13/0/2024-08-23-04-22-20-128a65a0-3391-4103-993d-cec69d6f9cf3.svg',
+  166        ),
+
+  176        icon: ctx.helper.getProdFileUrl(
+  177:         '/public/upload/file/13/0/2024-04-01-12-35-08-94479471-dfdb-448f-9a13-44fb632536e4.svg',
+  178        ),
+
+  188        icon: ctx.helper.getProdFileUrl(
+  189:         '/public/upload/file/13/0/2024-04-02-10-21-19-db822eaa-f5d0-4067-bdc1-870e5e00464a.svg',
+  190        ),
+
+  200        icon: ctx.helper.getProdFileUrl(
+  201:         '/public/upload/file/13/0/2024-04-02-10-22-12-52850f91-19f6-4fb8-b04f-f0ff5e8f14a4.svg',
+  202        ),
+
+  212        icon: ctx.helper.getProdFileUrl(
+  213:         '/public/upload/file/13/0/2024-09-09-09-43-07-5a79add1-527b-4aff-b9b9-f9946726d3bb.svg',
+  214        ),
+
+  225        icon: ctx.helper.getProdFileUrl(
+  226:         '/public/upload/file/13/0/2024-08-15-06-49-14-874da700-beec-4b9d-930d-2e86f246984c.svg',
+  227        ),
+
+  237        icon: ctx.helper.getProdFileUrl(
+  238:         '/public/upload/file/13/0/2024-08-15-06-48-28-b4f09eef-344c-4343-bf33-2247a4c3111c.svg',
+  239        ),
+
+  249        icon: ctx.helper.getProdFileUrl(
+  250:         '/public/upload/file/13/0/2024-08-23-04-22-20-9b93b050-f3a0-4ab7-85e9-30255f30f8fc.svg',
+  251        ),
+
+  261      //   icon: ctx.helper.getProdFileUrl(
+  262:     //     '/public/upload/file/13/0/2024-08-23-04-22-20-bc06127f-5833-450f-b830-4eb8b16bb00d.svg',
+  263      //   ),
+
+  273        icon: ctx.helper.getProdFileUrl(
+  274:         '/public/upload/file/13/0/2024-03-27-02-56-30-2ee7e618-897e-40c9-97fe-ac33c41a2f76.svg',
+  275        ),
+
+  285        icon: ctx.helper.getProdFileUrl(
+  286:         '/public/upload/file/13/0/2024-08-23-04-35-41-16be7247-bed3-4328-b71c-07c0ef278161.svg',
+  287        ),
+
+  297        icon: ctx.helper.getProdFileUrl(
+  298:         '/public/upload/file/13/0/2024-04-22-09-36-17-8c6237f5-1fe8-4a0b-8a18-cdabb182affc.svg',
+  299        ),
+
+  309        icon: ctx.helper.getProdFileUrl(
+  310:         '/public/upload/file/13/0/2024-08-31-10-42-26-d4d2d2f5-ced7-4f10-b0ac-125d005ac0f8.svg',
+  311        ),
+
+code/prodSrc/codeFlow/任务管理/任务流程审批完成处理.js:
+  181            icon: ctx.helper.getProdFileUrl(
+  182:             '/public/upload/file/13/0/2024-04-02-09-01-36-0912f809-737d-4a1a-b1c9-5eebc9100ccd-100x100.png',
+  183            ),
+
+  235            icon: ctx.helper.getProdFileUrl(
+  236:             '/public/upload/file/13/0/2024-04-02-09-45-44-ad1c3aa3-16cc-428a-aa04-075549822a27-100x100.png',
+  237            ),
+
+  288            icon: ctx.helper.getProdFileUrl(
+  289:             '/public/upload/file/13/0/2024-04-02-09-45-44-9c9028c8-30f1-442d-baf9-3d421a19d13f-100x100.png',
+  290            ),
+
+  321            icon: ctx.helper.getProdFileUrl(
+  322:             '/public/upload/file/13/0/2024-04-02-09-45-44-7cd9f673-566a-49fd-b35b-ba9c095bbc5b-100x100.png',
+  323            ),
+
+  366                ctx.helper.getProdFileUrl(
+  367:                 '/public/upload/file/13/0/2024-04-02-08-21-22-b1e5aa9b-8ac7-4666-875f-968fd340bcc8-100x100.png',
+  368                ),
+
+  842                        icon_url: ctx.helper.getProdFileUrl(
+  843:                         '/public/upload/file/13/0/2024-10-17-04-39-51-9f4656e7-dba0-4582-a0e4-2f9e700ef5f4.png',
+  844                        ),
+
+code/prodSrc/codeFlow/低代码/自定义菜单.js:
+  90      return getProdFileUrl(
+  91:       `/public/upload/file/13/0/${imageMap[key] || imageMap.default}`,
+  92      );
+
+code/prodSrc/codeFlow/定时任务/定时任务，每日业绩确认情况通知.js:
+  215      icon: ctx.helper.getProdFileUrl(
+  216:       '/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea.png',
+  217      ),
+
+  251            ctx.helper.getProdFileUrl(
+  252:             '/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea-100x100.png',
+  253            ),
+
+  259          url: ctx.helper.getProdFileUrl(
+  260:           '/public/upload/file/13/0/2024-02-26-11-49-26-6a36fc31-49a2-48a6-9258-e0bee06c3c45.png',
+  261          ),
+
+code/prodSrc/codeFlow/工具扩展/获取HTML相关函数.js:
+  13    audit: ctx.helper.getProdFileUrl(
+  14:     '/public/upload/file/13/0/2024-03-03-03-49-09-39af75c7-7be8-40d7-adc6-72056520142c.svg',
+  15    ),
+  16    'check-fill': ctx.helper.getProdFileUrl(
+  17:     '/public/upload/file/13/0/2024-03-08-06-57-32-dcbea2e3-9606-4998-a431-6905b5f0fc30.svg',
+  18    ),
+  19    'close-fill': ctx.helper.getProdFileUrl(
+  20:     '/public/upload/file/13/0/2024-03-08-06-57-36-a73af993-00a5-4f68-8d53-10c4e48ce5f5.svg',
+  21    ),
+  22    info: ctx.helper.getProdFileUrl(
+  23:     '/public/upload/file/13/0/2024-03-09-03-20-28-9482d6ae-fc60-4372-a39a-3a1085f04edc.svg',
+  24    ),
+  25    'arrow-up': ctx.helper.getProdFileUrl(
+  26:     '/public/upload/file/13/0/2024-03-19-04-29-02-1540f3d8-8d23-4673-9c6b-fd2588b95911.svg',
+  27    ),
+  28    'pdf-file': ctx.helper.getProdFileUrl(
+  29:     '/public/upload/file/13/0/2025-06-10-09-37-17-851e2469-d341-45f1-89c3-1b0c6572ede8.svg',
+  30    ),
+
+code/prodSrc/codeFlow/工具扩展/echarts快速生成.js:
+  211          background: "transparent",
+  212:         backgroundImage: "url(/public/upload/file/37/0/2024-12-23-04-37-21-418736b3-dfc8-412f-be65-db14a5c4f1ac.png)",
+  213          backgroundSize: "auto 100%",
+
+code/prodSrc/codeFlow/打印相关/打印数据/打印调试.js:
+  69      logoUrl:
+  70:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  71      iconUrl:
+  72:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  73      materialGroups: materials,
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取变更单打印数据.js:
+  107      logoUrl: ctx.helper.getProdFileUrl(
+  108:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  109      ),
+  110      iconUrl: ctx.helper.getProdFileUrl(
+  111:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  112      ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取材料买卖合同材料明细.js:
+  74      logoUrl1: ctx.helper.getProdFileUrl(
+  75:       '/public/upload/file/13/0/2024-07-10-09-29-40-a4469500-6036-4ad1-b420-6a82bb720e19.png',
+  76      ),
+  77      logoUrl: ctx.helper.getProdFileUrl(
+  78:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  79      ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取材料配送单明细.js:
+  83      logoUrl: ctx.helper.getProdFileUrl(
+  84:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  85      ),
+  86      iconUrl: ctx.helper.getProdFileUrl(
+  87:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  88      ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取订单选材相关数据.js:
+  637      logoUrl: ctx.helper.getProdFileUrl(
+  638:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  639      ),
+  640      iconUrl: ctx.helper.getProdFileUrl(
+  641:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  642      ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取供应商结算单数据.js:
+  243        logoUrl: ctx.helper.getProdFileUrl(
+  244:         '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  245        ),
+  246        iconUrl: ctx.helper.getProdFileUrl(
+  247:         '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  248        ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取基材和主材下单数据.js:
+  185    logoUrl: ctx.helper.getProdFileUrl(
+  186:     `/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png`,
+  187    ),
+  188    iconUrl: ctx.helper.getProdFileUrl(
+  189:     '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  190    ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取基材下单打印数据.js:
+  328      logoUrl: ctx.helper.getProdFileUrl(
+  329:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  330      ),
+  331      iconUrl: ctx.helper.getProdFileUrl(
+  332:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  333      ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取收据打印明细.js:
+   834      ? ctx.helper.getProdFileUrl(
+   835:         '/public/upload/file/13/0/2025-03-29-09-23-20-c917bb71-2609-4fea-b54c-a3af08c0f1c0.png',
+   836        )
+
+   839    // ctx.helper.getProdFileUrl(
+   840:   //   '/public/upload/file/13/0/2025-03-29-09-23-19-ec81d68c-7406-4057-ac27-a4718622ecce.png',
+   841    // ) // 变更 标记
+
+  1036      logoUrl1: ctx.helper.getProdFileUrl(
+  1037:       '/public/upload/file/13/0/2024-07-10-09-29-40-a4469500-6036-4ad1-b420-6a82bb720e19.png',
+  1038      ),
+  1039      logoUrl: ctx.helper.getProdFileUrl(
+  1040:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  1041      ),
+
+  1092        bill.status === 0
+  1093:         ? '/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png'
+  1094          : '',
+
+  1121        bill.kindName === '现金'
+  1122:         ? '/public/upload/file/13/0/2025-04-27-09-37-41-d7eb02a1-6eba-43c0-a8b4-f9313127ca53.png'
+  1123          : '',
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取退货单打印数据.js:
+  106      logoUrl: ctx.helper.getProdFileUrl(
+  107:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  108      ),
+  109      iconUrl: ctx.helper.getProdFileUrl(
+  110:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  111      ),
+
+code/prodSrc/codeFlow/打印相关/打印数据/获取主材下单打印数据.js:
+  374      logoUrl: ctx.helper.getProdFileUrl(
+  375:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  376      ),
+  377      iconUrl: ctx.helper.getProdFileUrl(
+  378:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  379      ),
+
+code/prodSrc/codeFlow/打印相关/打印配置/打印模块配置.js:
+  37            icon: ctx.helper.getProdFileUrl(
+  38:             '/public/upload/file/13/0/2024-08-21-10-38-35-88f8bd8a-b98b-4980-affe-53ebb55cc3a3.png',
+  39            ),
+
+code/prodSrc/codeFlow/打印相关/打印配置/获取决算单打印数据.js:
+  101      logoUrl: ctx.helper.getProdFileUrl(
+  102:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  103      ),
+  104      iconUrl: ctx.helper.getProdFileUrl(
+  105:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  106      ),
+
+code/prodSrc/codeFlow/报表相关/获取可查看的报表类型.js:
+  592        icon: ctx.helper.getProdFileUrl(
+  593:         '/public/upload/file/13/0/2024-03-25-07-38-01-10b9c169-a157-4625-8d90-3b01ca0fe517.svg',
+  594        ),
+
+  599        icon: ctx.helper.getProdFileUrl(
+  600:         '/public/upload/file/13/0/2024-03-25-07-39-00-e7ecf537-4bb7-4dd8-8ac5-b9d2231d5648.svg',
+  601        ),
+
+  626        icon: ctx.helper.getProdFileUrl(
+  627:         '/public/upload/file/13/0/2024-03-25-07-39-00-e7ecf537-4bb7-4dd8-8ac5-b9d2231d5648.svg',
+  628        ),
+
+  646        icon: ctx.helper.getProdFileUrl(
+  647:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  648        ),
+
+  659        icon: ctx.helper.getProdFileUrl(
+  660:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  661        ),
+
+  674        icon: ctx.helper.getProdFileUrl(
+  675:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  676        ),
+
+  689        icon: ctx.helper.getProdFileUrl(
+  690:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  691        ),
+
+  704        icon: ctx.helper.getProdFileUrl(
+  705:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  706        ),
+
+  847        icon: ctx.helper.getProdFileUrl(
+  848:         '/public/upload/file/13/0/2024-04-11-09-13-07-0c657f3b-d7f9-4eb6-893b-3452f8382ade.svg',
+  849        ),
+
+code/prodSrc/codeFlow/报表相关/数据可视化报表/能力值榜单.js:
+  197          getProdFileUrl(
+  198:           '/public/upload/file/13/0/2024-11-18-05-43-01-b5129599-46bf-472c-b691-e1be73c19b0a.png',
+  199          ),
+  200          getProdFileUrl(
+  201:           '/public/upload/file/13/0/2024-11-18-05-43-01-f695fbc4-4573-4620-89f1-9acabcce8583.png',
+  202          ),
+  203          getProdFileUrl(
+  204:           '/public/upload/file/13/0/2024-11-18-05-43-01-f5bab1a5-4a7d-4f44-ac15-37604c131541.png',
+  205          ),
+  206          getProdFileUrl(
+  207:           '/public/upload/file/13/0/2024-11-18-05-43-01-8580b921-4150-4237-bf96-b40b6c24bf83.png',
+  208          ),
+
+  218            LV01: getProdFileUrl(
+  219:             '/public/upload/file/13/0/2024-11-19-01-34-52-743d4e28-9860-4ef5-ab05-f7e60913a012.png',
+  220            ),
+  221            LV02: getProdFileUrl(
+  222:             '/public/upload/file/13/0/2024-11-19-01-34-52-14edce28-9b11-4e98-8b39-a860d9bd43ac.png',
+  223            ),
+  224            LV03: getProdFileUrl(
+  225:             '/public/upload/file/13/0/2024-11-19-01-34-52-9e3272fb-9a34-4e7c-9768-05f932dd7cf5.png',
+  226            ),
+  227            LV04: getProdFileUrl(
+  228:             '/public/upload/file/13/0/2024-11-19-01-34-52-4a6b0a05-3fee-4ea2-aedd-9bb32b26133f.png',
+  229            ),
+
+code/prodSrc/codeFlow/流程表单/出差报销申请表.js:
+  67  `;
+  68: let PdfUrl = ctx.helper.getProdFileUrl("/public/upload/file/13/0/2024-08-27-12-09-08-16a5cbae-2726-4576-8729-bd8f583ff496.png");
+  69  let tipHtmlStr = `<style type="text/css">${style}</style>
+
+code/prodSrc/codeFlow/流程表单/订单退款申请单.js:
+  500                  Number(orderInfo.completed) === 2
+  501:                   ? '/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png'
+  502:                   : '/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png',
+  503                )}
+
+code/prodSrc/codeFlow/流程表单/工牌申请单.js:
+   72        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   73:         '/public/upload/file/13/0/2024-08-27-02-20-04-baefecb4-56ef-4a7c-9e5a-fd4888922650.png',
+   74        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+   77        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   78:         '/public/upload/file/13/0/2024-08-27-02-20-04-013123ad-2e3a-4e5e-94f1-228c25fd2675.png',
+   79        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+   82        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   83:         '/public/upload/file/13/0/2024-08-27-02-20-06-f47f0d7b-1e8f-45c3-96fb-7b4c3abb9111.png',
+   84        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+   96        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   97:         '/public/upload/file/13/0/2024-08-27-02-20-08-479a23b9-b1e4-4bcf-ac21-862ac88680ae.png',
+   98        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+  101        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+  102:         '/public/upload/file/13/0/2024-08-27-02-20-09-8f69747a-0aa0-4c67-9fe9-0ac3dbec9d36.png',
+  103        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+code/prodSrc/codeFlow/流程表单/获取变更审核单据相关数据.js:
+  603                ${ctx.helper.getProdFileUrl(
+  604:                 '/public/upload/file/13/0/2025-04-22-09-49-20-436c3928-39ee-4589-b0c4-0ba8dd4437bd.svg',
+  605                )}
+
+code/prodSrc/codeFlow/流程表单/临时款退款申请单.js:
+  27      const titleUrl = ctx.helper.getProdFileUrl(
+  28:       '/public/upload/file/13/0/2024-12-20-10-07-17-56d10889-bc1b-467b-9877-fea4d78d5347.png',
+  29      );
+
+code/prodSrc/codeFlow/订单相关/订单详情获取.js:
+   325        icon: ctx.helper.getProdFileUrl(
+   326:         '/public/upload/file/13/0/2024-01-22-03-16-50-e86fada9-9e80-423b-bdec-ee7e3e97436a.svg',
+   327        ),
+
+   334        icon: ctx.helper.getProdFileUrl(
+   335:         '/public/upload/file/13/0/2024-01-30-11-11-37-32790a5f-131c-45a7-9471-4278443bf02a.svg',
+   336        ),
+
+   343        icon: ctx.helper.getProdFileUrl(
+   344:         '/public/upload/file/13/0/2024-07-29-04-12-53-997f5177-8bae-4264-8f0b-3d7c7f269ee1.svg',
+   345        ),
+
+   358              icon: ctx.helper.getProdFileUrl(
+   359:               '/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg',
+   360              ),
+
+   366              icon: ctx.helper.getProdFileUrl(
+   367:               '/public/upload/file/13/0/2024-01-22-03-16-50-0cff691c-c41d-4b3c-9fb5-655d72f20bc8.svg',
+   368              ),
+
+   377              icon: ctx.helper.getProdFileUrl(
+   378:               '/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg',
+   379              ),
+
+   385              icon: ctx.helper.getProdFileUrl(
+   386:               '/public/upload/file/13/0/2024-01-22-03-16-50-0cff691c-c41d-4b3c-9fb5-655d72f20bc8.svg',
+   387              ),
+
+   393              icon: ctx.helper.getProdFileUrl(
+   394:               '/public/upload/file/13/0/2024-01-22-03-16-50-fa47a910-ea33-4c65-bd0d-d63933d67222.svg',
+   395              ),
+
+   410        icon: ctx.helper.getProdFileUrl(
+   411:         '/public/upload/file/13/0/2024-01-25-12-46-15-06baa2d3-c0a2-409a-99ec-11ee911c3576.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   412        ),
+
+   419        icon: ctx.helper.getProdFileUrl(
+   420:         '/public/upload/file/13/0/2024-08-09-06-29-41-67049d76-4f18-493a-b90f-e1754c07648f.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   421        ),
+
+   428      icon: ctx.helper.getProdFileUrl(
+   429:       '/public/upload/file/13/0/2024-01-25-12-46-15-b475c513-1527-45de-bfe4-f14f66caf3c2.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   430      ),
+
+   437      icon: ctx.helper.getProdFileUrl(
+   438:       '/public/upload/file/13/0/2024-01-25-12-46-15-ff0396f9-35c4-424f-ada9-390837684379.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   439      ),
+
+   446      icon: ctx.helper.getProdFileUrl(
+   447:       '/public/upload/file/13/0/2024-01-25-12-46-15-ece32033-5ae3-4bb1-a4f5-74ddf9c00ebb.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   448      ),
+
+   456    //     icon: ctx.helper.getProdFileUrl(
+   457:   //       '/public/upload/file/13/0/2024-07-05-09-38-44-c35f86d9-569f-4a03-9692-bff4f7c3e284.png',
+   458    //     ),
+
+   467    //     name: '变更审核',
+   468:   //     icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-4ce3f824-bb51-4d3b-8b50-14453ecb801d-100x100.png'),
+   469    //     num: orderDetail.changeAuditNum || 0,
+
+   476    //     name: '收货审核',
+   477:   //     icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-7c6844ce-1ab1-49fe-9832-6f6536d9d7ce-100x100.png'),
+   478    //     num: orderDetail.waitReceiveAuditNum || 0,
+
+   485    //     name: '退货审核',
+   486:   //     icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-852dc948-fd0b-4648-8116-79f49d705c6a-100x100.png'),
+   487    //     num: orderDetail.waitAuditReturnBaseBillNum || 0,
+
+   494        icon: ctx.helper.getProdFileUrl(
+   495:         '/public/upload/file/13/0/2024-08-09-06-29-41-ad7ca3f1-746e-4fef-bbf9-7da50ccd897a.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   496        ),
+
+   513        icon: ctx.helper.getProdFileUrl(
+   514:         '/public/upload/file/13/0/2024-08-09-06-29-41-41d97a3b-d751-440f-9305-1987f2da2bf0.png',
+   515        ),
+
+   528          icon: ctx.helper.getProdFileUrl(
+   529:           '/public/upload/file/13/0/2024-08-09-06-29-41-5d70be58-1ba8-4832-a976-5eeb0ccab271.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   530          ),
+
+   554          icon: ctx.helper.getProdFileUrl(
+   555:           '/public/upload/file/13/0/2024-01-25-12-46-15-2e4d16e3-f615-493a-878c-97c31a8eca97.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   556          ),
+
+   572          icon: ctx.helper.getProdFileUrl(
+   573:           '/public/upload/file/13/0/2024-12-20-10-07-17-5e86fe23-bed3-498f-a9c7-589a43fdbc58.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   574          ),
+
+   588          icon: ctx.helper.getProdFileUrl(
+   589:           '/public/upload/file/13/0/2024-12-20-10-07-17-56d10889-bc1b-467b-9877-fea4d78d5347.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   590          ),
+
+   600      iconUrl: ctx.helper.getProdFileUrl(
+   601:       '/public/upload/file/13/0/2024-01-25-01-00-35-2366b6d7-45d8-42c8-9499-d38a62375ce8.svg',
+   602      ),
+
+   669        icon: ctx.helper.getProdFileUrl(
+   670:         '/public/upload/file/13/0/2024-01-31-02-45-41-846597ae-10aa-4e78-84e1-22c2503b2b8a.svg',
+   671        ),
+
+   674          url: ctx.helper.getProdFileUrl(
+   675:           '/public/upload/file/13/0/2024-08-21-10-23-02-ba372029-af77-4aba-9409-de75ed086a68.jpg',
+   676          ),
+
+   682        icon: ctx.helper.getProdFileUrl(
+   683:         '/public/upload/file/13/0/2024-01-31-02-45-41-8e4ab0b9-0621-48f8-973e-0bfc05f8919b.svg',
+   684        ),
+
+   687          url: ctx.helper.getProdFileUrl(
+   688:           '/public/upload/file/13/0/2024-08-21-10-24-29-d0a38d0c-d17b-4e58-8846-404b2fcb6aeb.jpg',
+   689          ),
+
+   976          backgroundImage: `url('${ctx.helper.getProdFileUrl(
+   977:           '/public/upload/file/13/0/2024-07-29-11-25-23-9ad41af0-ccb3-4845-9c1c-0baf39a65a15.png',
+   978          )}')`,
+
+   983          wrapperStyle.backgroundImage = `url('${ctx.helper.getProdFileUrl(
+   984:           '/public/upload/file/13/0/2024-07-29-11-38-42-bc5b8ecc-eaea-4c49-a455-afb79583e5b1.png',
+   985          )}')`;
+
+  1032                backgroundImage: `url('${ctx.helper.getProdFileUrl(
+  1033:                 '/public/upload/file/13/0/2024-08-03-02-34-35-4b359814-359c-4d5a-b761-ada0d43b3cad.png',
+  1034                )}')`,
+
+code/prodSrc/codeFlow/订单相关/订单信息流决算.js:
+   816          signingAmountUrl: getProdFileUrl(
+   817:           '/public/upload/file/13/0/2024-11-26-01-47-28-89022fcf-f266-4bf7-8baa-eba1a641c443.png',
+   818          ),
+   819          LockOrderAmountUrl: getProdFileUrl(
+   820:           '/public/upload/file/13/0/2024-11-26-01-47-29-392b2a0b-c429-47b1-81c0-f0c12d035360.png',
+   821          ),
+   822          completionAmountUrl: getProdFileUrl(
+   823:           '/public/upload/file/13/0/2024-11-26-01-47-28-48a7c377-a305-455c-a316-20728c9bccf6.png',
+   824          ),
+   825          totalCostUrl: getProdFileUrl(
+   826:           '/public/upload/file/13/0/2024-11-26-01-47-12-0d5c5d7e-5395-42c5-859d-edbc5b26ebff.png',
+   827          ),
+   828          grossProfitUrl: getProdFileUrl(
+   829:           '/public/upload/file/13/0/2024-11-26-01-47-12-9869ca3d-719e-47c8-bc4f-5169ab3641e8.png',
+   830          ),
+   831          tcUrl: getProdFileUrl(
+   832:           '/public/upload/file/13/0/2024-11-26-02-07-09-0157082f-7130-45bc-80f6-6e7a2a45fe21.png',
+   833          ),
+
+  1074          bgImageUrl: getProdFileUrl(
+  1075:           '/public/upload/file/13/0/2024-11-26-02-07-08-13454bac-240b-4526-b31f-ef1d652a3776.png',
+  1076          ),
+  1077          jxzUrl: getProdFileUrl(
+  1078:           '/public/upload/file/13/0/2024-11-26-01-47-00-e1c25f4e-f968-45d0-8dab-494ed75e9c5c.png',
+  1079          ),
+  1080          wksUrl: getProdFileUrl(
+  1081:           '/public/upload/file/13/0/2024-11-26-01-47-00-82c6d753-2cd6-4df0-acac-0c7719734b31.png',
+  1082          ),
+  1083          ywcUrl: getProdFileUrl(
+  1084:           '/public/upload/file/13/0/2024-11-26-01-47-00-2d8eee5d-62b2-4042-a293-b3eede4b5530.png',
+  1085          ),
+  1086          yqUrl: getProdFileUrl(
+  1087:           '/public/upload/file/13/0/2024-11-26-01-47-00-9975f7e8-9ae2-453a-91d7-95341a20b368.png',
+  1088          ),
+
+  1165          jcImageUrl: getProdFileUrl(
+  1166:           '/public/upload/file/13/0/2024-11-26-02-07-08-d1945bf6-a568-4fa5-83ac-233a8095af0d.png',
+  1167          ),
+  1168          zcImageUrl: getProdFileUrl(
+  1169:           '/public/upload/file/13/0/2024-11-26-02-07-09-48d88be3-5ea5-4fc4-8e7b-220e91fd5f3c.png',
+  1170          ),
+
+  1434          jcImageUrl: getProdFileUrl(
+  1435:           '/public/upload/file/13/0/2024-11-28-02-27-12-887102f7-f47c-41a8-af1e-4640e5df0270.png',
+  1436          ),
+  1437          zcImageUrl: getProdFileUrl(
+  1438:           '/public/upload/file/13/0/2024-11-28-02-27-12-cb0f3971-8168-4b5c-89c5-9af827556a0f.png',
+  1439          ),
+
+  1576          yjUrl: getProdFileUrl(
+  1577:           '/public/upload/file/13/0/2024-11-28-02-27-12-e24b1970-4160-4e2f-878a-b781cf17bdad.png',
+  1578          ),
+  1579          djUrl: getProdFileUrl(
+  1580:           '/public/upload/file/13/0/2024-11-28-02-27-12-9e2fd771-49f6-481e-80b8-92ef90bfcdf9.png',
+  1581          ),
+  1582          clocksUrl: getProdFileUrl(
+  1583:           '/public/upload/file/13/0/2024-12-05-10-31-21-6deda666-7edd-4ef9-befd-ac63aa4bec85.svg',
+  1584          ),
+
+  1644            icon: ctx.helper.getProdFileUrl(
+  1645:             '/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg',
+  1646            ),
+
+code/prodSrc/codeFlow/通知相关/财务收款发送签单通知.js:
+  1098              icon_url: ctx.helper.getProdFileUrl(
+  1099:               '/public/upload/file/13/0/2024-01-19-10-57-22-8581da15-7d9d-4bb9-baef-fcad6ed1a267.jpg',
+  1100              ),
+
+  1119              image_url: ctx.helper.getProdFileUrl(
+  1120:               '/public/upload/file/13/0/2024-01-19-07-55-44-d55edc5a-c451-4f0d-be4c-5ec0ec9b857a.jpg',
+  1121              ),
+
+code/prodSrc/codeFlow/通知相关/创建数据监听发送企微通知.js:
+   49        icon: ctx.helper.getProdFileUrl(
+   50:         '/public/upload/file/13/0/2023-10-12-07-12-04-95e977f9-a741-4c8e-83c5-f17d1e408165-100x100.png',
+   51        ),
+
+   86        icon: ctx.helper.getProdFileUrl(
+   87:         '/public/upload/file/13/0/2024-03-08-11-04-04-ce2b27bc-d123-48a1-9d0e-bb75aa5b90ca-100x100.png',
+   88        ),
+
+  116        icon: ctx.helper.getProdFileUrl(
+  117:         '/public/upload/file/13/0/2024-03-01-09-42-09-a739905a-6849-4ba6-878b-412181b6ed4c-100x100.png',
+  118        ),
+
+  251          icon =
+  252:           '/public/upload/file/13/0/2024-12-20-10-07-17-5e86fe23-bed3-498f-a9c7-589a43fdbc58.png';
+  253          smallTitle = '请及时通过订单解锁申请';
+
+  258          icon =
+  259:           '/public/upload/file/13/0/2024-12-20-10-07-17-56d10889-bc1b-467b-9877-fea4d78d5347.png';
+  260          smallTitle = '请及时通过基材变更申请';
+
+  307              ctx.helper.getProdFileUrl(
+  308:               '/public/upload/file/13/0/2023-10-12-07-12-04-95e977f9-a741-4c8e-83c5-f17d1e408165-100x100.png',
+  309              ),
+
+code/prodSrc/codeFlow/通知相关/监听数据发送企微通知.js:
+  617                ctx.helper.getProdFileUrl(
+  618:                 '/public/upload/file/13/0/2023-10-12-07-12-04-95e977f9-a741-4c8e-83c5-f17d1e408165-100x100.png',
+  619                ),
+
+code/prodSrc/codeFlow/配置管理/通用数据查看.js:
+  34
+  35:     }, "rgb(252,245,241)", '/public/upload/file/13/0/2025-04-02-04-06-48-ae37f08b-4dfe-4f1b-9314-742fd1136807.png')
+  36      ,
+
+  45          "rgb(243,246,253)",
+  46:         '/public/upload/file/13/0/2025-04-02-04-06-48-0d84857e-2e46-4a2b-8a94-08cbdc4dc1a6.png'
+  47      ),
+
+code/prodSrc/codeFlow/项目经理结算/获取结算明细打印数据.js:
+  57      logoUrl: ctx.helper.getProdFileUrl(
+  58:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  59      ),
+  60      iconUrl: ctx.helper.getProdFileUrl(
+  61:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  62      ),
+
+code/prodSrc/codeFlow/项目经理结算/获取项目经理结算单明细数据.js:
+  64      logoUrl: ctx.helper.getProdFileUrl(
+  65:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  66      ),
+  67      iconUrl: ctx.helper.getProdFileUrl(
+  68:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  69      ),
+
+code/prodSrc/codeFlow/首页工作台/首页工作台.js:
+  35      CONFIRMED_ORDER_COUNT:
+  36:       '/public/upload/file/13/0/2024-10-23-09-54-10-a311f471-84ce-497b-9a7b-b1e058e50565.png',
+  37      CONFIRMED_ORDER_AMOUNT:
+  38:       '/public/upload/file/13/0/2024-10-23-09-54-10-08675ba7-918f-43eb-ad16-ffd84dabbe2e.png',
+  39      PENDING_ORDER_COUNT:
+  40:       '/public/upload/file/13/0/2024-10-23-09-54-09-771cf211-2570-41b0-810f-39c6ec104920.png',
+  41      PENDING_ORDER_AMOUNT:
+  42:       '/public/upload/file/13/0/2024-10-23-09-54-09-02e0beb3-c9ae-43bb-8d28-5db2da74e7f8.png',
+  43    },
+
+code/prodSrc/codeFlow/首页工作台/首页工作台数据统计.js:
+  180            getProdFileUrl(
+  181:             '/public/upload/file/13/0/2024-10-23-09-54-09-af2f4dd5-a4be-4fd8-b357-e0c442240ce8.png',
+  182            ),
+  183            getProdFileUrl(
+  184:             '/public/upload/file/13/0/2024-10-23-09-54-09-4236c18a-b305-4671-a56c-c262357cf76d.png',
+  185            ),
+  186            getProdFileUrl(
+  187:             '/public/upload/file/13/0/2024-10-23-09-54-09-08b87192-600f-45d1-a0be-67b872102806.png',
+  188            ),
+
+  285        imageUrl: getProdFileUrl(
+  286:         '/public/upload/file/13/0/2024-10-23-11-21-02-082fbce7-34bc-4047-b52b-5344f39eb6bd.png',
+  287        ),
+
+  292        imageUrl: getProdFileUrl(
+  293:         '/public/upload/file/13/0/2024-10-23-11-21-02-3f4c3046-da1e-4844-b8dd-da481e5d8266.png',
+  294        ),
+
+  334        imageUrl: getProdFileUrl(
+  335:         '/public/upload/file/13/0/2024-10-30-10-14-33-a2f29ddb-ee4b-4c08-bd97-5135676aad93.png',
+  336        ),
+
+  341        imageUrl: getProdFileUrl(
+  342:         '/public/upload/file/13/0/2024-10-23-11-21-02-a81c6ad8-e508-4620-a79e-9c987f4d4729.png',
+  343        ),
+
+  348        imageUrl: getProdFileUrl(
+  349:         '/public/upload/file/13/0/2024-10-23-11-21-02-b35559f3-ca05-497d-b3c3-f039565b35f9.png',
+  350        ),
+
+  355        imageUrl: getProdFileUrl(
+  356:         '/public/upload/file/13/0/2024-10-23-11-21-01-adc9d0a9-8dc6-467e-a023-d18e8d8818f0.png',
+  357        ),
+
+  375        imageUrl: getProdFileUrl(
+  376:         '/public/upload/file/13/0/2024-10-23-11-21-01-93e7573a-26fa-4c52-9684-38cc186cc494.png',
+  377        ),
+
+  382        imageUrl: getProdFileUrl(
+  383:         '/public/upload/file/13/0/2024-10-23-11-21-01-1e71ce86-38ef-4a2b-ba82-8ec6b8a33f64.png',
+  384        ),
+
+  389        imageUrl: getProdFileUrl(
+  390:         '/public/upload/file/13/0/2024-10-23-11-21-01-6abe2b19-a272-4c05-9eb8-98f37c3eea68.png',
+  391        ),
+
+  396        imageUrl: getProdFileUrl(
+  397:         '/public/upload/file/13/0/2024-10-23-11-21-01-c12fdac2-4abf-47ca-8b12-949ca95fc8a2.png',
+  398        ),
+
+  403        imageUrl: getProdFileUrl(
+  404:         '/public/upload/file/13/0/2024-10-23-11-21-01-66d7c199-22b5-4fb8-9fc5-abd7b76603ce.png',
+  405        ),
+
+  417            imageUrl: getProdFileUrl(
+  418:             '/public/upload/file/13/0/2024-10-23-09-54-10-77a1fcb2-bcc9-4722-a0ee-e4aa7e1f977a.png',
+  419            ),
+
+  424            imageUrl: getProdFileUrl(
+  425:             '/public/upload/file/13/0/2024-10-23-09-54-10-a311f471-84ce-497b-9a7b-b1e058e50565.png',
+  426            ),
+
+  430          //     text: "工程节点待处理",
+  431:         //     imageUrl: getProdFileUrl("/public/upload/file/13/0/2024-10-23-09-54-10-2b4ab907-163f-4b86-b6ed-82620a350420.png")
+  432          // },
+
+  650            imageUrl: getProdFileUrl(
+  651:             '/public/upload/file/13/0/2024-10-31-09-25-32-b4613ca3-3e63-4e9c-addb-0e6ab2945193.png',
+  652            ),
+
+  659            imageUrl: getProdFileUrl(
+  660:             '/public/upload/file/13/0/2024-10-31-09-25-32-62548d7a-cc67-49e8-829e-ea5b2d279c47.png',
+  661            ),
+
+  668            imageUrl: getProdFileUrl(
+  669:             '/public/upload/file/13/0/2024-10-31-10-53-42-babb7373-264f-4e34-ad35-2c083639e2df.png',
+  670            ),
+
+  680            imageUrl: getProdFileUrl(
+  681:             '/public/upload/file/13/0/2024-10-31-09-25-32-bdb36508-d49e-4f27-9468-4fde974853f0.png',
+  682            ),
+
+  769          getProdFileUrl(
+  770:           '/public/upload/file/13/0/2024-11-18-05-43-01-b5129599-46bf-472c-b691-e1be73c19b0a.png',
+  771          ),
+  772          getProdFileUrl(
+  773:           '/public/upload/file/13/0/2024-11-18-05-43-01-f695fbc4-4573-4620-89f1-9acabcce8583.png',
+  774          ),
+  775          getProdFileUrl(
+  776:           '/public/upload/file/13/0/2024-11-18-05-43-01-f5bab1a5-4a7d-4f44-ac15-37604c131541.png',
+  777          ),
+  778          getProdFileUrl(
+  779:           '/public/upload/file/13/0/2024-11-18-05-43-01-8580b921-4150-4237-bf96-b40b6c24bf83.png',
+  780          ),
+
+  790            LV01: getProdFileUrl(
+  791:             '/public/upload/file/13/0/2024-11-19-01-34-52-743d4e28-9860-4ef5-ab05-f7e60913a012.png',
+  792            ),
+  793            LV02: getProdFileUrl(
+  794:             '/public/upload/file/13/0/2024-11-19-01-34-52-14edce28-9b11-4e98-8b39-a860d9bd43ac.png',
+  795            ),
+  796            LV03: getProdFileUrl(
+  797:             '/public/upload/file/13/0/2024-11-19-01-34-52-9e3272fb-9a34-4e7c-9768-05f932dd7cf5.png',
+  798            ),
+  799            LV04: getProdFileUrl(
+  800:             '/public/upload/file/13/0/2024-11-19-01-34-52-4a6b0a05-3fee-4ea2-aedd-9bb32b26133f.png',
+  801            ),
+
+code/src/amis/业绩确认统计报表.json:
+    23                    },
+    24:                   "src": "/public/upload/file/13/0/2024-04-07-09-49-42-35d6b520-bc7c-4a00-a00e-7459dd7b334b.png"
+    25                  }
+
+   487                                "type": "icon",
+   488:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+   489                                "id": "u:b04b9f9b48a5",
+
+   541                                "type": "icon",
+   542:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+   543                                "id": "u:924b6f635014",
+
+   710                                "type": "icon",
+   711:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+   712                                "id": "u:b04b9f9b48a5",
+
+   764                                "type": "icon",
+   765:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+   766                                "id": "u:86c89e2910cc",
+
+   897                                "type": "icon",
+   898:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+   899                                "id": "u:28786e0c7f31",
+
+   951                                "type": "icon",
+   952:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+   953                                "id": "u:b4ac580daa42",
+
+  1067                                "type": "icon",
+  1068:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+  1069                                "id": "u:5e9585020833",
+
+  1121                                "type": "icon",
+  1122:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+  1123                                "id": "u:c04b6ba2a150",
+
+  1230                        "type": "icon",
+  1231:                       "icon": "/public/upload/file/13/0/2024-01-29-01-52-29-e7910b40-0d30-49be-9d6a-5fb2b4bd71c8.svg",
+  1232                        "vendor": "",
+
+  2567                                "type": "icon",
+  2568:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+  2569                                "id": "u:2ff971b24662",
+
+  2621                                "type": "icon",
+  2622:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+  2623                                "id": "u:e5721dab2b42",
+
+  2790                                "type": "icon",
+  2791:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+  2792                                "id": "u:b40b7f1ca623",
+
+  2844                                "type": "icon",
+  2845:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+  2846                                "id": "u:62881f84e31d",
+
+  2980                                "type": "icon",
+  2981:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+  2982                                "id": "u:e539cb99f65f",
+
+  3034                                "type": "icon",
+  3035:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+  3036                                "id": "u:3c96973b3a13",
+
+  3150                                "type": "icon",
+  3151:                               "icon": "/public/upload/file/13/0/2024-01-29-01-22-03-bd41c377-2f55-4e43-a549-00e86d19c5e6.svg",
+  3152                                "id": "u:825be5a85f39",
+
+  3204                                "type": "icon",
+  3205:                               "icon": "/public/upload/file/13/0/2024-01-29-01-00-13-4aabf2e8-db5d-4a01-a0f6-bbbd4b9014c1.svg",
+  3206                                "id": "u:8f7ee5dcba1d",
+
+  3313                        "type": "icon",
+  3314:                       "icon": "/public/upload/file/13/0/2024-01-29-01-51-13-b2c637d5-1175-4232-b26b-f18df96f2035.svg",
+  3315                        "vendor": "",
+
+code/src/codeFlow/test/测试流程.js:
+  108        icon: ctx.helper.getProdFileUrl(
+  109:         '/public/upload/file/13/0/2024-03-27-02-56-30-2ee7e618-897e-40c9-97fe-ac33c41a2f76.svg',
+  110        ),
+
+  142              ctx.helper.getProdFileUrl(
+  143:               '/public/upload/file/13/0/2023-10-12-07-12-04-95e977f9-a741-4c8e-83c5-f17d1e408165-100x100.png',
+  144              ),
+
+code/src/codeFlow/test/首页工作台.js:
+  35      CONFIRMED_ORDER_COUNT:
+  36:       '/public/upload/file/13/0/2024-10-23-09-54-10-a311f471-84ce-497b-9a7b-b1e058e50565.png',
+  37      CONFIRMED_ORDER_AMOUNT:
+  38:       '/public/upload/file/13/0/2024-10-23-09-54-10-08675ba7-918f-43eb-ad16-ffd84dabbe2e.png',
+  39      PENDING_ORDER_COUNT:
+  40:       '/public/upload/file/13/0/2024-10-23-09-54-09-771cf211-2570-41b0-810f-39c6ec104920.png',
+  41      PENDING_ORDER_AMOUNT:
+  42:       '/public/upload/file/13/0/2024-10-23-09-54-09-02e0beb3-c9ae-43bb-8d28-5db2da74e7f8.png',
+  43    },
+
+code/src/codeFlow/test/首页工作台数据统计.js:
+  176            getProdFileUrl(
+  177:             '/public/upload/file/13/0/2024-10-23-09-54-09-af2f4dd5-a4be-4fd8-b357-e0c442240ce8.png',
+  178            ),
+  179            getProdFileUrl(
+  180:             '/public/upload/file/13/0/2024-10-23-09-54-09-4236c18a-b305-4671-a56c-c262357cf76d.png',
+  181            ),
+  182            getProdFileUrl(
+  183:             '/public/upload/file/13/0/2024-10-23-09-54-09-08b87192-600f-45d1-a0be-67b872102806.png',
+  184            ),
+
+  281        imageUrl: getProdFileUrl(
+  282:         '/public/upload/file/13/0/2024-10-23-11-21-02-082fbce7-34bc-4047-b52b-5344f39eb6bd.png',
+  283        ),
+
+  288        imageUrl: getProdFileUrl(
+  289:         '/public/upload/file/13/0/2024-10-23-11-21-02-3f4c3046-da1e-4844-b8dd-da481e5d8266.png',
+  290        ),
+
+  330        imageUrl: getProdFileUrl(
+  331:         '/public/upload/file/13/0/2024-10-30-10-14-33-a2f29ddb-ee4b-4c08-bd97-5135676aad93.png',
+  332        ),
+
+  337        imageUrl: getProdFileUrl(
+  338:         '/public/upload/file/13/0/2024-10-23-11-21-02-a81c6ad8-e508-4620-a79e-9c987f4d4729.png',
+  339        ),
+
+  344        imageUrl: getProdFileUrl(
+  345:         '/public/upload/file/13/0/2024-10-23-11-21-02-b35559f3-ca05-497d-b3c3-f039565b35f9.png',
+  346        ),
+
+  351        imageUrl: getProdFileUrl(
+  352:         '/public/upload/file/13/0/2024-10-23-11-21-01-adc9d0a9-8dc6-467e-a023-d18e8d8818f0.png',
+  353        ),
+
+  371        imageUrl: getProdFileUrl(
+  372:         '/public/upload/file/13/0/2024-10-23-11-21-01-93e7573a-26fa-4c52-9684-38cc186cc494.png',
+  373        ),
+
+  378        imageUrl: getProdFileUrl(
+  379:         '/public/upload/file/13/0/2024-10-23-11-21-01-1e71ce86-38ef-4a2b-ba82-8ec6b8a33f64.png',
+  380        ),
+
+  385        imageUrl: getProdFileUrl(
+  386:         '/public/upload/file/13/0/2024-10-23-11-21-01-6abe2b19-a272-4c05-9eb8-98f37c3eea68.png',
+  387        ),
+
+  392        imageUrl: getProdFileUrl(
+  393:         '/public/upload/file/13/0/2024-10-23-11-21-01-c12fdac2-4abf-47ca-8b12-949ca95fc8a2.png',
+  394        ),
+
+  399        imageUrl: getProdFileUrl(
+  400:         '/public/upload/file/13/0/2024-10-23-11-21-01-66d7c199-22b5-4fb8-9fc5-abd7b76603ce.png',
+  401        ),
+
+  413            imageUrl: getProdFileUrl(
+  414:             '/public/upload/file/13/0/2024-10-23-09-54-10-77a1fcb2-bcc9-4722-a0ee-e4aa7e1f977a.png',
+  415            ),
+
+  420            imageUrl: getProdFileUrl(
+  421:             '/public/upload/file/13/0/2024-10-23-09-54-10-a311f471-84ce-497b-9a7b-b1e058e50565.png',
+  422            ),
+
+  426          //     text: "工程节点待处理",
+  427:         //     imageUrl: getProdFileUrl("/public/upload/file/13/0/2024-10-23-09-54-10-2b4ab907-163f-4b86-b6ed-82620a350420.png")
+  428          // },
+
+  645            imageUrl: getProdFileUrl(
+  646:             '/public/upload/file/13/0/2024-10-31-09-25-32-b4613ca3-3e63-4e9c-addb-0e6ab2945193.png',
+  647            ),
+
+  654            imageUrl: getProdFileUrl(
+  655:             '/public/upload/file/13/0/2024-10-31-09-25-32-62548d7a-cc67-49e8-829e-ea5b2d279c47.png',
+  656            ),
+
+  663            imageUrl: getProdFileUrl(
+  664:             '/public/upload/file/13/0/2024-10-31-10-53-42-babb7373-264f-4e34-ad35-2c083639e2df.png',
+  665            ),
+
+  675            imageUrl: getProdFileUrl(
+  676:             '/public/upload/file/13/0/2024-10-31-09-25-32-bdb36508-d49e-4f27-9468-4fde974853f0.png',
+  677            ),
+
+  765          getProdFileUrl(
+  766:           '/public/upload/file/13/0/2024-11-18-05-43-01-b5129599-46bf-472c-b691-e1be73c19b0a.png',
+  767          ),
+  768          getProdFileUrl(
+  769:           '/public/upload/file/13/0/2024-11-18-05-43-01-f695fbc4-4573-4620-89f1-9acabcce8583.png',
+  770          ),
+  771          getProdFileUrl(
+  772:           '/public/upload/file/13/0/2024-11-18-05-43-01-f5bab1a5-4a7d-4f44-ac15-37604c131541.png',
+  773          ),
+  774          getProdFileUrl(
+  775:           '/public/upload/file/13/0/2024-11-18-05-43-01-8580b921-4150-4237-bf96-b40b6c24bf83.png',
+  776          ),
+
+  786            LV01: getProdFileUrl(
+  787:             '/public/upload/file/13/0/2024-11-19-01-34-52-743d4e28-9860-4ef5-ab05-f7e60913a012.png',
+  788            ),
+  789            LV02: getProdFileUrl(
+  790:             '/public/upload/file/13/0/2024-11-19-01-34-52-14edce28-9b11-4e98-8b39-a860d9bd43ac.png',
+  791            ),
+  792            LV03: getProdFileUrl(
+  793:             '/public/upload/file/13/0/2024-11-19-01-34-52-9e3272fb-9a34-4e7c-9768-05f932dd7cf5.png',
+  794            ),
+  795            LV04: getProdFileUrl(
+  796:             '/public/upload/file/13/0/2024-11-19-01-34-52-4a6b0a05-3fee-4ea2-aedd-9bb32b26133f.png',
+  797            ),
+
+code/src/codeFlow/业绩报表/获取工作台业绩统计排名.js:
+  80    ctx.helper.getProdFileUrl(
+  81:     '/public/upload/file/13/0/2024-04-15-06-12-55-f68f55a6-42ac-4244-85b7-eb9335ae4d03.png',
+  82    ),
+  83    ctx.helper.getProdFileUrl(
+  84:     '/public/upload/file/13/0/2024-04-15-06-12-55-951960b0-dd07-4552-8651-33c0bd6c96c3.png',
+  85    ),
+  86    ctx.helper.getProdFileUrl(
+  87:     '/public/upload/file/13/0/2024-04-15-06-12-55-28d4aebd-8a71-45e0-a0bd-aae211bbeec1.png',
+  88    ),
+
+code/src/codeFlow/业绩确认/发送签单排名通知.js:
+  318      icon: ctx.helper.getProdFileUrl(
+  319:       '/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea.png',
+  320      ),
+
+  354            ctx.helper.getProdFileUrl(
+  355:             '/public/upload/file/13/0/2024-04-15-12-21-51-93fb1718-8197-45ae-bcde-7c13dd7353ea-100x100.png',
+  356            ),
+
+  362          url: ctx.helper.getProdFileUrl(
+  363:           '/public/upload/file/13/0/2024-02-26-11-49-26-6a36fc31-49a2-48a6-9258-e0bee06c3c45.png',
+  364          ),
+
+code/src/codeFlow/业绩确认v2/业绩确认信息查询.js:
+   141            background: url('${ctx.helper.getProdFileUrl(
+   142:             '/public/upload/file/13/0/2024-07-18-10-43-16-055d4793-f774-47d6-a509-d20d9a57a723.png',
+   143            )}');
+
+  1877                  <span style="background: url('${ctx.helper.getProdFileUrl(
+  1878:                   '/public/upload/file/13/0/2024-07-19-09-11-50-b7173c7c-58ac-41a4-9dfa-becc0209dbfa.png',
+  1879                  )}'); background-size: 100%; 100%; width: 17px; height: 22px; margin-top: -1px; display: inline-block;" />
+
+  1925                  <span style="background: url('${ctx.helper.getProdFileUrl(
+  1926:                   '/public/upload/file/13/0/2024-07-19-09-15-15-acf77172-b235-47af-8297-b577d50103ff.png',
+  1927                  )}'); background-size: 100%; 100%; width: 17px; height: 22px; margin-top: -1px; display: inline-block;" />
+
+  2571                  <span style="background: url('${ctx.helper.getProdFileUrl(
+  2572:                   '/public/upload/file/13/0/2024-07-19-09-11-50-b7173c7c-58ac-41a4-9dfa-becc0209dbfa.png',
+  2573                  )}'); background-size: 100%; 100%; width: 17px; height: 22px; margin-top: -1px; display: inline-block;" />
+
+  2619                  <span style="background: url('${ctx.helper.getProdFileUrl(
+  2620:                   '/public/upload/file/13/0/2024-07-19-09-15-15-acf77172-b235-47af-8297-b577d50103ff.png',
+  2621                  )}'); background-size: 100%; 100%; width: 17px; height: 22px; margin-top: -1px; display: inline-block;" />
+
+  4131          icon: ctx.helper.getProdFileUrl(
+  4132:           '/public/upload/file/13/0/2024-07-18-10-43-15-35c3d9ce-9bf2-4f7e-9770-565faa11b48e-100x100.png',
+  4133          ),
+
+  4139          icon: ctx.helper.getProdFileUrl(
+  4140:           '/public/upload/file/13/0/2024-07-18-10-43-15-c1e36440-866f-4ede-9466-8c4cc8be3ab9.png',
+  4141          ),
+
+  4147          icon: ctx.helper.getProdFileUrl(
+  4148:           '/public/upload/file/13/0/2024-07-18-10-43-15-d030cfe9-60fa-4a9a-9eee-8b40f02ced1f.png',
+  4149          ),
+
+  4155          icon: ctx.helper.getProdFileUrl(
+  4156:           '/public/upload/file/13/0/2024-07-18-10-43-15-39d86d85-2971-484d-8dd5-3d0365a24a25.png',
+  4157          ),
+
+  4163          icon: ctx.helper.getProdFileUrl(
+  4164:           '/public/upload/file/13/0/2024-07-18-10-43-15-36efa446-4431-4281-810d-62c24dfb6e73.png',
+  4165          ),
+
+  4171          icon: ctx.helper.getProdFileUrl(
+  4172:           '/public/upload/file/13/0/2024-07-18-10-43-15-58c387f6-50ac-4aec-9a8b-9e489d235f95.png',
+  4173          ),
+
+  4283            background: url('${ctx.helper.getProdFileUrl(
+  4284:             '/public/upload/file/13/0/2024-07-18-05-31-25-b78bc504-1c9e-49ce-a739-4c3cd1e7a8d2.png',
+  4285            )}');
+
+code/src/codeFlow/任务管理/获取任务流程类型.js:
+  104        icon: ctx.helper.getProdFileUrl(
+  105:         '/public/upload/file/13/0/2024-03-18-09-18-57-73fedfdb-d8bc-4428-a0d7-541f34c44a55.svg',
+  106        ),
+
+  115        icon: ctx.helper.getProdFileUrl(
+  116:         '/public/upload/file/13/0/2025-02-10-11-02-26-1a2a1484-2311-45d4-b16f-9e20cf430f60.svg',
+  117        ),
+
+  126        icon: ctx.helper.getProdFileUrl(
+  127:         '/public/upload/file/13/0/2025-02-10-11-02-27-356ef1b5-0dc9-4914-9dc5-604337e4f565.svg',
+  128        ),
+
+  139        icon: ctx.helper.getProdFileUrl(
+  140:         '/public/upload/file/13/0/2024-05-20-10-03-37-a2be75e4-e4b1-4196-88e5-9e6742b895e1.svg',
+  141        ),
+
+  150        icon: ctx.helper.getProdFileUrl(
+  151:         '/public/upload/file/13/0/2025-02-10-11-02-27-356ef1b5-0dc9-4914-9dc5-604337e4f565.svg',
+  152        ),
+
+  163        icon: ctx.helper.getProdFileUrl(
+  164:         '/public/upload/file/13/0/2024-08-23-04-22-20-128a65a0-3391-4103-993d-cec69d6f9cf3.svg',
+  165        ),
+
+  175        icon: ctx.helper.getProdFileUrl(
+  176:         '/public/upload/file/13/0/2024-04-01-12-35-08-94479471-dfdb-448f-9a13-44fb632536e4.svg',
+  177        ),
+
+  187        icon: ctx.helper.getProdFileUrl(
+  188:         '/public/upload/file/13/0/2024-04-02-10-21-19-db822eaa-f5d0-4067-bdc1-870e5e00464a.svg',
+  189        ),
+
+  199        icon: ctx.helper.getProdFileUrl(
+  200:         '/public/upload/file/13/0/2024-04-02-10-22-12-52850f91-19f6-4fb8-b04f-f0ff5e8f14a4.svg',
+  201        ),
+
+  211        icon: ctx.helper.getProdFileUrl(
+  212:         '/public/upload/file/13/0/2024-09-09-09-43-07-5a79add1-527b-4aff-b9b9-f9946726d3bb.svg',
+  213        ),
+
+  224        icon: ctx.helper.getProdFileUrl(
+  225:         '/public/upload/file/13/0/2024-04-02-10-22-12-52850f91-19f6-4fb8-b04f-f0ff5e8f14a4.svg',
+  226        ),
+
+  237        icon: ctx.helper.getProdFileUrl(
+  238:         '/public/upload/file/13/0/2024-08-15-06-49-14-874da700-beec-4b9d-930d-2e86f246984c.svg',
+  239        ),
+
+  249        icon: ctx.helper.getProdFileUrl(
+  250:         '/public/upload/file/13/0/2024-08-15-06-48-28-b4f09eef-344c-4343-bf33-2247a4c3111c.svg',
+  251        ),
+
+  261        icon: ctx.helper.getProdFileUrl(
+  262:         '/public/upload/file/13/0/2024-08-23-04-22-20-9b93b050-f3a0-4ab7-85e9-30255f30f8fc.svg',
+  263        ),
+
+  273        icon: ctx.helper.getProdFileUrl(
+  274:         '/public/upload/file/13/0/2024-08-23-04-22-20-bc06127f-5833-450f-b830-4eb8b16bb00d.svg',
+  275        ),
+
+  285        icon: ctx.helper.getProdFileUrl(
+  286:         '/public/upload/file/13/0/2024-03-27-02-56-30-2ee7e618-897e-40c9-97fe-ac33c41a2f76.svg',
+  287        ),
+
+  297        icon: ctx.helper.getProdFileUrl(
+  298:         '/public/upload/file/13/0/2024-08-23-04-35-41-16be7247-bed3-4328-b71c-07c0ef278161.svg',
+  299        ),
+
+  309        icon: ctx.helper.getProdFileUrl(
+  310:         '/public/upload/file/13/0/2024-04-22-09-36-17-8c6237f5-1fe8-4a0b-8a18-cdabb182affc.svg',
+  311        ),
+
+  321        icon: ctx.helper.getProdFileUrl(
+  322:         '/public/upload/file/13/0/2024-08-31-10-42-26-d4d2d2f5-ced7-4f10-b0ac-125d005ac0f8.svg',
+  323        ),
+
+  333        icon: ctx.helper.getProdFileUrl(
+  334:         '/public/upload/file/13/0/2025-02-10-11-02-26-1a2a1484-2311-45d4-b16f-9e20cf430f60.svg',
+  335        ),
+
+code/src/codeFlow/任务管理/任务流程审批完成处理.js:
+  182            icon: ctx.helper.getProdFileUrl(
+  183:             '/public/upload/file/13/0/2024-04-02-09-01-36-0912f809-737d-4a1a-b1c9-5eebc9100ccd-100x100.png',
+  184            ),
+
+  228            icon: ctx.helper.getProdFileUrl(
+  229:             '/public/upload/file/13/0/2024-04-02-09-45-44-ad1c3aa3-16cc-428a-aa04-075549822a27-100x100.png',
+  230            ),
+
+  279            icon: ctx.helper.getProdFileUrl(
+  280:             '/public/upload/file/13/0/2024-04-02-09-45-44-9c9028c8-30f1-442d-baf9-3d421a19d13f-100x100.png',
+  281            ),
+
+  310            icon: ctx.helper.getProdFileUrl(
+  311:             '/public/upload/file/13/0/2024-04-02-09-45-44-7cd9f673-566a-49fd-b35b-ba9c095bbc5b-100x100.png',
+  312            ),
+
+  353                ctx.helper.getProdFileUrl(
+  354:                 '/public/upload/file/13/0/2024-04-02-08-21-22-b1e5aa9b-8ac7-4666-875f-968fd340bcc8-100x100.png',
+  355                ),
+
+code/src/codeFlow/低代码相关/获取打印模块配置.js:
+  37            icon: ctx.helper.getProdFileUrl(
+  38:             '/public/upload/file/13/0/2024-08-21-10-38-35-88f8bd8a-b98b-4980-affe-53ebb55cc3a3.png',
+  39            ),
+
+code/src/codeFlow/低代码相关/自定义菜单.js:
+  90      return getProdFileUrl(
+  91:       `/public/upload/file/13/0/${imageMap[key] || imageMap.default}`,
+  92      );
+
+code/src/codeFlow/工具扩展/获取HTML相关函数.js:
+  13    audit: ctx.helper.getProdFileUrl(
+  14:     '/public/upload/file/13/0/2024-03-03-03-49-09-39af75c7-7be8-40d7-adc6-72056520142c.svg',
+  15    ),
+  16    'check-fill': ctx.helper.getProdFileUrl(
+  17:     '/public/upload/file/13/0/2024-03-08-06-57-32-dcbea2e3-9606-4998-a431-6905b5f0fc30.svg',
+  18    ),
+  19    'close-fill': ctx.helper.getProdFileUrl(
+  20:     '/public/upload/file/13/0/2024-03-08-06-57-36-a73af993-00a5-4f68-8d53-10c4e48ce5f5.svg',
+  21    ),
+  22    info: ctx.helper.getProdFileUrl(
+  23:     '/public/upload/file/13/0/2024-03-09-03-20-28-9482d6ae-fc60-4372-a39a-3a1085f04edc.svg',
+  24    ),
+  25    'arrow-up': ctx.helper.getProdFileUrl(
+  26:     '/public/upload/file/13/0/2024-03-19-04-29-02-1540f3d8-8d23-4673-9c6b-fd2588b95911.svg',
+  27    ),
+  28    'pdf-file': ctx.helper.getProdFileUrl(
+  29:     '/public/upload/file/13/0/2025-06-10-09-37-17-851e2469-d341-45f1-89c3-1b0c6572ede8.svg',
+  30    ),
+
+code/src/codeFlow/工具扩展/echarts快速生成.js:
+  211          background: "transparent",
+  212:         backgroundImage: "url(/public/upload/file/37/0/2024-12-23-04-37-21-418736b3-dfc8-412f-be65-db14a5c4f1ac.png)",
+  213          backgroundSize: "auto 100%",
+
+code/src/codeFlow/打印相关/获取变更单打印数据.js:
+  103      logoUrl: ctx.helper.getProdFileUrl(
+  104:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  105      ),
+  106      iconUrl: ctx.helper.getProdFileUrl(
+  107:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  108      ),
+
+code/src/codeFlow/打印相关/获取材料买卖合同材料明细.js:
+  74      logoUrl1: ctx.helper.getProdFileUrl(
+  75:       '/public/upload/file/13/0/2024-07-10-09-29-40-a4469500-6036-4ad1-b420-6a82bb720e19.png',
+  76      ),
+  77      logoUrl: ctx.helper.getProdFileUrl(
+  78:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  79      ),
+
+code/src/codeFlow/打印相关/获取材料配送单明细.js:
+  84      logoUrl: ctx.helper.getProdFileUrl(
+  85:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  86      ),
+  87      iconUrl: ctx.helper.getProdFileUrl(
+  88:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  89      ),
+
+code/src/codeFlow/打印相关/获取订单选材相关数据.js:
+  637      logoUrl: ctx.helper.getProdFileUrl(
+  638:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  639      ),
+  640      iconUrl: ctx.helper.getProdFileUrl(
+  641:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  642      ),
+
+code/src/codeFlow/打印相关/获取供应商结算单数据.js:
+  243        logoUrl: ctx.helper.getProdFileUrl(
+  244:         '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  245        ),
+  246        iconUrl: ctx.helper.getProdFileUrl(
+  247:         '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  248        ),
+
+code/src/codeFlow/打印相关/获取基材下单打印数据_zy.js:
+  326      logoUrl: ctx.helper.getProdFileUrl(
+  327:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  328      ),
+  329      iconUrl: ctx.helper.getProdFileUrl(
+  330:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  331      ),
+
+code/src/codeFlow/打印相关/获取决算单打印数据.js:
+  101      logoUrl: ctx.helper.getProdFileUrl(
+  102:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  103      ),
+  104      iconUrl: ctx.helper.getProdFileUrl(
+  105:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  106      ),
+
+code/src/codeFlow/打印相关/获取收据打印明细.js:
+   840      ? ctx.helper.getProdFileUrl(
+   841:         '/public/upload/file/13/0/2025-03-29-09-23-20-c917bb71-2609-4fea-b54c-a3af08c0f1c0.png',
+   842        )
+
+   845    // ctx.helper.getProdFileUrl(
+   846:   //   '/public/upload/file/13/0/2025-03-29-09-23-19-ec81d68c-7406-4057-ac27-a4718622ecce.png',
+   847    // ) // 变更 标记
+
+  1042      logoUrl1: ctx.helper.getProdFileUrl(
+  1043:       '/public/upload/file/13/0/2024-07-10-09-29-40-a4469500-6036-4ad1-b420-6a82bb720e19.png',
+  1044      ),
+  1045      logoUrl: ctx.helper.getProdFileUrl(
+  1046:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  1047      ),
+
+  1098        bill.status === 0
+  1099:         ? '/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png'
+  1100          : '',
+
+  1127        bill.kindName === '现金'
+  1128:         ? '/public/upload/file/13/0/2025-04-27-09-37-41-d7eb02a1-6eba-43c0-a8b4-f9313127ca53.png'
+  1129          : '',
+
+code/src/codeFlow/打印相关/获取套外下单主材打印数据_zy.js:
+  66      logoUrl: ctx.helper.getProdFileUrl(
+  67:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  68      ),
+  69      iconUrl: ctx.helper.getProdFileUrl(
+  70:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  71      ),
+
+code/src/codeFlow/打印相关/获取退货单打印数据.js:
+   98      logoUrl: ctx.helper.getProdFileUrl(
+   99:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  100      ),
+  101      iconUrl: ctx.helper.getProdFileUrl(
+  102:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  103      ),
+
+code/src/codeFlow/打印相关/获取主材下单打印数据_zy.js:
+  373      logoUrl: ctx.helper.getProdFileUrl(
+  374:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  375      ),
+  376      iconUrl: ctx.helper.getProdFileUrl(
+  377:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  378      ),
+
+code/src/codeFlow/报表相关/获取可查看的报表类型.js:
+  592        icon: ctx.helper.getProdFileUrl(
+  593:         '/public/upload/file/13/0/2024-03-25-07-38-01-10b9c169-a157-4625-8d90-3b01ca0fe517.svg',
+  594        ),
+
+  599        icon: ctx.helper.getProdFileUrl(
+  600:         '/public/upload/file/13/0/2024-03-25-07-39-00-e7ecf537-4bb7-4dd8-8ac5-b9d2231d5648.svg',
+  601        ),
+
+  626        icon: ctx.helper.getProdFileUrl(
+  627:         '/public/upload/file/13/0/2024-03-25-07-39-00-e7ecf537-4bb7-4dd8-8ac5-b9d2231d5648.svg',
+  628        ),
+
+  646        icon: ctx.helper.getProdFileUrl(
+  647:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  648        ),
+
+  660        icon: ctx.helper.getProdFileUrl(
+  661:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  662        ),
+
+  670        icon: ctx.helper.getProdFileUrl(
+  671:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  672        ),
+
+  686        icon: ctx.helper.getProdFileUrl(
+  687:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  688        ),
+
+  697        icon: ctx.helper.getProdFileUrl(
+  698:         '/public/upload/file/13/0/2024-04-12-09-26-45-61f375f5-9504-4eff-81d2-26b1547a2378.svg',
+  699        ),
+
+  837        icon: ctx.helper.getProdFileUrl(
+  838:         '/public/upload/file/13/0/2024-04-11-09-13-07-0c657f3b-d7f9-4eb6-893b-3452f8382ade.svg',
+  839        ),
+
+code/src/codeFlow/报表相关/数据可视化报表/能力值榜单.js:
+  196          getProdFileUrl(
+  197:           '/public/upload/file/13/0/2024-11-18-05-43-01-b5129599-46bf-472c-b691-e1be73c19b0a.png',
+  198          ),
+  199          getProdFileUrl(
+  200:           '/public/upload/file/13/0/2024-11-18-05-43-01-f695fbc4-4573-4620-89f1-9acabcce8583.png',
+  201          ),
+  202          getProdFileUrl(
+  203:           '/public/upload/file/13/0/2024-11-18-05-43-01-f5bab1a5-4a7d-4f44-ac15-37604c131541.png',
+  204          ),
+  205          getProdFileUrl(
+  206:           '/public/upload/file/13/0/2024-11-18-05-43-01-8580b921-4150-4237-bf96-b40b6c24bf83.png',
+  207          ),
+
+  217            LV01: getProdFileUrl(
+  218:             '/public/upload/file/13/0/2024-11-19-01-34-52-743d4e28-9860-4ef5-ab05-f7e60913a012.png',
+  219            ),
+  220            LV02: getProdFileUrl(
+  221:             '/public/upload/file/13/0/2024-11-19-01-34-52-14edce28-9b11-4e98-8b39-a860d9bd43ac.png',
+  222            ),
+  223            LV03: getProdFileUrl(
+  224:             '/public/upload/file/13/0/2024-11-19-01-34-52-9e3272fb-9a34-4e7c-9768-05f932dd7cf5.png',
+  225            ),
+  226            LV04: getProdFileUrl(
+  227:             '/public/upload/file/13/0/2024-11-19-01-34-52-4a6b0a05-3fee-4ea2-aedd-9bb32b26133f.png',
+  228            ),
+
+code/src/codeFlow/流程表单/出差报销申请表.js:
+  63  `;
+  64: let PdfUrl = ctx.helper.getProdFileUrl("/public/upload/file/13/0/2024-08-27-12-09-08-16a5cbae-2726-4576-8729-bd8f583ff496.png");
+  65  let tipHtmlStr = `<style type="text/css">${style}</style>
+
+code/src/codeFlow/流程表单/订单退款申请单.js:
+  488        Number(orderInfo.completed) === 2
+  489:         ? '/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png'
+  490:         : '/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png',
+  491      )}
+
+code/src/codeFlow/流程表单/工牌申请单.js:
+   72        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   73:         '/public/upload/file/13/0/2024-08-27-02-20-04-baefecb4-56ef-4a7c-9e5a-fd4888922650.png',
+   74        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+   77        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   78:         '/public/upload/file/13/0/2024-08-27-02-20-04-013123ad-2e3a-4e5e-94f1-228c25fd2675.png',
+   79        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+   82        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   83:         '/public/upload/file/13/0/2024-08-27-02-20-06-f47f0d7b-1e8f-45c3-96fb-7b4c3abb9111.png',
+   84        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+   96        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+   97:         '/public/upload/file/13/0/2024-08-27-02-20-08-479a23b9-b1e4-4bcf-ac21-862ac88680ae.png',
+   98        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+  101        <img crossorigin="anonymous" src="${ctx.helper.getProdFileUrl(
+  102:         '/public/upload/file/13/0/2024-08-27-02-20-09-8f69747a-0aa0-4c67-9fe9-0ac3dbec9d36.png',
+  103        )}" style="width: 100%;height: 100%;object-fit: cover;">
+
+code/src/codeFlow/流程表单/广告投放费用申请.js:
+  129  //合作服务商
+  130: let PdfUrl = ctx.helper.getProdFileUrl("/public/upload/file/13/0/2024-08-27-12-09-08-16a5cbae-2726-4576-8729-bd8f583ff496.png");
+  131  const serviceProviders = [
+
+code/src/codeFlow/流程表单/获取变更审核单据相关数据.js:
+  593                ${ctx.helper.getProdFileUrl(
+  594:           '/public/upload/file/13/0/2025-04-22-09-49-20-436c3928-39ee-4589-b0c4-0ba8dd4437bd.svg',
+  595          )}
+
+code/src/codeFlow/流程表单/临时款退款申请单.js:
+  27      const titleUrl = ctx.helper.getProdFileUrl(
+  28:       '/public/upload/file/13/0/2024-12-20-10-07-17-56d10889-bc1b-467b-9877-fea4d78d5347.png',
+  29      );
+
+code/src/codeFlow/订单相关/订单详情获取.js:
+   325        icon: ctx.helper.getProdFileUrl(
+   326:         '/public/upload/file/13/0/2024-01-22-03-16-50-e86fada9-9e80-423b-bdec-ee7e3e97436a.svg',
+   327        ),
+
+   334        icon: ctx.helper.getProdFileUrl(
+   335:         '/public/upload/file/13/0/2024-01-30-11-11-37-32790a5f-131c-45a7-9471-4278443bf02a.svg',
+   336        ),
+
+   343        icon: ctx.helper.getProdFileUrl(
+   344:         '/public/upload/file/13/0/2024-07-29-04-12-53-997f5177-8bae-4264-8f0b-3d7c7f269ee1.svg',
+   345        ),
+
+   358              icon: ctx.helper.getProdFileUrl(
+   359:               '/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg',
+   360              ),
+
+   366              icon: ctx.helper.getProdFileUrl(
+   367:               '/public/upload/file/13/0/2024-01-22-03-16-50-0cff691c-c41d-4b3c-9fb5-655d72f20bc8.svg',
+   368              ),
+
+   377              icon: ctx.helper.getProdFileUrl(
+   378:               '/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg',
+   379              ),
+
+   385              icon: ctx.helper.getProdFileUrl(
+   386:               '/public/upload/file/13/0/2024-01-22-03-16-50-0cff691c-c41d-4b3c-9fb5-655d72f20bc8.svg',
+   387              ),
+
+   393              icon: ctx.helper.getProdFileUrl(
+   394:               '/public/upload/file/13/0/2024-01-22-03-16-50-fa47a910-ea33-4c65-bd0d-d63933d67222.svg',
+   395              ),
+
+   410        icon: ctx.helper.getProdFileUrl(
+   411:         '/public/upload/file/13/0/2024-01-25-12-46-15-06baa2d3-c0a2-409a-99ec-11ee911c3576.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   412        ),
+
+   419        icon: ctx.helper.getProdFileUrl(
+   420:         '/public/upload/file/13/0/2024-08-09-06-29-41-67049d76-4f18-493a-b90f-e1754c07648f.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   421        ),
+
+   428      icon: ctx.helper.getProdFileUrl(
+   429:       '/public/upload/file/13/0/2024-01-25-12-46-15-b475c513-1527-45de-bfe4-f14f66caf3c2.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   430      ),
+
+   437      icon: ctx.helper.getProdFileUrl(
+   438:       '/public/upload/file/13/0/2024-01-25-12-46-15-ff0396f9-35c4-424f-ada9-390837684379.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   439      ),
+
+   446      icon: ctx.helper.getProdFileUrl(
+   447:       '/public/upload/file/13/0/2024-01-25-12-46-15-ece32033-5ae3-4bb1-a4f5-74ddf9c00ebb.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   448      ),
+
+   456    //     icon: ctx.helper.getProdFileUrl(
+   457:   //       '/public/upload/file/13/0/2024-07-05-09-38-44-c35f86d9-569f-4a03-9692-bff4f7c3e284.png',
+   458    //     ),
+
+   467    //     name: '变更审核',
+   468:   //     icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-4ce3f824-bb51-4d3b-8b50-14453ecb801d-100x100.png'),
+   469    //     num: orderDetail.changeAuditNum || 0,
+
+   476    //     name: '收货审核',
+   477:   //     icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-7c6844ce-1ab1-49fe-9832-6f6536d9d7ce-100x100.png'),
+   478    //     num: orderDetail.waitReceiveAuditNum || 0,
+
+   485    //     name: '退货审核',
+   486:   //     icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-852dc948-fd0b-4648-8116-79f49d705c6a-100x100.png'),
+   487    //     num: orderDetail.waitAuditReturnBaseBillNum || 0,
+
+   494        icon: ctx.helper.getProdFileUrl(
+   495:         '/public/upload/file/13/0/2024-08-09-06-29-41-ad7ca3f1-746e-4fef-bbf9-7da50ccd897a.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   496        ),
+
+   513        icon: ctx.helper.getProdFileUrl(
+   514:         '/public/upload/file/13/0/2024-08-09-06-29-41-41d97a3b-d751-440f-9305-1987f2da2bf0.png',
+   515        ),
+
+   528          icon: ctx.helper.getProdFileUrl(
+   529:           '/public/upload/file/13/0/2024-08-09-06-29-41-5d70be58-1ba8-4832-a976-5eeb0ccab271.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   530          ),
+
+   554          icon: ctx.helper.getProdFileUrl(
+   555:           '/public/upload/file/13/0/2024-08-09-06-29-41-5d70be58-1ba8-4832-a976-5eeb0ccab271.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   556          ),
+
+   572          icon: ctx.helper.getProdFileUrl(
+   573:           '/public/upload/file/13/0/2024-12-20-10-07-17-5e86fe23-bed3-498f-a9c7-589a43fdbc58.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   574          ),
+
+   588          icon: ctx.helper.getProdFileUrl(
+   589:           '/public/upload/file/13/0/2024-12-20-10-07-17-56d10889-bc1b-467b-9877-fea4d78d5347.png?x-oss-process=image/resize,m_fill,h_100,w_100',
+   590          ),
+
+   600      iconUrl: ctx.helper.getProdFileUrl(
+   601:       '/public/upload/file/13/0/2024-01-25-01-00-35-2366b6d7-45d8-42c8-9499-d38a62375ce8.svg',
+   602      ),
+
+   669        icon: ctx.helper.getProdFileUrl(
+   670:         '/public/upload/file/13/0/2024-01-31-02-45-41-846597ae-10aa-4e78-84e1-22c2503b2b8a.svg',
+   671        ),
+
+   674          url: ctx.helper.getProdFileUrl(
+   675:           '/public/upload/file/13/0/2024-08-21-10-23-02-ba372029-af77-4aba-9409-de75ed086a68.jpg',
+   676          ),
+
+   682        icon: ctx.helper.getProdFileUrl(
+   683:         '/public/upload/file/13/0/2024-01-31-02-45-41-8e4ab0b9-0621-48f8-973e-0bfc05f8919b.svg',
+   684        ),
+
+   687          url: ctx.helper.getProdFileUrl(
+   688:           '/public/upload/file/13/0/2024-08-21-10-24-29-d0a38d0c-d17b-4e58-8846-404b2fcb6aeb.jpg',
+   689          ),
+
+   713        icon: ctx.helper.getProdFileUrl(
+   714:         '/public/upload/file/13/0/2024-01-31-02-45-41-8e4ab0b9-0621-48f8-973e-0bfc05f8919b.svg',
+   715        ),
+
+   718          url: ctx.helper.getProdFileUrl(
+   719:           '/public/upload/file/13/0/2024-08-21-10-24-29-d0a38d0c-d17b-4e58-8846-404b2fcb6aeb.jpg',
+   720          ),
+
+   990          backgroundImage: `url('${ctx.helper.getProdFileUrl(
+   991:           '/public/upload/file/13/0/2024-07-29-11-25-23-9ad41af0-ccb3-4845-9c1c-0baf39a65a15.png',
+   992          )}')`,
+
+   997          wrapperStyle.backgroundImage = `url('${ctx.helper.getProdFileUrl(
+   998:           '/public/upload/file/13/0/2024-07-29-11-38-42-bc5b8ecc-eaea-4c49-a455-afb79583e5b1.png',
+   999          )}')`;
+
+  1046                backgroundImage: `url('${ctx.helper.getProdFileUrl(
+  1047:                 '/public/upload/file/13/0/2024-08-03-02-34-35-4b359814-359c-4d5a-b761-ada0d43b3cad.png',
+  1048                )}')`,
+
+code/src/codeFlow/订单相关/订单信息流决算.js:
+   817          signingAmountUrl: getProdFileUrl(
+   818:           '/public/upload/file/13/0/2024-11-26-01-47-28-89022fcf-f266-4bf7-8baa-eba1a641c443.png',
+   819          ),
+   820          LockOrderAmountUrl: getProdFileUrl(
+   821:           '/public/upload/file/13/0/2024-11-26-01-47-29-392b2a0b-c429-47b1-81c0-f0c12d035360.png',
+   822          ),
+   823          completionAmountUrl: getProdFileUrl(
+   824:           '/public/upload/file/13/0/2024-11-26-01-47-28-48a7c377-a305-455c-a316-20728c9bccf6.png',
+   825          ),
+   826          totalCostUrl: getProdFileUrl(
+   827:           '/public/upload/file/13/0/2024-11-26-01-47-12-0d5c5d7e-5395-42c5-859d-edbc5b26ebff.png',
+   828          ),
+   829          grossProfitUrl: getProdFileUrl(
+   830:           '/public/upload/file/13/0/2024-11-26-01-47-12-9869ca3d-719e-47c8-bc4f-5169ab3641e8.png',
+   831          ),
+   832          tcUrl: getProdFileUrl(
+   833:           '/public/upload/file/13/0/2024-11-26-02-07-09-0157082f-7130-45bc-80f6-6e7a2a45fe21.png',
+   834          ),
+
+  1075          bgImageUrl: getProdFileUrl(
+  1076:           '/public/upload/file/13/0/2024-11-26-02-07-08-13454bac-240b-4526-b31f-ef1d652a3776.png',
+  1077          ),
+  1078          jxzUrl: getProdFileUrl(
+  1079:           '/public/upload/file/13/0/2024-11-26-01-47-00-e1c25f4e-f968-45d0-8dab-494ed75e9c5c.png',
+  1080          ),
+  1081          wksUrl: getProdFileUrl(
+  1082:           '/public/upload/file/13/0/2024-11-26-01-47-00-82c6d753-2cd6-4df0-acac-0c7719734b31.png',
+  1083          ),
+  1084          ywcUrl: getProdFileUrl(
+  1085:           '/public/upload/file/13/0/2024-11-26-01-47-00-2d8eee5d-62b2-4042-a293-b3eede4b5530.png',
+  1086          ),
+  1087          yqUrl: getProdFileUrl(
+  1088:           '/public/upload/file/13/0/2024-11-26-01-47-00-9975f7e8-9ae2-453a-91d7-95341a20b368.png',
+  1089          ),
+
+  1166          jcImageUrl: getProdFileUrl(
+  1167:           '/public/upload/file/13/0/2024-11-26-02-07-08-d1945bf6-a568-4fa5-83ac-233a8095af0d.png',
+  1168          ),
+  1169          zcImageUrl: getProdFileUrl(
+  1170:           '/public/upload/file/13/0/2024-11-26-02-07-09-48d88be3-5ea5-4fc4-8e7b-220e91fd5f3c.png',
+  1171          ),
+
+  1434          jcImageUrl: getProdFileUrl(
+  1435:           '/public/upload/file/13/0/2024-11-28-02-27-12-887102f7-f47c-41a8-af1e-4640e5df0270.png',
+  1436          ),
+  1437          zcImageUrl: getProdFileUrl(
+  1438:           '/public/upload/file/13/0/2024-11-28-02-27-12-cb0f3971-8168-4b5c-89c5-9af827556a0f.png',
+  1439          ),
+
+  1576          yjUrl: getProdFileUrl(
+  1577:           '/public/upload/file/13/0/2024-11-28-02-27-12-e24b1970-4160-4e2f-878a-b781cf17bdad.png',
+  1578          ),
+  1579          djUrl: getProdFileUrl(
+  1580:           '/public/upload/file/13/0/2024-11-28-02-27-12-9e2fd771-49f6-481e-80b8-92ef90bfcdf9.png',
+  1581          ),
+  1582          clocksUrl: getProdFileUrl(
+  1583:           '/public/upload/file/13/0/2024-12-05-10-31-21-6deda666-7edd-4ef9-befd-ac63aa4bec85.svg',
+  1584          ),
+
+  1644            icon: ctx.helper.getProdFileUrl(
+  1645:             '/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg',
+  1646            ),
+
+code/src/codeFlow/通知相关/财务收款发送签单通知.js:
+  1098              icon_url: ctx.helper.getProdFileUrl(
+  1099:               '/public/upload/file/13/0/2024-01-19-10-57-22-8581da15-7d9d-4bb9-baef-fcad6ed1a267.jpg',
+  1100              ),
+
+  1119              image_url: ctx.helper.getProdFileUrl(
+  1120:               '/public/upload/file/13/0/2024-01-19-07-55-44-d55edc5a-c451-4f0d-be4c-5ec0ec9b857a.jpg',
+  1121              ),
+
+code/src/codeFlow/项目经理结算/获取结算明细打印数据.js:
+  58      logoUrl: ctx.helper.getProdFileUrl(
+  59:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  60      ),
+  61      iconUrl: ctx.helper.getProdFileUrl(
+  62:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  63      ),
+
+code/src/codeFlow/项目经理结算/获取项目经理结算单明细数据.js:
+  64      logoUrl: ctx.helper.getProdFileUrl(
+  65:       '/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png',
+  66      ),
+  67      iconUrl: ctx.helper.getProdFileUrl(
+  68:       '/public/upload/file/13/0/2024-08-21-10-11-49-a19daaa3-6031-4d09-82ca-de37cfa89dde.png',
+  69      ),
+
+t1/.gitignore:
+  15  .nyc_output/
+  16: app/public/upload/
+  17  deploy.config.js
+
+t1/src/components/drawer/TaskDetail.vue:
+  40                  getProdFileUrl(
+  41:                   '/public/upload/file/13/0/2024-02-26-11-49-26-6a36fc31-49a2-48a6-9258-e0bee06c3c45.png'
+  42                  )
+
+t1/src/components/forms/components/AuditItems.vue:
+  43                    backgroundImage: `url(${getProdFileUrl(
+  44:                     '/public/upload/file/13/0/2024-09-24-09-37-48-83ed354a-3f3d-4607-ae34-1a94c0fbd935.png',
+  45                    )})`,
+
+t1/src/components/forms/components/OrderStatus.vue:
+  4      <img v-if="completed === 2"
+  5:       :src="getProdFileUrl('/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png')" />
+  6    </div>
+
+t1/src/components/forms/items/ChooseRelationFileItemV2.vue:
+  67                    getProdFileUrl(
+  68:                     `/public/upload/file/13/0/2024-09-19-09-49-04-d9a68f58-137c-40fb-a412-5abc2081b555.png`,
+  69                    )
+
+  81                      getProdFileUrl(
+  82:                       `/public/upload/file/13/0/2024-09-20-05-59-27-976c52a9-20d6-4cc9-a520-cc2715b19c58.png`,
+  83                      )
+
+t1/src/components/page/Browser.vue:
+   6        backgroundImage: `url(${getProdFileUrl(
+   7:         '/public/upload/file/13/0/2024-07-09-02-59-29-a9f76ef2-a351-4d61-b79a-575620543ef3.png',
+   8        )})`,
+
+  23              getProdFileUrl(
+  24:               '/public/upload/file/13/0/2024-07-09-03-25-05-4e5a3751-8c76-4414-bc9a-30acf2683b6e.png',
+  25              )
+
+  34              getProdFileUrl(
+  35:               '/public/upload/file/13/0/2024-07-09-03-25-05-df0f003c-b783-4927-bbab-29804b5298c6.png',
+  36              )
+
+t1/src/components/table/List.vue:
+  46                  getProdFileUrl(
+  47:                   '/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png'
+  48                  )
+
+t1/src/layouts/header/HeaderAnnouncement.vue:
+   6            <TIcon
+   7:             :icon="getProdFileUrl('/public/upload/file/13/0/2024-08-27-12-12-30-9c51565b-1cb0-4442-947e-a27911e25a2f.svg')"
+   8              :size="20" color="#666" />
+
+  16              <TIcon
+  17:               :icon="getProdFileUrl('/public/upload/file/13/0/2024-08-27-12-12-30-9c51565b-1cb0-4442-947e-a27911e25a2f.svg')"
+  18                :size="20" color="#666" />
+
+  39                      getProdFileUrl(
+  40:                       '/public/upload/file/13/0/2024-08-29-12-26-58-89e02677-f1bf-48bc-aaf2-125ed15e1e2c.png',
+  41                      )
+
+t1/src/pages/components/CustomerFunctions.vue:
+   79        //     name: "延迟记录",
+   80:       //     icon: "/public/upload/file/13/0/2024-01-25-12-46-15-4ce3f824-bb51-4d3b-8b50-14453ecb801d-100x100.png",
+   81        //     num: this.customerData.delayRecordNum || 0,
+
+   86        //     name: "到访记录",
+   87:       //     icon: "/public/upload/file/13/0/2024-01-25-12-46-15-4ce3f824-bb51-4d3b-8b50-14453ecb801d-100x100.png",
+   88        //     num: this.customerData.appointRecordNum || 0,
+
+   96        //     name: "合同管理",
+   97:       //     icon: "/public/upload/file/13/0/2024-01-25-12-46-15-4ce3f824-bb51-4d3b-8b50-14453ecb801d-100x100.png",
+   98        //     num: this.orderData.signRecordNum || 0,
+
+  106        //     name: "任务流程",
+  107:       //     icon: "/public/upload/file/13/0/2024-01-25-12-46-15-4ce3f824-bb51-4d3b-8b50-14453ecb801d-100x100.png",
+  108        //     num: this.orderData.taskNum || 0,
+
+t1/src/pages/customer/drawingDrawer.vue:
+  106                          getProdFileUrl(
+  107:                           `/public/upload/file/13/0/2024-09-20-05-59-27-976c52a9-20d6-4cc9-a520-cc2715b19c58.png`
+  108                          )
+
+t1/src/pages/design/login.vue:
+  125                        <TIcon
+  126:                         :icon="getProdFileUrl('/public/upload/file/13/0/2024-06-27-06-40-11-2f96c0b2-73d7-4f27-9c4e-6e35e82ccd47.svg')"
+  127                          :size="20"
+
+  140                        <TIcon
+  141:                         :icon="getProdFileUrl('/public/upload/file/13/0/2024-06-27-06-40-11-2f96c0b2-73d7-4f27-9c4e-6e35e82ccd47.svg')"
+  142                          :size="20"
+
+  738    .designLoginContainerBg {
+  739:     background-image: url("/public/upload/file/13/0/2024-06-14-04-31-10-f32f59f5-5316-4eb7-88a0-92d54da762e8.jpeg");
+  740      background-size: cover;
+
+  841      height: 249px;
+  842:     background-image: url("/public/upload/file/13/0/2024-06-14-04-21-58-74697beb-e210-43ac-8b6c-60354faf47eb.png");
+  843      background-size: cover;
+
+t1/src/pages/login/Login.vue:
+   65                              getProdFileUrl(
+   66:                               '/public/upload/file/13/0/2024-10-31-03-10-55-8a7a7ff0-6702-4408-a41c-6b3d6997d37f.png'
+   67                              )
+
+   77                              getProdFileUrl(
+   78:                               '/public/upload/file/13/0/2024-10-31-03-11-00-0c18b13e-c6c3-48f9-bd8c-6e51a22a4dd0.png'
+   79                              )
+
+  116                            getProdFileUrl(
+  117:                             '/public/upload/file/13/0/2024-10-31-03-11-00-0c18b13e-c6c3-48f9-bd8c-6e51a22a4dd0.png'
+  118                            )
+
+  177                          getProdFileUrl(
+  178:                           '/public/upload/file/13/0/2024-10-31-03-11-00-0c18b13e-c6c3-48f9-bd8c-6e51a22a4dd0.png'
+  179                          )
+
+t1/src/pages/order/detail.vue:
+   27                getProdFileUrl(
+   28:                 '/public/upload/file/13/0/2025-04-22-09-49-20-436c3928-39ee-4589-b0c4-0ba8dd4437bd.svg',
+   29                )
+
+   38                getProdFileUrl(
+   39:                 '/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png',
+   40                )
+
+  501      //       {
+  502:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg",
+  503      //         title: "主材报价明细",
+
+  507      //       {
+  508:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-0cff691c-c41d-4b3c-9fb5-655d72f20bc8.svg",
+  509      //         title: "工艺报价明细",
+
+  513      //       {
+  514:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-e86fada9-9e80-423b-bdec-ee7e3e97436a.svg",
+  515      //         title: "辅材选材明细",
+
+  522      //       {
+  523:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg",
+  524      //         title: "主材报价明细",
+
+  528      //       {
+  529:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-0cff691c-c41d-4b3c-9fb5-655d72f20bc8.svg",
+  530      //         title: "工艺报价明细",
+
+  534      //       {
+  535:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-fa47a910-ea33-4c65-bd0d-d63933d67222.svg",
+  536      //         title: "增项/升级报价明细",
+
+  540      //       {
+  541:     //         icon: "/public/upload/file/13/0/2024-01-22-03-16-50-e86fada9-9e80-423b-bdec-ee7e3e97436a.svg",
+  542      //         title: "辅材选材明细",
+
+t1-api/.gitignore:
+  16  .nyc_output/
+  17: app/public/upload/
+  18  .env
+
+t1-api/app/service/customer.js:
+  1355          name: '到访记录',
+  1356:         icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-ff0396f9-35c4-424f-ada9-390837684379.png', true),
+  1357          num: res.appointRecordNum || 0,
+
+  1361          name: '延迟记录',
+  1362:         icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-01-25-12-46-15-ece32033-5ae3-4bb1-a4f5-74ddf9c00ebb.png', true),
+  1363          num: res.delayRecordNum || 0,
+
+  1370          name: '全息清单',
+  1371:         icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-07-05-09-38-44-c35f86d9-569f-4a03-9692-bff4f7c3e284.png', true),
+  1372          num: ueDesignRecordCount || 0,
+
+t1-api/app/service/file.js:
+  130      const saveFileName = `${(moment().format('YYYY-MM-DD-hh-mm-ss'))}-${uuid}`;
+  131:     const pathurl = path.join(`/public/upload/file/${type || 0}/${targetId || 0}/`, `${saveFileName}.${suffix}`);
+  132      return pathurl;
+
+t1-api/app/service/product.js:
+  108          const file = files.find(f => f.targetId === v.id);
+  109:         v.imageUrl = ctx.helper.getFileUrl(file && file.url) || `${ctx.helper.webUrl()}/public/upload/file/13/0/2024-07-06-05-21-09-4d7a7019-4506-4960-b3a9-46922213f318.jpg`;
+  110        }
+
+t1-api/app/service/com/announcement.js:
+  92            title: item.title,
+  93:           icon: ctx.helper.getProdFileUrl('/public/upload/file/13/0/2024-08-27-12-09-08-16a5cbae-2726-4576-8729-bd8f583ff496.png', true),
+  94            isRead: item.isRead || 0,
+
+t1-api/app/service/com/ue.js:
+   916            id: v,
+   917:           imgCover: info && info.img || ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-05-07-50-56-745d7e50-8ad7-4426-b656-fb5845650b75.jpg'),
+   918            brandName: 'AI智能设计',
+
+   938                id: Number(m.productId),
+   939:               imgCover: info && info.img || ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-05-07-50-56-745d7e50-8ad7-4426-b656-fb5845650b75.jpg'),
+   940                brandName: 'AI智能设计',
+
+  1060          productPrice: m.price,
+  1061:         imgCover: ctx.helper.getFileUrl(file && file.url) || ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-01-09-41-16-bf5c877b-951f-42c2-adb1-02b2e59072db.png'),
+  1062          materialId: m.id,
+
+  1104          bgColor: '#F39B39',
+  1105:         iconUrl: ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-01-09-41-16-bf5c877b-951f-42c2-adb1-02b2e59072db.png'),
+  1106          amount: '0.00',
+
+  1112          bgColor: '#31A991',
+  1113:         iconUrl: ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-01-09-41-16-d61e545e-dc87-442d-a2b0-3650130075d8.png'),
+  1114          amount: '0.00',
+
+  1120          bgColor: '#F35F6C',
+  1121:         iconUrl: ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-01-09-41-16-ec8f74b7-c9b8-445d-9ea8-cd7168a95251.png'),
+  1122        }, {
+
+  1127          bgColor: '#C471F8',
+  1128:         iconUrl: ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-01-09-41-16-21747aa1-c82f-4f1f-938f-f055a02ca1df.png'),
+  1129          amount: '0.00',
+
+  1135          bgColor: '#aaaaaa',
+  1136:         iconUrl: ctx.helper.getFileUrl('/public/upload/file/13/0/2024-07-01-09-41-16-21747aa1-c82f-4f1f-938f-f055a02ca1df.png'),
+  1137          amount: '0.00',
+
+ttzzerp-app/src/components/AppProvider/index.vue:
+  120                getProdFileUrl(
+  121:                 '/public/upload/file/13/0/2024-08-29-12-26-58-89e02677-f1bf-48bc-aaf2-125ed15e1e2c.png'
+  122                )
+
+ttzzerp-app/src/pages/login/mobileWxLogin.vue:
+  136            getProdFileUrl(
+  137:             '/public/upload/file/13/0/2024-11-09-02-21-10-c7ef4260-1f93-4dfa-a00f-d30d56c856a5.jpeg'
+  138            )
+
+ttzzerp-app/src/pages/login/webWxLogin.vue:
+  141            getProdFileUrl(
+  142:             '/public/upload/file/13/0/2024-11-09-02-21-10-c7ef4260-1f93-4dfa-a00f-d30d56c856a5.jpeg'
+  143            )
+
+ttzzerp-app/src/pages/order/list.vue:
+  862                style="
+  863:                 background: url('/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png');
+  864                  background-size: 100% 100%;
+
+  872                style="
+  873:                 background: url('/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png');
+  874                  background-size: 100% 100%;
+
+ttzzerp-app/src/pages/publishedNotice/detail.vue:
+  127                getProdFileUrl(
+  128:                 '/public/upload/file/13/0/2024-08-29-12-26-58-89e02677-f1bf-48bc-aaf2-125ed15e1e2c.png'
+  129                )
+
+  141                  getProdFileUrl(
+  142:                   '/public/upload/file/13/0/2024-08-29-12-26-58-89e02677-f1bf-48bc-aaf2-125ed15e1e2c.png'
+  143                  )
+
+ttzzerp-app/src/pages/publishedNotice/list.vue:
+  157              getProdFileUrl(
+  158:               '/public/upload/file/13/0/2024-08-29-12-26-58-89e02677-f1bf-48bc-aaf2-125ed15e1e2c.png'
+  159              )
+
+  171                getProdFileUrl(
+  172:                 '/public/upload/file/13/0/2024-08-29-12-26-58-89e02677-f1bf-48bc-aaf2-125ed15e1e2c.png'
+  173                )
+
+ttzzerp-print/src/demo/design/print-data.js:
+  6    logoTest: 'https://portrait.gitee.com/uploads/avatars/user/1800/5400665_CcSimple_1591166830.png!avatar60',
+  7:   logoUrl: '/public/upload/file/13/0/2023-12-15-12-19-35-2fe292db-8e0d-48e9-95f5-6b7b2b44ba6b.jpg',
+  8    password: '12346',
+
+ttzzerp-v3-zy/src/components/Settlement/BillDetails.vue:
+  789                    class="block h-100% w-100%"
+  790:                   src="/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png"
+  791                  >
+
+  855              <img
+  856:               :src="getProdFileUrl('/public/upload/file/13/0/2024-09-18-09-29-30-55d6aa55-7f15-444a-ac53-fe09f0f178e1.png')"
+  857                alt=""
+
+ttzzerp-v3-zy/src/components/Settlement/FormeanManager.vue:
+  757                    class="block h-100% w-100%"
+  758:                   src="/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png"
+  759                  >
+
+ttzzerp-v3-zy/src/components/Settlement/FormeanStaff.vue:
+  455                    class="block h-100% w-100%"
+  456:                   src="/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png"
+  457                  >
+
+ttzzerp-vue3/src/components/card/OrderCard.vue:
+  130            <img
+  131:             :src="receivableConfig.iconUrl || '/public/upload/file/13/0/2024-01-25-01-00-35-2366b6d7-45d8-42c8-9499-d38a62375ce8.svg'"
+  132              :style="{
+
+ttzzerp-vue3/src/components/dialog/AiDesignProductList.vue:
+  51  .imageBgMask {
+  52:   background-image: url("/public/upload/file/13/0/2024-06-14-04-31-10-f32f59f5-5316-4eb7-88a0-92d54da762e8.jpeg");
+  53    background-size: cover;
+
+ttzzerp-vue3/src/components/dialog/PeriodCollection.vue:
+  271          <img
+  272:           :src="receivableConfig.iconUrl || '/public/upload/file/13/0/2024-01-25-01-00-35-2366b6d7-45d8-42c8-9499-d38a62375ce8.svg'"
+  273            :style="{
+
+ttzzerp-vue3/src/components/flownodes/PaymentBill.vue:
+  40      if (billInfo.value.receiveType === 3) return 'mdi-qrcode-scan';
+  41:     if (billInfo.value.receiveType === 1) return '/public/upload/file/13/0/2025-03-14-06-05-53-e86fe409-515b-4414-bb76-a9dfdc5ed024.svg';
+  42      return 'mdi-network-pos';
+
+ttzzerp-vue3/src/components/page/aiDesign/AiProductListPage.vue:
+  469        <img
+  470:         :src="getProdFileUrl('/public/upload/file/13/0/2024-07-02-08-27-53-19e84bd3-e27e-45d9-8efd-5e196300041d.png')"
+  471          class="w40px h40px mr-10px mt--5px"
+
+  529          <img
+  530:           :src="getProdFileUrl('/public/upload/file/13/0/2024-07-02-08-27-53-19e84bd3-e27e-45d9-8efd-5e196300041d.png')"
+  531            class="w20px h20px mr-10px mt--5px"
+
+  578            <img
+  579:             :src="getProdFileUrl('/public/upload/file/13/0/2024-07-01-07-27-31-f9a14da0-fcb7-49c3-ae36-0306d049474e.png')"
+  580              class="absolute bottom-10px left-0"
+
+  599            :style="{
+  600:             backgroundImage: `url('${getProdFileUrl('/public/upload/file/13/0/2024-07-01-08-41-15-38d25f01-ba67-4e1c-83ae-db39b0c29287.png')}')`
+  601            }"
+
+  617            :style="{
+  618:             backgroundImage: `url('${getProdFileUrl('/public/upload/file/13/0/2024-07-01-08-41-15-e00465b7-ae0a-4c3d-9194-3537083c178b.png')}')`
+  619            }"
+
+  928                    <img
+  929:                     :src="getProdFileUrl('/public/upload/file/13/0/2024-07-05-08-36-04-65689807-4fba-4aa7-b087-c5eb92924681.png')"
+  930                      class="w42px h20px mx20px"
+
+ttzzerp-vue3/src/components/page/aiDesign/LeftPanel.vue:
+  23          <img
+  24:           :src="getProdFileUrl('/public/upload/file/13/0/2024-06-28-06-28-14-63a919f6-89dc-4986-af93-ca4e56ff675e.png')"
+  25            class="wfull hfull"
+
+ttzzerp-vue3/src/components/page/customer/UeDesignRecord.vue:
+  247                <img
+  248:                 :src="getProdFileUrl('/public/upload/file/13/0/2024-07-01-07-27-31-f9a14da0-fcb7-49c3-ae36-0306d049474e.png')"
+  249                  class="w80px"
+
+ttzzerp-vue3/src/components/page/finance/FInanceSearchOrderDialog.vue:
+  547                >
+  548:                 <img src="/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png">
+  549                </span>
+
+  562                >
+  563:                 <img src="/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png">
+  564                </span>
+
+  733                  >
+  734:                   <img src="/public/upload/file/13/0/2024-07-11-12-19-21-67d73be2-1070-4e4e-a8d7-c58efd01cb90.png">
+  735                  </span>
+
+  745                  >
+  746:                   <img src="/public/upload/file/13/0/2025-04-24-02-43-21-c1f2ef46-46cf-489b-9933-016480fc975a.png">
+  747                  </span>
+
+ttzzerp-vue3/src/components/page/finance/PaymentBillInfo.vue:
+  286          titleIcon =
+  287:           "/public/upload/file/13/0/2025-03-14-06-05-53-e86fe409-515b-4414-bb76-a9dfdc5ed024.svg";
+  288        }
+
+ttzzerp-vue3/src/components/page/finance/PaymentDialog.vue:
+  380          <div class="header-scan-bg" :style="{
+  381:           backgroundImage: isPos ? 'url(/public/upload/file/13/0/2025-02-17-06-04-21-7c510d60-ae88-4e2d-a84f-b400bcc8e08b.png)' : 'url(/public/upload/file/13/0/2025-02-17-06-04-21-31d59718-d5f2-4f54-958b-fbb64d1405fd.png)'
+  382          }"></div>
+
+  540          <!-- BBMG -->
+  541:         <img class="block w-46px h-24px" src="/public/upload/file/13/0/2024-07-10-09-29-40-a4469500-6036-4ad1-b420-6a82bb720e19.png" alt="金隅集团">
+  542
+  543          <!-- Tintan -->
+  544:         <img class="block w-73px h-24px" src="/public/upload/file/13/0/2024-08-21-10-11-23-139e53b8-e56a-4185-a3c5-2802c85a6df6.png" alt="天坛整装">
+  545        </div>
+
+  548         <div class="mt-36px mx-27px">
+  549:         <img class="w-100% h-100% block" src="/public/upload/file/13/0/2025-02-18-02-09-26-2b392dcb-57a3-440c-bf6e-f74bd16c7551.png" alt="文案：为理想生活提案">
+  550         </div>
+
+  615        <div class="w-138px h-44px mt-18px mx-auto">
+  616:         <img class="w-100% h-100% block" src="/public/upload/file/13/0/2025-02-17-06-06-48-80b5add4-ec1a-41a0-bbb3-654877d3f3fb.png" alt="因做好，而美好" srcset="">
+  617        </div>
+
+  656    height: 50px;
+  657:   background: url("/public/upload/file/13/0/2025-02-17-06-04-32-73dfdcca-1a76-42f2-a79d-e8a67423cf3e.png") no-repeat 100% 100%;
+  658    background-size: 100% 100%;
+
+  663  .scan-wrapper {
+  664:   background: url("/public/upload/file/13/0/2025-02-17-06-04-02-116098ff-56ba-420e-8ae5-b1dc6ba613ee.png") 100% 100% no-repeat;
+  665    background-size: 100% 100%;
+
+ttzzerp-vue3/src/components/page/order/ChoosePackagesDialog.vue:
+  193              <img
+  194:               :src="getProdFileUrl('/public/upload/file/13/0/2024-07-09-02-59-29-a9f76ef2-a351-4d61-b79a-575620543ef3.png')"
+  195                alt=""
+
+  241  .imageBgMask {
+  242:   background-image: url("/public/upload/file/13/0/2024-06-14-04-31-10-f32f59f5-5316-4eb7-88a0-92d54da762e8.jpeg");
+  243    background-size: cover;
+
+ttzzerp-vue3/src/pages/designLogin.vue:
+   143          bigImg:
+   144:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-10-02-48-a7086fd6-a363-460c-bb9d-84da24788799.jpg"),
+   145        },
+
+   149          bigImg:
+   150:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-10-02-48-14423732-f32b-4e8a-bb2d-0336bc9e60bd.jpg"),
+   151        },
+
+   155          bigImg:
+   156:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-10-02-48-3eded2c6-1ea1-4a95-b720-4e304b792dbf.jpg"),
+   157        },
+
+   165            v.imageUrl ||
+   166:           getProdFileUrl("/public/upload/file/13/0/2024-05-23-08-46-59-278dbd05-b709-40ac-952c-e81dd2d83cee.jpg"),
+   167        };
+
+   209          bigImg:
+   210:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-08-20-07-983911b8-a666-43ed-8756-e4686dae5d9d.jpg"),
+   211        },
+
+   215          bigImg:
+   216:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-08-20-07-bab2744d-c548-465a-8040-ce74492504bf.jpg"),
+   217        },
+
+   221          bigImg:
+   222:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-08-20-07-69f19798-c136-4b28-8bbd-64bc9b1ed11b.jpg"),
+   223        },
+
+   227          bigImg:
+   228:           getProdFileUrl("/public/upload/file/13/0/2024-07-01-08-20-07-e1abec90-8819-421b-b0b7-788583672b61.jpg"),
+   229        },
+
+  1196                            :style="{
+  1197:                             backgroundImage: `url(${getProdFileUrl('/public/upload/file/13/0/2024-06-30-10-34-01-719326fe-7d9a-4c8f-8c06-a9b977ee153a.png')})`,
+  1198                              backgroundPosition: `-${
+
+  1345                            :style="{
+  1346:                             backgroundImage: `url(${getProdFileUrl('/public/upload/file/13/0/2024-06-30-10-34-01-719326fe-7d9a-4c8f-8c06-a9b977ee153a.png')})`,
+  1347                              backgroundPosition: `-${(index % 4) * 164.5}px -${
+
+  1611            <img
+  1612:             :src="getProdFileUrl('/public/upload/file/13/0/2024-07-03-09-38-11-c2145915-4ab0-4771-925c-6ad4b95a657e.jpg')"
+  1613              class="wfull hfull object-cover"
+
+  1646                <img
+  1647:                 :src="getProdFileUrl('/public/upload/file/13/0/2024-07-01-07-27-31-f9a14da0-fcb7-49c3-ae36-0306d049474e.png')"
+  1648                  class="w80px"
+
+  1748  .imageBgMask {
+  1749:   background-image: url("/public/upload/file/13/0/2024-06-14-04-31-10-f32f59f5-5316-4eb7-88a0-92d54da762e8.jpeg");
+  1750    background-size: cover;
+
+vue3-wa3/src/container/final/detail/data.json:
+   137        "imageUrl": {
+   138:         "signingAmountUrl": "/public/upload/file/13/0/2024-11-26-01-47-28-89022fcf-f266-4bf7-8baa-eba1a641c443.png",
+   139:         "LockOrderAmountUrl": "/public/upload/file/13/0/2024-11-26-01-47-29-392b2a0b-c429-47b1-81c0-f0c12d035360.png",
+   140:         "completionAmountUrl": "/public/upload/file/13/0/2024-11-26-01-47-28-48a7c377-a305-455c-a316-20728c9bccf6.png",
+   141:         "totalCostUrl": "/public/upload/file/13/0/2024-11-26-01-47-12-0d5c5d7e-5395-42c5-859d-edbc5b26ebff.png",
+   142:         "grossProfitUrl": "/public/upload/file/13/0/2024-11-26-01-47-12-9869ca3d-719e-47c8-bc4f-5169ab3641e8.png",
+   143:         "tcUrl": "/public/upload/file/13/0/2024-11-26-02-07-09-0157082f-7130-45bc-80f6-6e7a2a45fe21.png"
+   144        }
+
+   198        "imageUrl": {
+   199:         "jcImageUrl": "/public/upload/file/13/0/2024-11-26-02-07-08-d1945bf6-a568-4fa5-83ac-233a8095af0d.png",
+   200:         "zcImageUrl": "/public/upload/file/13/0/2024-11-26-02-07-09-48d88be3-5ea5-4fc4-8e7b-220e91fd5f3c.png"
+   201        },
+
+   222            "avatarName": "罗红敏",
+   223:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   224            "activeNodeNames": "信息部核验提交信息",
+
+   312            "avatarName": "罗红敏",
+   313:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   314            "activeNodeNames": "信息部信息核验",
+
+   397            "avatarName": "罗红敏",
+   398:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   399            "activeNodeNames": "信息部核验提交信息",
+
+   447            "avatarName": "罗红敏",
+   448:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   449            "activeNodeNames": "信息部核验提交信息",
+
+   497            "avatarName": "罗红敏",
+   498:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   499            "activeNodeNames": "信息部核验提交信息",
+
+   537            "avatarName": "罗红敏",
+   538:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   539            "activeNodeNames": "信息部核验提交信息",
+
+   607            "avatarName": "罗红敏",
+   608:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   609            "activeNodeNames": "信息部核验提交信息",
+
+   672            "avatarName": "罗红敏",
+   673:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   674            "activeNodeNames": "信息部核验提交信息",
+
+   722            "avatarName": "罗红敏",
+   723:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   724            "activeNodeNames": "信息部核验提交信息",
+
+   787            "avatarName": "罗红敏",
+   788:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   789            "activeNodeNames": "信息部核验提交信息",
+
+   827            "avatarName": "罗红敏",
+   828:           "adminAvatar": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+   829            "activeNodeNames": "信息部核验提交信息",
+
+   906        "imageUrl": {
+   907:         "bgImageUrl": "/public/upload/file/13/0/2024-11-26-02-07-08-13454bac-240b-4526-b31f-ef1d652a3776.png",
+   908:         "jxzUrl": "/public/upload/file/13/0/2024-11-26-01-47-00-e1c25f4e-f968-45d0-8dab-494ed75e9c5c.png",
+   909:         "wksUrl": "/public/upload/file/13/0/2024-11-26-01-47-00-82c6d753-2cd6-4df0-acac-0c7719734b31.png",
+   910:         "ywcUrl": "/public/upload/file/13/0/2024-11-26-01-47-00-2d8eee5d-62b2-4042-a293-b3eede4b5530.png",
+   911:         "yqUrl": "/public/upload/file/13/0/2024-11-26-01-47-00-9975f7e8-9ae2-453a-91d7-95341a20b368.png"
+   912        }
+
+  1973        "imageUrl": {
+  1974:         "jcImageUrl": "/public/upload/file/13/0/2024-11-28-02-27-12-887102f7-f47c-41a8-af1e-4640e5df0270.png",
+  1975:         "zcImageUrl": "/public/upload/file/13/0/2024-11-28-02-27-12-cb0f3971-8168-4b5c-89c5-9af827556a0f.png"
+  1976        }
+
+  1983            "name": "孙俊新",
+  1984:           "avatarUrl": "/public/upload/file/7/214/2023-10-17-09-45-46-e934eff0-f9d2-49da-b2a6-8058e0a823ba.jpeg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  1985            "roles": "35,36,156",
+
+  1993            "name": "刘佳乐",
+  1994:           "avatarUrl": "/public/upload/file/7/380/2024-03-19-11-03-31-7173eb65-0821-4774-bc82-1b46754b77a1.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  1995            "roles": "36",
+
+  2003            "name": "王馨瑶",
+  2004:           "avatarUrl": "/public/upload/file/7/233/2023-10-17-04-06-26-50849eb2-dd80-40d5-b1e0-f100c769ee4e.jpeg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2005            "roles": "33,156",
+
+  2013            "name": "罗红敏",
+  2014:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-20-18-5c9d595f-cd0f-43ab-b5c5-1cfda9aeb5af.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2015            "roles": "34",
+
+  2023            "name": "费正强",
+  2024:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-21-03-6e7a1abc-2f87-436e-b269-3c070bacd486.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2025            "roles": "55",
+
+  2033            "name": "李钰",
+  2034:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-21-03-7ea49724-6bee-448b-995d-578172e22543.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2035            "roles": "61",
+
+  2043            "name": "刘美鹤",
+  2044:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-20-47-ba63e1a1-f54b-4a3b-b68b-ea8965718ddd.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2045            "roles": "58",
+
+  2053            "name": "徐雅茹",
+  2054:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-20-33-a57a04ad-88bd-46a8-a079-9d5b54c3ad70.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2055            "roles": "66,117",
+
+  2063            "name": "戴文玉",
+  2064:           "avatarUrl": "/public/upload/file/7/1206/2024-10-21-05-29-04-43d6d58b-3b17-47c8-87a3-81fbede9e625.jpeg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2065            "roles": "50,143,126,234,233,160,51,195",
+
+  2073            "name": "戴文玉",
+  2074:           "avatarUrl": "/public/upload/file/7/1206/2024-10-21-05-29-04-43d6d58b-3b17-47c8-87a3-81fbede9e625.jpeg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2075            "roles": "50,143,126,234,233,160,51,195",
+
+  2083            "name": "郑伊格",
+  2084:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-20-33-a57a04ad-88bd-46a8-a079-9d5b54c3ad70.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2085            "roles": "265,267",
+
+  2093            "name": "卢镜阳",
+  2094:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-20-33-d751fac1-c83c-426c-96ca-388fa81f2325.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2095            "roles": "266,267",
+
+  2106        "imageUrl": {
+  2107:         "yjUrl": "/public/upload/file/13/0/2024-11-28-02-27-12-e24b1970-4160-4e2f-878a-b781cf17bdad.png",
+  2108:         "djUrl": "/public/upload/file/13/0/2024-11-28-02-27-12-9e2fd771-49f6-481e-80b8-92ef90bfcdf9.png",
+  2109:         "clocksUrl": "/public/upload/file/13/0/2024-12-05-10-31-21-6deda666-7edd-4ef9-befd-ac63aa4bec85.svg"
+  2110        },
+
+  2170            "name": "费正强",
+  2171:           "avatarUrl": "/public/upload/file/13/0/2023-10-16-03-21-03-6e7a1abc-2f87-436e-b269-3c070bacd486.jpg?x-oss-process=image/resize,m_fill,h_100,w_100",
+  2172            "roles": "55",
+
+  2274        {
+  2275:         "icon": "/public/upload/file/13/0/2024-01-22-03-16-50-3788791e-622c-4f67-811e-0de337946d49.svg",
+  2276          "title": "项目竣工决算单",
+
+vue3-wa3/src/container/final/detail/componenets/OrderItem.vue:
+  40            <img
+  41:             src="/public/upload/file/13/0/2024-01-04-09-52-30-8390f864-9d65-45a8-8f36-784f16529600.png"
+  42              alt="" class="h-16px w-16px"
+
+vue3-wa3/src/container/final/detail/componenets/OrderStatus.vue:
+  146      times: formatTimes(data.startWorkDisclose),
+  147:     icon: '/public/upload/file/13/0/2024-01-04-09-52-30-76b956ff-8225-4d0e-9eb3-54c41ddae5b5.png',
+  148    }, {
+
+  151      times: formatTimes(data.waterwayCheck),
+  152:     icon: '/public/upload/file/13/0/2024-01-04-09-52-30-76b956ff-8225-4d0e-9eb3-54c41ddae5b5.png',
+  153    }, {
+
+  156      times: formatTimes(data.circuitCheck),
+  157:     icon: '/public/upload/file/13/0/2024-01-04-09-52-30-dae43e00-0cd9-4f96-8b9f-de98a02b732f.png',
+  158    }, {
+
+  161      times: formatTimes(data.midTermCheck),
+  162:     icon: '/public/upload/file/13/0/2024-01-04-09-52-30-db4530ab-cf56-49e0-b040-1a8d526b4515.png',
+  163    }, {
+
+  166      times: formatTimes(data.beCompletedCheck),
+  167:     icon: '/public/upload/file/13/0/2024-01-04-09-52-30-3000c445-195b-4edb-a347-2861149636ec.png',
+  168    }]
+
+vue3-wa3/src/container/final/detail/componenets/ProjectManager.vue:
+  153            <img
+  154:             :src="getProdFileUrl('/public/upload/file/13/0/2024-09-18-09-29-30-55d6aa55-7f15-444a-ac53-fe09f0f178e1.png')"
+  155              alt=""
+
+vue3-wa3/src/container/ranking/designers/company-selector.vue:
+  32          :class="{ rotate: visible }"
+  33:         src="/public/upload/file/13/0/2025-01-06-11-21-30-9ecca024-0eb1-4292-ac1d-19c6ef00060f.png"
+  34          alt="" srcset=""
+
+  42              v-if="row.id === value"
+  43:             src="/public/upload/file/13/0/2025-01-06-11-19-22-3b65260d-3f7d-4ba1-bb01-6aac8e505d3c.png"
+  44              alt="" srcset=""
+
+vue3-wa3/src/container/ranking/designers/designer-group.vue:
+   13  const tags = {
+   14:   excellent: { icon: '/public/upload/file/13/0/2024-12-31-05-41-21-c0fa5116-89cc-4de7-84b7-a6b3ec8a3ee7.png', text: '优秀设计师区' },
+   15:   security: { icon: '/public/upload/file/13/0/2024-12-31-05-41-21-8db91d16-f707-45bb-b4ed-99a6a97f7ad8.png', text: '安全设计师区' },
+   16:   designer: { icon: '/public/upload/file/13/0/2024-12-31-05-41-21-65bab1f3-e892-414a-a65f-5c2012a5e895.png', text: '危险设计师区' },
+   17:   eliminate: { icon: '/public/upload/file/13/0/2025-01-10-02-34-16-bf4d0b8c-ebc7-4ed8-879a-14bce4920978.png', text: '淘汰设计师区' },
+   18  }
+
+   63          :class="visible ? 'down' : 'up'"
+   64:         src="/public/upload/file/13/0/2024-12-31-05-43-22-dbcf7aaa-3162-4fc6-994d-9c6cb138e1a7.png"
+   65          alt="" srcset=""
+
+  208        &::before {
+  209:         background-image: url(/public/upload/file/13/0/2025-01-03-03-09-43-b148067d-7b8b-4703-8d69-2732020d6156.png);
+  210        }
+
+  229        &::before {
+  230:         background-image: url(/public/upload/file/13/0/2025-01-03-03-23-12-e90ac711-57fc-47bd-9e58-0a43131f7c3e.png);
+  231        }
+
+  250        &::before {
+  251:         background-image: url(/public/upload/file/13/0/2025-01-03-03-23-12-d0835715-62dc-4ea5-99eb-b6b2098b6af0.png);
+  252        }
+
+  271        &::before {
+  272:         background-image: url(/public/upload/file/13/0/2025-01-06-02-49-07-fb826938-4d14-4c06-846b-775ee80a8b5f.png);
+  273        }
+
+vue3-wa3/src/container/ranking/designers/designer-header.vue:
+   3      class="ball1Img"
+   4:     src="/public/upload/file/13/0/2024-12-31-05-48-28-a02e89d0-1d32-421c-8398-1aeda66b4dd5.png"
+   5      alt="" srcset=""
+
+   8      class="ball2Img"
+   9:     src="/public/upload/file/13/0/2024-12-31-05-48-28-08d3bc1e-b873-420b-9cde-c4f233e1dc29.png"
+  10      alt="" srcset=""
+
+  13      class="ball3Img"
+  14:     src="/public/upload/file/13/0/2024-12-31-05-48-28-7f582a9e-6c3e-4e05-8fbb-9fa42f85ea57.svg"
+  15      alt="" srcset=""
+
+  18      class="chunk1Img"
+  19:     src="/public/upload/file/13/0/2024-12-31-05-48-28-0a1c04cd-570d-472a-a5c5-707ed7ef520c.png"
+  20      alt="" srcset=""
+
+  23      class="chunk2Img"
+  24:     src="/public/upload/file/13/0/2024-12-31-05-48-28-7cd12aa9-f8f5-4410-9882-41b096bf70c2.png"
+  25      alt="" srcset=""
+
+  29        class="title"
+  30:       src="/public/upload/file/13/0/2024-12-31-05-48-28-06c7b22f-fb30-4070-abb1-357c526d5394.png"
+  31        alt="" srcset=""
+
+  34        class="title2"
+  35:       src="/public/upload/file/13/0/2024-12-31-05-48-27-6ebac1da-243b-4aa3-9509-dc61afa96e7c.png"
+  36        alt="" srcset=""
+
+  39        class="title3"
+  40:       src="/public/upload/file/13/0/2024-12-31-05-48-28-59f74756-2faf-45da-87cc-1c13d871fc9f.png"
+  41        alt="" srcset=""
+
+vue3-wa3/src/container/ranking/designers/index.vue:
+  251                <img
+  252:                 src="/public/upload/file/13/0/2024-12-31-05-36-50-970abdff-0759-453f-837c-b04f03378871.png"
+  253                  alt="" srcset="" @click="search"
+
+vue3-wa3/src/container/ranking/designers/progress.vue:
+  11
+  12: const person = '/public/upload/file/13/0/2024-10-31-09-25-32-b4613ca3-3e63-4e9c-addb-0e6ab2945193.png'
+  13: const average = '/public/upload/file/13/0/2024-10-31-09-25-32-62548d7a-cc67-49e8-829e-ea5b2d279c47.png'
+  14: const m2 = '/public/upload/file/13/0/2024-10-31-10-53-42-babb7373-264f-4e34-ad35-2c083639e2df.png'
+  15: const count = '/public/upload/file/13/0/2024-10-31-09-25-32-bdb36508-d49e-4f27-9468-4fde974853f0.png'
+  16
