@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>月份选择测试</title>
+    <style>
+        #month-check-wrapper {
+            width: 100%;
+            margin-bottom: 12px;
+        }
+        #month-check-wrapper .month-check-item_radio {
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form id="monthForm">
+        <div id="month-check-wrapper">
+            <label style="margin-right: 4px;">请选择当前业绩所属月份：</label>
+            <label class="month-check-item_radio">
+                <input type="radio" class="month-check-item" name="monthCheck" value="2023-09" />
+                2023年9月
+            </label>
+            <label class="month-check-item_radio">
+                <input type="radio" class="month-check-item" name="monthCheck" value="2023-10" checked />
+                2023年10月
+            </label>
+        </div>
+        <button type="button" onclick="getSelectedMonth()">提交</button>
+    </form>
+
+    <script>
+        function getSelectedMonth() {
+            const form = document.getElementById("monthForm");
+            const formData = new FormData(form);
+            const selectedMonth = formData.get("monthCheck");
+            
+            if (selectedMonth) {
+                console.log("选中的月份是：", selectedMonth);
+                alert(`选中的月份是：${selectedMonth}`);
+            } else {
+                console.log("请先选择月份！");
+                alert("请先选择月份！");
+            }
+        }
+    </script>
+</body>
+</html>
