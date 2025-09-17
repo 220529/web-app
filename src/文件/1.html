@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const json = {
+        projectId: "1",
+        type: "2",
+        remark: "就发了第三节课",
+        imagesUrl:
+          "https://profile.tintan.com.cn/c16c98671a18e4836f091242b332da39f64db8c1db004a8e499beea750e5dc80.png?e=4215377230&token=UPlAmCW_T4PSFMhNQ6qzVlaQiUMja7BXuTYol_EC:IZxeJyGbEPlSF9WiEkcmm5ySrmc=",
+        warrantyAgreementUrl:
+          "https://profile.tintan.com.cn/419a9ca39f934fdb39a2a4840283cd49a532034445022f326d3f7a985ada11ef.jpg?e=4215377233&token=UPlAmCW_T4PSFMhNQ6qzVlaQiUMja7BXuTYol_EC:SUFxnh3G9KQmWj0DnpCNFHASKqY=",
+      };
+      console.log("json:", json);
+      /**
+       * 解析URL数组或字符串，返回包含URL和类型的对象数组
+       * @param {string|string[]} input - 可以是URL数组或逗号分隔的URL字符串
+       * @returns {Array<{url: string, type: string}>} 包含URL和类型的对象数组
+       */
+      function parseMediaUrls(input) {
+        // 统一处理输入，确保是数组格式
+        const urls = Array.isArray(input) ? input : input.split(",");
+        const result = [];
+
+        urls.forEach(url => {
+          let type = "";
+          // 提取URL中最后一个点后面的部分（忽略查询参数）
+          const extensionMatch = url.split("?")[0].match(/\.([a-z0-9]+)$/i);
+
+          if (extensionMatch) {
+            const ext = extensionMatch[1].toLowerCase();
+            // 检查图片扩展名
+            if (["jpg", "jpeg", "png", "gif", "webp"].includes(ext)) {
+              type = "image";
+            }
+            // 检查视频扩展名
+            else if (["mp4", "mov", "avi", "wmv", "flv", "mkv"].includes(ext)) {
+              type = "video";
+            }
+          }
+
+          result.push({ url: url.trim(), type });
+        });
+
+        return result;
+      }
+      console.log("parseMediaUrls:", parseMediaUrls(json.imagesUrl));
+    </script>
+  </body>
+</html>
