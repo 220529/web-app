@@ -1,0 +1,209 @@
+{
+  "runOnSaveId": 236,
+  "runOnSaveKey": "pykps7xoyys2ssk4",
+  "name": "查看材料专员提交数据",
+  "updateTime": "2025-09-20 10:28:05",
+  "type": "table",
+  "flows": {
+    "getTableData": {
+      "flowId": "kg32rijjy1veycv5",
+      "propsParamsRequestKey": [
+        "id"
+      ]
+    }
+  },
+  "config": {
+    "returnDataKey": "data.rows",
+    "returnTotalKey": "data.count",
+    "columns": [
+      {
+        "field": "index",
+        "title": "ID",
+        "width": "120px",
+        "type": "html"
+      },
+      {
+        "field": "number",
+        "title": "编码",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip",
+        "width": "160px"
+      },
+      {
+        "field": "relatedNumber",
+        "title": "关联编码",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip",
+        "width": "160px"
+      },
+      {
+        "field": "model",
+        "title": "型号",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "brand",
+        "title": "品牌",
+        "minWidth": "130px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "name",
+        "title": "名称",
+        "minWidth": "150px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "typeClassStr",
+        "title": "一级分类",
+        "minWidth": "130px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "classStr",
+        "title": "二级分类",
+        "minWidth": "130px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "spec",
+        "title": "规格",
+        "minWidth": "180px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "unitStr",
+        "title": "单位",
+        "minWidth": "140px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "saleMethodStr",
+        "title": "销售方式",
+        "minWidth": "280px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "departmentIdsStr",
+        "title": "可使用店面",
+        "minWidth": "280px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "purchasePrice",
+        "title": "采购价",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "managerPrice",
+        "title": "项目经理价",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "price",
+        "title": "销售价",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "removePrice",
+        "title": "折项价",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "stockDays",
+        "title": "备货天数",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "changeDays",
+        "title": "变更天数",
+        "minWidth": "120px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "distributionIdStr",
+        "title": "配送供应商",
+        "minWidth": "200px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "supplierIdStr",
+        "title": "结算供应商",
+        "minWidth": "200px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "explain",
+        "title": "说明",
+        "minWidth": "200px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      },
+      {
+        "field": "status",
+        "title": "状态",
+        "minWidth": "100px",
+        "type": "html",
+        "showOverflow": "tooltip"
+      }
+    ],
+    "toolbarConfig": {
+      "refresh": true,
+      "custom": true
+    },
+    "baseConfig": {
+      "border": true,
+      "showHeaderOverflow": true,
+      "showOverflow": "tooltip",
+      "keepSource": true,
+      "id": "TEST_TABLE",
+      "height": "auto",
+      "scroll-y": {
+        "enabled": true
+      },
+      "rowConfig": {
+        "isHover": true
+      },
+      "columnConfig": {
+        "resizable": true
+      },
+      "editConfig": {
+        "trigger": "click",
+        "mode": "cell"
+      }
+    },
+    "pagerConfig": {
+      "autoHidden": true,
+      "pageSize": 1000,
+      "pageSizes": [
+        500,
+        1000
+      ]
+    }
+  }
+}
