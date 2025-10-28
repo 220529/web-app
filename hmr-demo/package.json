@@ -1,0 +1,16 @@
+{
+  "name": "hmr-demo",
+  "version": "1.0.0",
+  "description": "乞丐版热更新系统 - 学习 Webpack HMR 原理",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["hmr", "hot-reload", "webpack"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
+
