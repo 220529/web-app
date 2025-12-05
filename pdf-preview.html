@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>PDF预览</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .pdf-iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .error {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      color: #999;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <iframe id="pdfFrame" class="pdf-iframe"></iframe>
+  <div id="error" class="error" style="display: none;">未找到PDF地址</div>
+  
+  <script>
+    // 从URL获取PDF地址
+    const hash = window.location.hash;
+    const fullUrl = window.location.href;
+    
+    let pdfUrl = '';
+    
+    // 方式1：从hash中获取（推荐，避免参数被截断）
+    if (hash && hash.length > 1) {
+      pdfUrl = hash.substring(1); // 去掉#号
+    }
+    
+    // 方式2：从search参数中获取（兼容旧方式）
+    if (!pdfUrl) {
+      const pdfUrlIndex = fullUrl.indexOf('pdfUrl=');
+      if (pdfUrlIndex !== -1) {
+        pdfUrl = fullUrl.substring(pdfUrlIndex + 7);
+      }
+    }
+    
+    if (pdfUrl) {
+      // 解码
+      try {
+        pdfUrl = decodeURIComponent(pdfUrl);
+      } catch (e) {
+        // 解码失败，使用原始值
+      }
+      
+      document.getElementById('pdfFrame').src = pdfUrl;
+    } else {
+      document.getElementById('pdfFrame').style.display = 'none';
+      document.getElementById('error').style.display = 'flex';
+    }
+  </script>
+</body>
+</html>
