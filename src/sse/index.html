@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSE 最简单示例</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .status {
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    .connected {
+      background: #d4edda;
+      color: #155724;
+    }
+    .disconnected {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    .messages {
+      border: 1px solid #ddd;
+      padding: 15px;
+      height: 300px;
+      overflow-y: auto;
+      background: #f9f9f9;
+    }
+    .message {
+      padding: 8px;
+      margin: 5px 0;
+      background: white;
+      border-left: 3px solid #007bff;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .btn-primary {
+      background: #007bff;
+      color: white;
+    }
+    .btn-danger {
+      background: #dc3545;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>SSE (Server-Sent Events) 最简单示例</h1>
+  
+  <div id="status" class="status disconnected">未连接</div>
+  
+  <div>
+    <button class="btn-primary" onclick="connect()">连接</button>
+    <button class="btn-danger" onclick="disconnect()">断开</button>
+    <button onclick="clearMessages()">清空消息</button>
+  </div>
+
+  <h3>接收到的消息：</h3>
+  <div id="messages" class="messages"></div>
+
+  <script>
+    let eventSource = null;
+    const statusEl = document.getElementById('status');
+    const messagesEl = document.getElementById('messages');
+
+    // 连接 SSE
+    function connect() {
+      if (eventSource) {
+        alert('已经连接了！');
+        return;
+      }
+
+      // 创建 EventSource 对象
+      eventSource = new EventSource('/api/sse');
+
+      // 监听消息
+      eventSource.onmessage = function(event) {
+        console.log('收到消息:', event.data);
+        
+        // 解析 JSON 数据
+        try {
+          const data = JSON.parse(event.data);
+          addMessage(`时间: ${data.time} | 计数: ${data.count} | ${data.message}`);
+        } catch (e) {
+          addMessage(event.data);
+        }
+      };
+
+      // 连接打开
+      eventSource.onopen = function() {
+        console.log('SSE 连接已建立');
+        updateStatus(true);
+      };
+
+      // 连接错误
+      eventSource.onerror = function(error) {
+        console.error('SSE 连接错误:', error);
+        updateStatus(false);
+        eventSource = null;
+      };
+    }
+
+    // 断开连接
+    function disconnect() {
+      if (eventSource) {
+        eventSource.close();
+        eventSource = null;
+        updateStatus(false);
+        addMessage('--- 主动断开连接 ---');
+      }
+    }
+
+    // 更新状态显示
+    function updateStatus(connected) {
+      if (connected) {
+        statusEl.textContent = '已连接';
+        statusEl.className = 'status connected';
+      } else {
+        statusEl.textContent = '未连接';
+        statusEl.className = 'status disconnected';
+      }
+    }
+
+    // 添加消息到页面
+    function addMessage(text) {
+      const div = document.createElement('div');
+      div.className = 'message';
+      div.textContent = text;
+      messagesEl.appendChild(div);
+      // 自动滚动到底部
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    // 清空消息
+    function clearMessages() {
+      messagesEl.innerHTML = '';
+    }
+
+    // 页面关闭时断开连接
+    window.addEventListener('beforeunload', () => {
+      if (eventSource) {
+        eventSource.close();
+      }
+    });
+  </script>
+</body>
+</html>
